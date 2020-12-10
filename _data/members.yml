@@ -42,7 +42,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: Wisdom Ofori
   position: Data Scientist, Trader, and Entrepreneur
   socials:
@@ -52,7 +52,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: Atsu Agbemabiase
   position: Data Scientist and Lawyer
   socials:
@@ -62,7 +62,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: Salomey Addo
   position: Data Science Researcher, NLP Researcher
   socials:
@@ -72,7 +72,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: Alfred Owusu Ansah
   position: Lecturer of English at the Department of English, KNUST, with an interest in Digital Literacy for local languages
   socials:
@@ -82,7 +82,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: Acheampong Samuel Owoahene
   position: Likpakpaanl (Konkomba) local language expert
   socials:
@@ -92,7 +92,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: Nana Akwasi Abayie Boateng
   position: Machine Learning Researcher
   socials:
@@ -102,7 +102,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: David Sasu
   position: Computer Scientist and Research Engineer
   socials:
@@ -112,7 +112,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: Lawrence Adu-Gyamfi
   position: Subsea Engineer
   socials:
@@ -122,7 +122,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: Alfred Tuotol Delle
   position: Software Engineer, NLP Enthusiast
   socials:
@@ -132,7 +132,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: Bernard Antwi Adabankah
   position: Data Scientist
   socials:
@@ -142,7 +142,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: Emmanuel Coffie Debrah
   position: Computer Scientist and NLP Researcher
   socials:
@@ -152,7 +152,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: Samuel Opoku-Agyemang
   position: Software Engineer
   socials:
@@ -162,7 +162,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: Albert Opoku
   position: AI/ML Model Validation Analyst at U.S. Bank
   socials:
@@ -172,7 +172,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
   name: Joel Budu
   position: Software Engineer and NLP Researcher
   socials:
@@ -182,7 +182,17 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-  - avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/member-4.jpg
+  name: Richard Nii Lante Lawson
+  position: Software Engineer and NLP Researcher
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- avatar: images/@stock/member-4.jpg
   name: Richard Nii Lante Lawson
   position: Software Engineer and NLP Researcher
   socials:
