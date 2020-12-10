@@ -1,6 +1,6 @@
 - avatar: images/@stock/member-1.jpg
-  name: Mark Wayne
-  position: Founder
+  name: Paul Azunre
+  position: NLP Researcher and Entrepreneur
   socials:
     - link: http://twitter.com
       icon: twitter
@@ -9,8 +9,8 @@
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 - avatar: images/@stock/member-2.jpg
-  name: Kate Holms
-  position: Creative Director
+  name: Demba Ba
+  position: Assistant Professor at Harvard, Deep Learning Researcher
   socials:
     - link: http://twitter.com
       icon: twitter
@@ -21,8 +21,8 @@
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 - avatar: images/@stock/member-3.jpg
-  name: Tome Hason
-  position: Designer
+  name: Steven E. Moore
+  position: Mathematician at University of Cape Coast, Data Scientist
   socials:
     - link: http://twitter.com
       icon: twitter
@@ -33,8 +33,158 @@
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 - avatar: images/@stock/member-4.jpg
-  name: Lily Whrem
-  position: Developer
+  name: Vincent K. Ampadu
+  position: Mathematician at University of Cape Coast, Data Scientist
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Wisdom Ofori
+  position: Data Scientist, Trader, and Entrepreneur
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Atsu Agbemabiase
+  position: Data Scientist and Lawyer
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Salomey Addo
+  position: Data Science Researcher, NLP Researcher
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Alfred Owusu Ansah
+  position: Lecturer of English at the Department of English, KNUST, with an interest in Digital Literacy for local languages
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Acheampong Samuel Owoahene
+  position: Likpakpaanl (Konkomba) local language expert
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Nana Akwasi Abayie Boateng
+  position: Machine Learning Researcher
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: David Sasu
+  position: Computer Scientist and Research Engineer
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Lawrence Adu-Gyamfi
+  position: Subsea Engineer
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Alfred Tuotol Delle
+  position: Software Engineer, NLP Enthusiast
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Bernard Antwi Adabankah
+  position: Data Scientist
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Emmanuel Coffie Debrah
+  position: Computer Scientist and NLP Researcher
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Samuel Opoku-Agyemang
+  position: Software Engineer
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Albert Opoku
+  position: AI/ML Model Validation Analyst at U.S. Bank
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Joel Budu
+  position: Software Engineer and NLP Researcher
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/@stock/member-4.jpg
+  name: Richard Nii Lante Lawson
+  position: Software Engineer and NLP Researcher
   socials:
     - link: http://twitter.com
       icon: twitter
