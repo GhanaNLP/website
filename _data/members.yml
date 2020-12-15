@@ -1,6 +1,6 @@
-- avatar: images/@stock/member-1.jpg
+- avatar: images/team/066-man-25.png
   name: Paul Azunre
-  position: NLP Researcher and Entrepreneur
+  position: Director of Research
   socials:
     - link: http://twitter.com
       icon: twitter
@@ -8,7 +8,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-2.jpg
+- avatar: images/team/020-man-7.png
   name: Demba Ba
   position: Assistant Professor at Harvard, Deep Learning Researcher
   socials:
@@ -20,9 +20,9 @@
       icon: dribbble
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-3.jpg
+- avatar: images/team/020-man-7.png
   name: Steven E. Moore
-  position: Mathematician at University of Cape Coast, Data Scientist
+  position: Director of Programs
   socials:
     - link: http://twitter.com
       icon: twitter
@@ -32,7 +32,7 @@
       icon: tumblr
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/020-man-7.png
   name: Vincent K. Ampadu
   position: Mathematician at University of Cape Coast, Data Scientist
   socials:
@@ -42,9 +42,9 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/020-man-7.png
   name: Wisdom Ofori
-  position: Data Scientist, Trader, and Entrepreneur
+  position: Director of Communications
   socials:
     - link: http://twitter.com
       icon: twitter
@@ -52,7 +52,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/020-man-7.png
   name: Atsu Agbemabiase
   position: Data Scientist and Lawyer
   socials:
@@ -62,9 +62,9 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
-  name: Salomey Addo
-  position: Data Science Researcher, NLP Researcher
+- avatar: images/team/076-girl-2.png
+  name: Addo Salomey
+  position: Data Lead
   socials:
     - link: http://twitter.com
       icon: twitter
@@ -72,7 +72,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/020-man-7.png
   name: Alfred Owusu Ansah
   position: Lecturer of English at the Department of English, KNUST, with an interest in Digital Literacy for local languages
   socials:
@@ -82,7 +82,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/020-man-7.png
   name: Acheampong Samuel Owoahene
   position: Likpakpaanl (Konkomba) local language expert
   socials:
@@ -92,9 +92,9 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/020-man-7.png
   name: Nana Akwasi Abayie Boateng
-  position: Machine Learning Researcher
+  position: Research Lead
   socials:
     - link: http://twitter.com
       icon: twitter
@@ -102,7 +102,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/020-man-7.png
   name: David Sasu
   position: Computer Scientist and Research Engineer
   socials:
@@ -112,9 +112,9 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/020-man-7.png
   name: Lawrence Adu-Gyamfi
-  position: Subsea Engineer
+  position: Director of Product
   socials:
     - link: http://twitter.com
       icon: twitter
@@ -122,7 +122,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/020-man-7.png
   name: Alfred Tuotol Delle
   position: Software Engineer, NLP Enthusiast
   socials:
@@ -132,7 +132,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/020-man-7.png
   name: Bernard Antwi Adabankah
   position: Data Scientist
   socials:
@@ -142,9 +142,9 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/020-man-7.png
   name: Emmanuel Coffie Debrah
-  position: Computer Scientist and NLP Researcher
+  position: Research Lead - Quality
   socials:
     - link: http://twitter.com
       icon: twitter
@@ -152,7 +152,17 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/076-girl-2.png
+  name: Salomey Osei
+  position: Research Lead
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- avatar: images/team/020-man-7.png
   name: Samuel Opoku-Agyemang
   position: Software Engineer
   socials:
@@ -162,7 +172,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/020-man-7.png
   name: Albert Opoku
   position: AI/ML Model Validation Analyst at U.S. Bank
   socials:
@@ -172,9 +182,9 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/100-man-33.png
   name: Joel Budu
-  position: Software Engineer and NLP Researcher
+  position: Director of Engineering
   socials:
     - link: http://twitter.com
       icon: twitter
@@ -182,17 +192,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
-  name: Richard Nii Lante Lawson
-  position: Software Engineer and NLP Researcher
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
+- avatar: images/team/036-boy-1.png
   name: Richard Nii Lante Lawson
   position: Software Engineer and NLP Researcher
   socials:

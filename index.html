@@ -34,46 +34,26 @@ slides:
 
 
 works:
-  - image: images/@stock/work-1.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
+  - image: images/khaya.webp
+    title: Khaya Mobile App
+    link_to: https://play.google.com/store/apps/details?id=com.nlpghana.khaya
     klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-2.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
+    desc: Khaya is the first ever translation app for Ghanaian languages relying on Artificial Intelligence. The underlying algorithm is a transformer neural network, built by Algorine Research on top of open source technology developed by Ghana NLP.
+  - image: images/ghananlp.webp
+    title: Multilingual NLP
+    link_to: https://huggingface.co/Ghana-NLP
     klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-3.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
+    desc: Multilingual NLP
+  - image: images/ghdataset-thumbnail.png
+    title: Some NLP Datasets
+    link_to: https://www.kaggle.com/azunre/datasets
     klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-4.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
+    desc: Here are some NLP Datasets worked upon to boost the intelligence of ABENA
+  - image: images/Abena.png
+    title: ABENA; BERT Natural Language Processing for Twi
+    link_to: https://github.com/GhanaNLP/ABENA
     klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-5.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-6.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-7.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphi-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-8.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphi-design
-    desc: Design &amp; Development
+    desc: This project contains the training scripts for training our ABENA family of models for BERT-type NLP on the Ghanaian language Twi. ABENA stands for "A BERT Now in Akan".
 
 
 services:
@@ -138,7 +118,7 @@ milestones:
         {% endif %}
 
         <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
+          <div class='bg' style='background-image: url({{ slide.bg}}); background-size: 2000px 800px; background-repeat: no-repeat;'></div>
           <div class='small-title {{ slide.small_title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
@@ -173,16 +153,16 @@ milestones:
 
 <div class="row">
   <div class="medium-3 large-3 columns">
-    {% include icon-text.html title='Creative design' desc='Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.' icon_class='fa fa-flask' delay='0' shape_class='icon-text-circle' %}
+    {% include icon-text.html title='Natural Language Processing' desc='This is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.' icon_class='fa fa-comment-o' delay='0' shape_class='icon-text-circle' %}
   </div>
   <div class="medium-3 large-3 columns">
-    {% include icon-text.html title='Creative design' desc='Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.' icon_class='fa fa-paper-plane-o' delay='200' shape_class='icon-text-circle' %}
+    {% include icon-text.html title='Computer Vision' desc='This is an interdisciplinary scientific field that deals with how computers can gain high-level understanding from digital images or videos. From the perspective of engineering, it seeks to understand and automate tasks that the human visual system can do.' icon_class='fa fa-bullseye' delay='200' shape_class='icon-text-circle' %}
   </div>
   <div class="medium-3 large-3 columns">
-    {% include icon-text.html title='Creative design' desc='Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.' icon_class='fa fa-tablet' delay='400' shape_class='icon-text-circle' %}
+    {% include icon-text.html title='Data Research' desc='This is any information that has been collected, observed, generated or created to validate original research findings. Although usually digital, research data also includes non-digital formats such as laboratory notebooks and diaries.' icon_class='fa fa-database' delay='400' shape_class='icon-text-circle' %}
   </div>
   <div class="medium-3 large-3 columns">
-    {% include icon-text.html title='Creative design' desc='Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.' icon_class='fa fa-comments-o' delay='600' shape_class='icon-text-circle' %}
+    {% include icon-text.html title='Transfer Learning' desc='Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. For example, knowledge gained while learning to recognize cars could apply when trying to recognize trucks.' icon_class='fa fa-exchange' delay='600' shape_class='icon-text-circle' %}
   </div>
 </div>
 
@@ -194,7 +174,7 @@ milestones:
       {% include section-header.html title="Our works" %}
       <div class="spacing"></div>
       <p style="text-align:center">
-        In this section, we list resources that can help you get started with NLP on Ghanaian languages.
+        In this section, you'll see list of core projects that GhanaNLP has been able to produce.
       </p>
       <div class="three spacing"></div>
     </div>
@@ -205,7 +185,7 @@ milestones:
       {% for work in page.works %}
         <li class="{{ work.klass }}">
           <a href='{{ work.link_to }}'>
-            <img alt="" src="{{ work.image }}" />
+            <img alt="" src="{{ work.image }}" style="height: 500px !important" />
             <div class='overlay'>
               <div class='thumb-info'>
                 <h3>{{ work.title }}</h3>
@@ -277,46 +257,6 @@ milestones:
     {% endfor %}
   </div>
   <div class='two spacing'></div>
-</div>
-
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Our team" %}
-      <div class='spacing'></div>
-      <p style="text-align:center">
-        Here are some of the people who keep the good works coming. <br> Also, send us an email, or a message on any of the social media platforms listed on the left, to join.
-      </p>
-      <div class='two spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    {% for member in site.data.members %}
-      <div class='small-6 medium-3 large-3 columns'>
-        <div class='mod modTeamMember'>
-          <div class='member'>
-            <img class="avatar" alt="" src="{{ member.avatar }}" />
-            <div class='overlay'>
-              <div class='intro'>
-                <h3>{{member.name}}</h3>
-                <p>{{member.position}}</p>
-                <ul class='socials'>
-                  {% for social in member.socials %}
-                    <li>
-                      <a href='{{social.link}}'>
-                        <i class='fa fa-{{social.icon}}'></i>
-                      </a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
 </div>
 
 <div class='full' style='background: #f5f5f5'>
