@@ -1,0 +1,59 @@
+---
+layout: default
+title: GhanaNLP | Achievements
+section_id: achievements
+achievements_left:
+  - icon: trophy
+    title: Khaya
+    desc: We have released the first ever translator for Ghanaian languages based in Artificial Intelligence. For more details, kindly visit the Google Playstore <a href="https://play.google.com/store/apps/details?id=com.nlpghana.khaya" target="_blank">(https://play.google.com/store/apps/details?id=com.nlpghana.khaya)</a>
+  - icon: cogs
+    title: Ghana NLP - Computational Mapping of Ghanaian Languages
+    desc: Beyond translation, fundamental tools for computational analysis are lacking. Tools for summarization, classification, language detection, voice-to-text transcription are limited, and in most cases completely nonexistent. It is a major risk to Ghanaian national security — availability of these tools is directly correlated with the sophistication and efficiency of cyber-security solutions that can be deployed to defend critical social, cultural and cyber infrastructure from both internal and external threats.
+achievements_right:
+  - icon: compass
+    title: NeurIPS 2020 Overview - Ghana Edition
+    desc: We were privilege to have our leader Dr Paul Azunre, talk about how the progress so far with Natural Language Processing with Ghanaian languages has been and also other interesting matters concerning the community. 
+  - icon: image
+    title: NeurIPS 2019 Overview
+    desc: The theme of interpretability was particularly prominent for the Natural Language Processing (NLP) works at the conference. AllenNLP – the creators of the ELMo architecture, which sparked the recent pretrained Language model craze that includes its successor BERT – presented their NLP interpretability system “Interpret” as a demo. Interpretability is particularly important for NLP, given that recently all of the state-of-the-art models are neural network models which often come across as “black boxes” with no particular explanation for how they arrive at their predictions. This has been changing somewhat lately, with the attention-based models such as BERT having the ability to visualize which inputs are most important for an output being considered. An example of such a visualization, called a saliency map , is shown in the figure below. This tool is freely available online.
+---
+
+<div class='full parallax' style='background-image: url(images/aaa.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our achievements" tagline="Get to know what we do" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      {% for achievement in page.achievements_left %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{achievement.icon}}'></i>
+            <h3>{{achievement.title}}</h3>
+            <p>{{achievement.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class='medium-6 columns'>
+      {% for achievement in page.achievements_right %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{achievement.icon}}'></i>
+            <h3>{{achievement.title}}</h3>
+            <p>{{achievement.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>
