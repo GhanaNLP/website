@@ -4,17 +4,17 @@
 - name: About
   path: about.html
   section_id: about
-- name: Services
-  path: services.html
-  section_id: services
-- name: Portfolio
-  path: portfolio.html
-  section_id: portfolio
-  children:
-    - name: Portfolio
-      path: portfolio.html
-    - name: Portfolio item
-      path: portfolio-item.html
+- name: Achievements
+  path: achievements.html
+  section_id: achievements
+# - name: Portfolio
+#   path: portfolio.html
+#   section_id: portfolio
+#   children:
+#     - name: Portfolio
+#       path: portfolio.html
+#     - name: Portfolio item
+#       path: portfolio-item.html
 - name: Join Us
   path: join-us.html
   section_id: join-us

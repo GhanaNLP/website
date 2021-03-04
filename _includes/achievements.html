@@ -1,0 +1,10 @@
+{% for achievement in page.achievements %}
+<div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+    <div class='icon-text-simple'>
+        <i class='fa fa-{{achievement.icon}}'></i>
+        <h3>{{achievement.title}}</h3>
+        <p>{{achievement.desc}}</p>
+    </div>
+    <div class='two spacing'></div>
+</div>
+{% endfor %}

@@ -9,10 +9,10 @@ slides:
     klass: centered-text
     small_title:
       klass: bottom-to-top
-      text: Natural Language Processing for Artificial Intelligence
+      text: 
     title:
       klass: bottom-to-top
-      text: Ghana NLP - Computational Mapping of Ghanaian Languages
+      text: 
     buttons:
       klass: bottom-to-top
       items:
@@ -21,10 +21,10 @@ slides:
   - bg: images/@stock/slide-5.jpg
     small_title:
       klass: bottom-to-top
-      text: This is an open source hub that you'll
+      text: Read more about the research works that <br> our members have done
     title:
       klass: bottom-to-top
-      text: definitely love...
+      text: 
     buttons:
       klass: bottom-to-top
       items:
@@ -32,61 +32,61 @@ slides:
           link_to: https://github.com/GhanaNLP
 
 
-
 works:
   - image: images/khaya.webp
     title: Khaya Mobile App
-    link_to: https://play.google.com/store/apps/details?id=com.nlpghana.khaya
+    link_to: khaya.html
     klass: graphi-design
     desc: Khaya is the first ever translation app for Ghanaian languages relying on Artificial Intelligence. The underlying algorithm is a transformer neural network, built by Algorine Research on top of open source technology developed by Ghana NLP.
   - image: images/ghananlp.webp
     title: Multilingual NLP
-    link_to: https://huggingface.co/Ghana-NLP
+    link_to: multi-nlp.html
     klass: graphi-design
     desc: Multilingual NLP
   - image: images/ghdataset-thumbnail.png
     title: Some NLP Datasets
-    link_to: https://www.kaggle.com/azunre/datasets
+    link_to: nlp-datasets.html
     klass: graphi-design
     desc: Here are some NLP Datasets worked upon to boost the intelligence of ABENA
   - image: images/Abena.png
     title: ABENA; BERT Natural Language Processing for Twi
-    link_to: https://github.com/GhanaNLP/ABENA
+    link_to: abena.html
     klass: graphi-design
     desc: This project contains the training scripts for training our ABENA family of models for BERT-type NLP on the Ghanaian language Twi. ABENA stands for "A BERT Now in Akan".
 
 
-services:
+achievements:
   - icon: trophy
-    title: Web Design
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+    title: Khaya
+    desc: We have released the first ever translator for Ghanaian languages based in Artificial Intelligence. For more details, kindly visit the Google Playstore <a href="https://play.google.com/store/apps/details?id=com.nlpghana.khaya" target="_blank">(https://play.google.com/store/apps/details?id=com.nlpghana.khaya)</a>
   - icon: cogs
-    title: Web Development
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: pagelines
-    title: Branding
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: lock
-    title: Security
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+    title: Ghana NLP - Computational Mapping of Ghanaian Languages
+    desc: Beyond translation, fundamental tools for computational analysis are lacking. Tools for summarization, classification, language detection, voice-to-text transcription are limited, and in most cases completely nonexistent. It is a major risk to Ghanaian national security — availability of these tools is directly correlated with the sophistication and efficiency of cyber-security solutions that can be deployed to defend critical social, cultural and cyber infrastructure from both internal and external threats.
+  - icon: compass
+    title: NeurIPS 2020 Overview - Ghana Edition
+    desc: We were privilege to have our leader Dr Paul Azunre, talk about how the progress so far with Natural Language Processing with Ghanaian languages has been and also other interesting matters concerning the community. 
+  - icon: image
+    title: NeurIPS 2019 Overview
+    desc: The theme of interpretability was particularly prominent for the Natural Language Processing (NLP) works at the conference. AllenNLP – the creators of the ELMo architecture, which sparked the recent pretrained Language model craze that includes its successor BERT – presented their NLP interpretability system “Interpret” as a demo. Interpretability is particularly important for NLP, given that recently all of the state-of-the-art models are neural network models which often come across as “black boxes” with no particular explanation for how they arrive at their predictions.
+
 
 milestones:
-  - icon: folder-open
+  - icon: language
     from: 0
-    to: 69
-    title: Projects Completed
-  - icon: coffee
+    to: 17
+    title: Ghanaian Languages Supported
+  - icon: refresh
     from: 0
     to: 726
-    title: Cups of coffee offered
-  - icon: thumbs-up
+    title: Sentences Translated
+  - icon: users
     from: 0
-    to: 59
-    title: Happy clients
-  - icon: file-text
+    to: 105
+    title: Contributors
+  - icon: files-o
     from: 0
-    to: 21
-    title: Articles Published
+    to: 15
+    title: Open Source Projects
 
 ---
 
@@ -118,7 +118,7 @@ milestones:
         {% endif %}
 
         <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{ slide.bg}}); background-size: 2000px 800px; background-repeat: no-repeat;'></div>
+          <div class='bg' style='background-image: url({{ slide.bg}}); background-size: 1400px 600px !important; background-repeat: no-repeat;'></div>
           <div class='small-title {{ slide.small_title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
@@ -203,26 +203,26 @@ milestones:
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our services" %}
+      {% include section-header.html title="Our Achievements" %}
       <div class='spacing'></div>
       <p style="text-align:center">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+        Here are some of the milestones we have able to achieve.
       </p>
       <div class='three spacing'></div>
     </div>
   </div>
   <div class='row'>
     <div class='medium-6 columns'>
-      <img class="fadeinleft" alt="" src="images/services.svg" />
+      <img class="fadeinleft" alt="" src="images/achievements.svg" />
       <div class='three spacing'></div>
     </div>
     <div class='medium-6 columns'>
-      {% for service in page.services %}
+      {% for achievement in page.achievements %}
         <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
           <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
+            <i class='fa fa-{{achievement.icon}}'></i>
+            <h3>{{achievement.title}}</h3>
+            <p>{{achievement.desc}}</p>
           </div>
           <div class='two spacing'></div>
         </div>
@@ -239,7 +239,7 @@ milestones:
       {% include section-header.html title="Contributions" color="#fff" %}
       <div class='spacing'></div>
       <p class='centered-text' style='color: #ccc;'>
-        Dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+        Ghana NLP is an Open Source Initiative focused on Natural Language Processing (NLP) of Ghanaian Languages, & its Applications to Local Problems. While we will begin work on Ghanaian languages initially, likely focusing on Twi due to number of speakers, our ultimate goal is for our tools to be applicable throughout the West African subregion and beyond.
       </p>
       <div class='two spacing'></div>
     </div>
@@ -259,7 +259,7 @@ milestones:
   <div class='two spacing'></div>
 </div>
 
-<div class='full' style='background: #f5f5f5'>
+{%- comment -%} <div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title="Our recent posts" %}
@@ -318,7 +318,7 @@ milestones:
   </div>
   <div class='two spacing'></div>
 
-</div>
+</div> {%- endcomment -%}
 
 
 {% include our-customers.html %}
