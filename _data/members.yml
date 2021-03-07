@@ -1,204 +1,64 @@
-- avatar: images/team/066-man-25.png
+- avatar: images/team/azunre.jpg
   name: Paul Azunre
-  position: Director of Research
+  position: Founder & Director of Research
   socials:
-    - link: http://twitter.com
+    - link: http://twitter.com/pazunre
       icon: twitter
-    - link: http://facebook.com
-      icon: facebook
+    - link: http://github.com/azunre
+      icon: github
+    - link: https://www.linkedin.com/in/paulazunre
+      icon: linkedin
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Demba Ba
-  position: Assistant Professor at Harvard, Deep Learning Researcher
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://dribbble.com
-      icon: dribbble
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Steven E. Moore
-  position: Director of Programs
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://tumblr.com
-      icon: tumblr
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Vincent K. Ampadu
-  position: Mathematician at University of Cape Coast, Data Scientist
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Wisdom Ofori
-  position: Director of Communications
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Atsu Agbemabiase
-  position: Data Scientist and Lawyer
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/076-girl-2.png
-  name: Addo Salomey
-  position: Data Lead
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Alfred Owusu Ansah
-  position: Lecturer of English at the Department of English, KNUST, with an interest in Digital Literacy for local languages
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Acheampong Samuel Owoahene
-  position: Likpakpaanl (Konkomba) local language expert
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Nana Akwasi Abayie Boateng
-  position: Research Lead
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: David Sasu
-  position: Computer Scientist and Research Engineer
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Lawrence Adu-Gyamfi
-  position: Director of Product
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Alfred Tuotol Delle
-  position: Software Engineer, NLP Enthusiast
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Bernard Antwi Adabankah
+    Dr Azunre holds a PhD in Computer Science from MIT.
+    
+- avatar: images/team/FranklinAdjei.jpg
+  name: Franklin Adjei
   position: Data Scientist
   socials:
-    - link: http://twitter.com
+    - link: http://twitter.com/hotspot100
       icon: twitter
-    - link: http://facebook.com
-      icon: facebook
+    - link: http://github.com/hotlynn2
+      icon: github
+    - link: http://linkedin.com/in/franklin-koomson-adjei-227bb5130/
+      icon: linkedin
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Emmanuel Coffie Debrah
-  position: Research Lead - Quality
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/076-girl-2.png
-  name: Salomey Osei
-  position: Research Lead
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Samuel Opoku-Agyemang
-  position: Software Engineer
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/020-man-7.png
-  name: Albert Opoku
-  position: AI/ML Model Validation Analyst at U.S. Bank
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/100-man-33.png
+    A data scientist with great passion for software development.
+
+- avatar: images/team/joel.jpg
   name: Joel Budu
   position: Director of Engineering
   socials:
-    - link: http://twitter.com
+    - link: http://twitter.com/j0eBee
       icon: twitter
-    - link: http://facebook.com
-      icon: facebook
+    - link: http://github.com/joelbudu
+      icon: github
+    - link: http://linkedin.com/in/joelbudu
+      icon: linkedin
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/team/036-boy-1.png
-  name: Richard Nii Lante Lawson
-  position: Software Engineer and NLP Researcher
+    Joel Budu is a tech enthusiast and Senior software Engineer.
+
+- avatar: images/team/salomeyosei.jpeg
+  name: Salomey Osei
+  position: Data Science &  NLP Researcher
   socials:
-    - link: http://twitter.com
+    - link: http://twitter.com/NanaYaaSally
       icon: twitter
-    - link: http://facebook.com
-      icon: facebook
+    - link: http://github.com/salomeyosei
+      icon: github
+    - link: http://linkedin.com/in/salomey-osei-4b08a5b8
+      icon: linkedin
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    Salomey is a masters ddegree holder in Machine Intelligence in AIMS Ghana.
+
+- avatar: images/team/niilante.jpeg
+  name: Richard Nii Lante Lawson
+  position: Software Engineer, Deep Learning Researcher
+  socials:
+    - link: http://twitter.com/aimlcamp
+      icon: twitter
+    - link: http://github.com/niilante
+      icon: github
+    - link: http://linkedin.com/in/theniilante
+      icon: linkedin
+  desc:
+    Self-taught individual creating a better world bit by bit
