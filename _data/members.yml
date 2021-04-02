@@ -48,7 +48,7 @@
     - link: http://linkedin.com/in/salomey-osei-4b08a5b8
       icon: linkedin
   desc:
-    Salomey is a masters ddegree holder in Machine Intelligence in AIMS Ghana.
+    Salomey is a masters degree holder in Machine Intelligence in AIMS Ghana.
 
 - avatar: images/team/niilante.jpeg
   name: Richard Nii Lante Lawson
@@ -224,3 +224,36 @@
     icon: linkedin
   desc:
      Making lives better for Africans and the world through NLP applications.
+
+- avatar: images/team/hussein.png
+  name: Hussein Suhuyini
+  position: Full Stack Developer 
+  socials:
+  - link: http://twitter.com/pie_arr_square
+    icon: twitter
+  - link: https://github.com/@wanoh
+    icon: github
+  desc:
+     I am a full stack developer which involves CRM software development
+
+- avatar: images/team/wizdees.jpg
+  name: Wisdom Ofori
+  position: Management Consultant 
+  socials:
+  - link: http://twitter.com/wizdeesghana
+    icon: twitter
+  - link: https://github.com/wizdeesghana
+    icon: github
+  desc:
+     Managing Director of Wisdees Ghana Ltd and a communication Director
+
+- avatar: images/team/mark.jpg
+  name: Mark Amoako Marcel
+  position: Senior IT Officer 
+  socials:
+  - link: http://twitter.com/iseek16 
+    icon: twitter
+  - link: https://github.com/MarkMarcel
+    icon: github
+  desc:
+     I am a software engineer with a desire to make the world a better place
