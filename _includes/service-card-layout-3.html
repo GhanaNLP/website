@@ -1,0 +1,10 @@
+<div class="over-text top-up wow fadeInUp" data-wow-delay="0.2s">
+    {% if service.img_src %}
+    <img src="{{service.img_src | relative_url}}" alt="{{service.title}}" class="over-view-img">
+    {% endif %}
+    <div class="over-content">
+        <h4>{{service.title}}</h4>
+        <p>{{service.description}}</p>
+        <span class="over-icon"><img src="{{service.icon}}" alt="{{service.title}}"></span>
+    </div>
+</div>

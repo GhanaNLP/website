@@ -1,0 +1,16 @@
+- name: Themeix
+  bio: Nullam mauris ornare lacus nibh, sed nibh penatibus, pretium quis aute quis nisl, risus sed nec erat, pretium morbi justo interdum
+  designation: Ux/Ui Designer
+  url: https://themeix.com
+  profile_image: assets/images/admin-avatar.png
+- name: Eugene Chapman
+  bio: Testing And pretium quis aute quis nisl, risus sed nec erat, pretium morbi 
+  designation: Web Developer
+  url: https://themeix.com
+  profile_image: assets/images/admin-avatar.png
+- name: Aaron Potts
+  bio: Mike Felieps  pretium quis aute quis nisl, risus sed nec erat, pretium morbi justo interdum
+  designation: Programmer
+  url: https://themeix.com
+  profile_image: assets/images/admin-avatar.png
+  

@@ -1,0 +1,31 @@
+{% if page.home == 1 %}
+{% assign classes = 'area-padding-2' %}
+{% elsif page.home == 2 %}
+{% assign classes = 'area-padding-2 project-area-2' %}
+{% endif %}
+<!-- Start project Area -->
+<div class="project-page-area {{classes}}">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="section-headline text-center">
+                    <span class="top-text">
+                        <i class="ti-layout"></i>
+                        <span>Case study</span>
+                    </span>
+                    <h2>Our Projects</h2>
+                    <p>We help agencies to define their new business objectives and then create the road map</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="project-carousel owl-carousel">
+                {% for project in site.projects %}
+                    {% include project-card.html %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- End main content -->
+</div>
+<!-- End project Area -->

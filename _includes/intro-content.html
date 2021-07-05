@@ -1,0 +1,45 @@
+<div class="intro-content">
+    <div class="slider-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="slide-all-text">
+                        <!-- layer 1 -->
+                        <div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
+                            <img class="top-img" src="{{'/assets/img/icon/top.png' | relative_url }}" alt="">
+                            <h4 class="title-1">Global marketing expertise company</h4>
+                        </div>
+
+                        <!-- layer 2 -->
+                        <div class="layer-2 wow fadeInUp" data-wow-delay="0.3s">
+                            <h2 class="title-2">Expert team member for help your business growth strategy</h2>
+                        </div>
+
+                        <!-- layer 3 -->
+                        <div class="layer-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <a href="{{'/services'  | relative_url }}" class="ready-btn anti-btn">Get Started</a>
+                            <div class="video-content">
+                                <a href="https://www.youtube.com/watch?v=O33uuBh6nXA"
+                                    class="video-play vid-zone">
+                                    <i class="fa fa-play"></i>
+                                    <span>watch video</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="slide-images-inner wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="slide-images">
+                            {% if slide_img %}
+                            <img src="{{slide_img | relative_url }}" alt="">
+                            {% else %}
+                            <img src="{{'/assets/img/slider/s1.png' | relative_url }}" alt="">
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

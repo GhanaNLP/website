@@ -1,0 +1,92 @@
+---
+layout: default
+title: About Us
+permalink: /about
+---
+
+<main>
+    <!-- Start Breadcrumb Area -->
+    <div class="page-area bread-pd">
+        <div class="breadcumb-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumb-title text-center">
+                        <h2>{{page.title}}</h2>
+                        <div class="bread-come">
+                            {% include breadcrumb.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb Area -->
+
+    {% include sections/o-service-section.html %}
+
+    <!-- Start About area -->
+    <div class="about-area area-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Start Column Start -->
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <div class="about-text">
+                        <div class="left-headline">
+                            <span class="top-text">
+                                <i class="ti-user"></i>
+                                <span>About us</span>
+                            </span>
+                            <h2>Follow our news for growth your online business</h2>
+                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to
+                                define their new business objectives and then create. maintains the amount of lines.
+                                When replacing a selection. help agencies to define their new business objectives and
+                                then create.</p>
+                            <div class="ab-mark-text">
+                                <ul>
+                                    <li><a href="#">Innovation idea latest business tecnology maintains the amount</a>
+                                    </li>
+                                    <li><a href="#">Digital content marketing online clients plateform to define</a>
+                                    </li>
+                                    <li><a href="#">Innovation idea latest business tecnology help agencies.</a></li>
+                                </ul>
+                            </div>
+                            <div class="about-company">
+                                <div class="single-about">
+                                    <div class="ab-text-one">
+                                        <span class="about-icon"><i class="flaticon-082-networking"></i></span>
+                                        <span class="ab-text">Friendly <br /> Team</span>
+                                    </div>
+                                </div>
+                                <div class="single-about">
+                                    <div class="ab-text-two">
+                                        <span class="about-icon"><i class="flaticon-033-goal"></i></span>
+                                        <span class="ab-text">Goal <br /> Achivment</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Column -->
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <div class="ab-image">
+                        <img src="{{'/assets/img/about/ab2.jpg' | relative_url }}" alt="">
+                        <div class="flat-content">
+                            <span class="flat-text"> Are you looking for professional expert for your new
+                                business</span>
+                            <span class="flat-text f-text-down"> Are you looking for professional expert for your new
+                                business</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About area -->
+    {% include sections/team-members.html %}
+    {% include sections/feature-section.html %}
+    {% include sections/brand-section.html %}
+    {% include sections/review-section.html %}
+
+</main>

@@ -1,0 +1,61 @@
+<div class="left-head-blog right-side">
+    <div class="left-blog-page">
+        <!-- search option start -->
+        <form action="#">
+            <div class="blog-search-option">
+                <input data-bs-toggle="modal" data-bs-target="#redron-search" type="search" placeholder="Search...">
+                <button class="button" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </form>
+        <!-- search option end -->
+    </div>
+    <div class="left-blog-page">
+        <!-- recent start -->
+        <div class="left-blog">
+            <h4>recent post</h4>
+            <div class="recent-post">
+                {% for post in site.posts limit:6 %}
+                    {% if page.post_id != post.post_id %}
+                        {% include recent-post-card.html %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <!-- recent end -->
+    </div>
+    <div class="left-blog-page">
+        <div class="left-blog blog-category">
+            <h4>categories</h4>
+            <ul>
+                {% assign categories_list = site.categories %}
+
+                {% if categories_list.first[0] == null %}
+                {% for category in categories_list %}
+                <li><a href="{{'/category/' | relative_url }}{{category | slugify}}">{{ category
+                    | camelcase }}</a><span>{{category.size}}</span></li>
+                {% endfor %}
+                {% else %}
+                {% for category in categories_list %}
+                <li><a href="{{'/category/' | relative_url }}{{category[0] | slugify}}">{{ category[0]
+                    | camelcase }}</a><span>{{category[0].size}}</span></li>
+                {% endfor %}
+                {% endif %}
+                {% assign categories_list = nil %}
+            </ul>
+        </div>
+    </div>
+    <div class="left-blog-page">
+        <div class="left-tags blog-tags">
+            <div class="popular-tag left-side-tags left-blog">
+                <h4>popular tags</h4>
+                <ul>
+                    {% for tag in site.tags %}
+                    <li><a href="{{'/tag/' | relative_url }}{{tag[0] | slugify}}">{{tag[0] | camelcase}}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

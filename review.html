@@ -1,0 +1,50 @@
+---
+layout: default
+title: Reviews
+permalink: /review
+---
+
+<main>
+    <!-- Start Breadcrumb Area -->
+    <div class="page-area bread-pd">
+        <div class="breadcumb-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumb-title text-center">
+                        <h2>Reviews</h2>
+                        <div class="bread-come">
+                            {% include breadcrumb.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb Area -->
+    <!-- Start testimonials Area -->
+    <div class="reviews-page-area bg-color-xs area-padding-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12">
+                    <div class="section-headline text-center">
+                        <span class="top-text">
+                            <i class="ti-comment-alt"></i>
+                            <span>Clients love</span>
+                        </span>
+                        <h2>Reviews Clients</h2>
+                        <p>We help agencies to define their new business objectives and then create the road map</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                {% for testimonial in site.data.testimonials %}
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        {% include review-card.html %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- End testimonials end -->
+</main>

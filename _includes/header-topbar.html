@@ -1,0 +1,42 @@
+<!-- Start header top -->
+<div class="top-bar fix ">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-xl-8 col-lg-8 col-md-9">
+                <div class="header-info">
+                    <span><i class="fa fa-clock-o"></i>Mon - Fri: 10:00 - 18:00</span>
+                    <span><i class="fa fa-phone"></i>+342-7665545</span>
+                    <span><i class="fa fa-envelope"></i> {{site.email}}</span>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-3">
+                <div class="header-social-icons header-social-icons-black">
+                    <ul>
+                        {% if site.facebook %}
+                        <li>
+                            <a href="{{site.facebook | relative_url}}">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.twitter %}
+                        <li>
+                            <a href="{{site.twitter | relative_url}}">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% if site.instagram %}
+                        <li>
+                            <a href="{{site.instagram | relative_url}}">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End header top -->

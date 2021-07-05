@@ -1,0 +1,23 @@
+- name: Data Analysis
+  icon: flaticon-110-bars
+  img_src: /assets/img/services/s1.jpg
+  
+- name: Web research
+  icon: flaticon-002-globe
+  img_src: /assets/img/services/s2.jpg
+
+- name: Mobile apps
+  icon: flaticon-059-mobile-phone
+  img_src: /assets/img/services/s3.jpg
+
+- name: Development
+  icon: flaticon-005-exam
+  img_src: /assets/img/services/s4.jpg
+
+- name: Marketing
+  icon: flaticon-127-target
+  img_src: /assets/img/services/s5.jpg
+
+- name: Tech support
+  icon: flaticon-073-speech
+  img_src: /assets/img/services/s6.jpg

@@ -1,0 +1,30 @@
+ <!-- Start project Area -->
+ <div class="project-area project-area-2 bg-color-xs area-padding-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="section-headline text-center">
+                    <span class="top-text">
+                        <i class="ti-layout"></i>
+                        <span>Case study</span>
+                    </span>
+                    <h2>Our Projects</h2>
+                    <p>We help agencies to define their new business objectives and then create the road map</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <!-- single-awesome-project start -->
+
+            {% for project in site.projects %}
+                <div class="col-xl-4 col-lg-4 col-md-6">   
+                    {% include project-card.html %}
+                </div>
+            {% endfor %}
+
+        </div>
+    </div>
+    <!-- End main content -->
+</div>
+<!-- End project Area -->

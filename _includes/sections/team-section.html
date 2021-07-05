@@ -1,0 +1,26 @@
+
+{% assign limit = 4 %}
+<!-- Team area start -->
+<div class="team-area area-padding-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="section-headline text-center">
+                    <h2>Expert teams</h2>
+                    <p>We help agencies to define their new business objectives and then create the road map</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+             {% for member in site.data.team-members limit:{{limit}} %}
+            <!-- Single team member -->
+            <div class="col-xl-4 col-lg-4 col-md-4 {% if forloop.index == 4 %} d-lg-none {% endif %}">
+                {% include member-card.html %}
+            </div>
+            {% endfor %}
+            
+        </div>
+    </div>
+</div>
+<!-- team area end -->

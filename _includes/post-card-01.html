@@ -1,0 +1,35 @@
+<div class="single-blog">
+    <div class="blog-image">
+        {% if post.post_image %}
+        <a class="image-scale" href="{{post.url | relative_url }}">
+            <img src="{{post.post_image | relative_url}}" alt="{{post.title}}">
+        </a>
+        {% endif %}
+        <div class="blog-content">
+            <div class="blog-meta">
+                <span class="admin-type">
+                    <i class="ti-user"></i>
+                    {{post.author_name}}
+                </span>
+                <span class="date-type">
+                    <i class="ti-calendar"></i>
+                    {{post.date | date: '%d %b, %Y'}}
+                </span>
+                <span class="comments-type">
+                    <i class="ti-book"></i>
+                    {% assign words = content | number_of_words %}
+                    {% if words < 360 %}
+                        1 min
+                    {% else %}
+                        {{ words | divided_by:180 }} mins
+                    {% endif %}
+                </span>
+            </div>
+            <a href="{{post.url | relative_url }}">
+                <h4>{{post.title}}</h4>
+            </a>
+            <p>{{ post.content | truncatewords: 20 }}  </p>
+            <a class="blog-btn anti-bttn" href="{{post.url | relative_url }}"> Read more</a>
+        </div>
+    </div>
+</div>

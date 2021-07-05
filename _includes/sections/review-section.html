@@ -1,0 +1,32 @@
+<!-- Start testimonials Area -->
+<div class="reviews-area area-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-5 col-md-6">
+                <div class="testimonial-inner">
+                    <div class="review-head">
+                        <span class="top-text">
+                            <i class="ti-crown"></i>
+                            <span>Clients Love</span>
+                        </span>
+                        <h2>Customer says about our company projects</h2>
+                        <p>The phrasal sequence of the Lorem Ipsum text is now so widespread and commonplace that
+                            many DTP programmes can generate dummy.</p>
+                        <a class="reviews-btn anti-btn" href="review.html">More reviews</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-6">
+                <div class="Reviews-content">
+                    <!-- start testimonial carousel -->
+                    <div class="testimonial-carousel owl-carousel">
+                        {% for testimonial in site.data.testimonials %}
+                            {% include review-card.html %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End testimonials end -->

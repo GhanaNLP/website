@@ -1,0 +1,18 @@
+<div class="single-member">
+    <div class="team-img">
+        {% if member.img_src %}
+        <a href="{{member.website | relative_url}}">
+            <img src="{{member.img_src  | relative_url }}" alt="{{member.name}}">
+        </a>
+        {% endif %}
+        <ul class="team-hover">
+            <li><a href="{{member.facebook | relative_url }}"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="{{member.twitter | relative_url }}"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="{{member.instagram | relative_url }}"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <div class="team-content">
+        <h4>{{member.name}}</h4>
+        <p>{{member.designation}}</p>
+    </div>
+</div>

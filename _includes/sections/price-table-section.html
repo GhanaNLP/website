@@ -1,0 +1,47 @@
+{% if page.url == '/pricing' %}
+    {% assign classes = 'bg-color-xs ' %}
+{% else %}
+    {% assign classes = 'bg-color'%}
+{% endif %}
+
+<!-- start pricing area -->
+<div class="pricing-area  fix area-padding-2 {{classes}}">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="section-headline text-center">
+                    <span class="top-text">
+                        <i class="ti-pulse"></i>
+                        <span>Price list</span>
+                    </span>
+                    <h2>Pricing List</h2>
+                    <p>We help agencies to define their new business objectives and then create the road map</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for price in site.data.price_table %}
+            <div class="col-xl-4 col-lg-4 col-md-4">
+                <div class="table-list">
+                    {% if price.label %}<span class="base">{{price.label_text}}</span>{% endif %}
+                    <div class="top-price-inner">
+                        <h3>{{price.name}}</h3>
+                        <div class="rates">
+                            <span class="prices"><span class="dolar">{{price.currency}}</span>{{price.price}}</span><span class="users">{{price.duration}}</span>
+                        </div>
+                    </div>
+                    <ol>
+                        {% for feature in price.features %}
+                        <li class="{% if feature.has_feature %}check{% else %}check cross{% endif %}">{{feature.f_name}}</li>
+                        {% endfor %}
+                    </ol>
+                    <div class="price-btn">
+                        <a href="{{price.button_url | relative_url}}">{{price.button_text}}</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- End pricing table area -->

@@ -1,0 +1,94 @@
+---
+layout: default
+---
+<main>
+    <!-- Start Breadcrumb Area -->
+    <div class="page-area bread-pd">
+        <div class="breadcumb-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumb-title text-center">
+                        <h2>{{page.title}}</h2>
+                        <div class="bread-come">
+                            <nav aria-label="breadcrumb ">
+                                <ol class="breadcrumb purple lighten-4 justify-content-center">
+                                    <li class="breadcrumb-items"><a class="black-text"
+                                            href="{{'/' | relative_url}}">Home</a><i class="ti-angle-right"
+                                            aria-hidden="true"></i></li>
+                                    <li class="breadcrumb-items"><a class="black-text"
+                                            href="{{page.url | relative_url}}">{{page.title}}</a></li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb Area -->
+    <!-- Start project Area -->
+    <div class="project-single bg-color-xs area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12">
+                    <div class="project-inner">
+                        <div class="project-image">
+                            <img src="{{page.img_src | relative_url }}" alt="{{page.title}}">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Column -->
+                <div class="col-xl-4 col-lg-4 col-md-5">
+                    <div class="project-history">
+                        <div class="project-name">
+                            <ul>
+                                <li><span>Project :</span> {{page.project_name}}</li>
+                                <li><span>Company :</span> {{page.company}}</li>
+                                <li><span>Status :</span> {{page.status}}</li>
+                                <li><span>Date :</span> {{page.date}}</li>
+                                <li><span>City :</span> {{page.city}}</li>
+                                <li><span>Country :</span> {{page.country}}</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="new-project">
+                        <div class="project-new">
+                            <h4>Are you ready new cleaning project?</h4>
+                            <a class="hire-btn" href="https://docs.google.com/forms/">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Column -->
+                <div class="col-xl-8 col-lg-8 col-md-7">
+                    <div class="project-details">
+                        {{page.content}}
+                    </div>
+                </div>
+                <!-- End single page -->
+            </div>
+        </div>
+        <!-- End main content -->
+    </div>
+    <!-- End portfolio Area -->
+    <div class="brand-area bg-color ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="brand-content">
+                        <div class="brand-carousel owl-carousel">
+                            {% for brand in site.data.brands %}
+                            {% if brand.img_src %}
+                            <div class="single-brand-item">
+                                <a href="{{brand.url | relative_url}}" target="_blank"><img
+                                        src="{{brand.img_src | relative_url }}" alt="{{brand.name}}"></a>
+                            </div>
+                            {% endif %}
+                            {% endfor %}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</main>

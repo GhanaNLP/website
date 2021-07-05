@@ -1,0 +1,23 @@
+<!-- Start Counter Area -->
+<div class="counter-area area-padding">
+    <div class="container">
+        <div class="row">
+            {% for counter in site.data.counter %}
+            <div class="col-xl-3 col-lg-3 col-md-3">
+                <div class="single-fun">
+                    <div class="fun-icon">
+                        <i class="flaticon-067-curriculum"></i>
+                    </div>
+                    <div class="fun_text">
+                        <span class="counter">{{counter.counter_up}}</span>
+                        <h5>{{counter.title}}</h5>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            
+        </div>
+        <!-- end Row -->
+    </div>
+</div>
+<!-- End Counter Area -->

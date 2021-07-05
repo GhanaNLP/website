@@ -1,0 +1,70 @@
+---
+layout: default
+title: Login 
+permalink: /login
+---
+
+<main>
+    <!-- Start Breadcrumb Area -->
+    <div class="page-area bread-pd">
+        <div class="breadcumb-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumb-title text-center">
+                        <h2>{{page.title}}</h2>
+                        <div class="bread-come">
+                            {% include breadcrumb.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb Area -->
+    <!-- Start Login Area -->
+    <div class="login-area bg-color-xs area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="log-inner">
+                        <img src="{{'/assets/img/about/view.png' | relative_url}}" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="login-form">
+                        <h4 class="login-title text-center">Login</h4>
+                        <form id="contactForm" method="POST" action="contact.php" class="log-form">
+                            <input type="text" id="name" class="form-control" placeholder="Username" required
+                                data-error="Please enter your name">
+                            <input type="password" id="msg_subject" class="form-control" placeholder="Password" required
+                                data-error="Please enter your message subject">
+                            <div class="check-group flexbox">
+                                <label class="check-box">
+                                    <input type="checkbox" class="check-box-input" checked>
+                                    <span class="remember-text">Remember me</span>
+                                </label>
+
+                                <a class="text-muted" href="#">Forgot password?</a>
+                            </div>
+                            <button type="submit" id="submit" class="slide-btn login-btn">Login</button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                            <div class="clearfix"></div>
+                            <div class="clear"></div>
+                            <div class="separetor text-center"><span>Or with Sign</span></div>
+                            <div class="sign-icon">
+                                <ul>
+                                    <li><a class="facebook" href="#">Facebook</a></li>
+                                    <li><a class="twitter" href="#">twitter</a></li>
+                                    <li><a class="google" href="#">google+</a></li>
+                                </ul>
+                                <div class="acc-not">Don't have an account <a href="{{'/signup' | relative_url }}">Sign up</a></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Login Area -->
+</main>

@@ -1,0 +1,39 @@
+<div class="single-testi">
+    <div class="testi-text">
+        <div class="clients-text">
+            <div class="client-rating">
+                {% if testimonial.rating == 5 %}
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                {% elsif testimonial.rating == 4 %}
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                {% elsif testimonial.rating == 3 %}
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                {% elsif testimonial.rating == 2 %}
+                <a href="#"><i class="ti-star"></i></a>
+                <a href="#"><i class="ti-star"></i></a>
+                {% elsif testimonial.rating == 1 %}
+                <a href="#"><i class="ti-star"></i></a>
+                {% endif %}
+            </div>
+            <p>{{testimonial.review}}</p>
+            <div class="testi-img ">
+                {% if testimonial.image %}
+                <img src="{{testimonial.image | relative_url }}" alt="{{testimonial.name}}" />
+                {% endif %}
+                <div class="guest-details">
+                    <h4>{{testimonial.name}}</h4>
+                    <span class="guest-rev">{{testimonial.designation}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

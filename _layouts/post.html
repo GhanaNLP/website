@@ -1,0 +1,74 @@
+---
+layout: default
+---
+<main>
+    <!-- Start Breadcrumb Area -->
+    <div class="page-area bread-pd">
+        <div class="breadcumb-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumb-title text-center">
+                        <h2>Blog Details</h2>
+                        <div class="bread-come">
+                            {% include breadcrumb.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb Area -->
+    <!--Blog Area Start-->
+    <div class="blog-area blog-area-2 blog-details bg-color-xs blog-sidebar-right fix area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <!-- single-blog start -->
+                    <article class="blog-post-wrapper">
+                        <div class="blog-banner">
+                            <div class="blog-images">
+                                <img src="{{page.post_image | relative_url }}" alt="{{page.title}}">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span class="admin-type">
+                                        <i class="ti-user"></i>
+                                        {{page.author_name}}
+                                    </span>
+                                    <span class="date-type">
+                                        <i class="ti-calendar"></i>
+                                        {{page.date | date: '%d %b, %Y'}}
+                                    </span>
+                                    <span class="comments-type">
+                                        <i class="ti-book"></i>
+                                        {% assign words = content | number_of_words %}
+                                        {% if words < 360 %} 1 min {% else %} {{ words | divided_by:180 }} mins {% endif
+                                            %} </span>
+                                </div>
+                                <h3>{{page.title}}</h3>
+                                {{page.content}}
+                            </div>
+                        </div>
+                    </article>
+                    <div class="clear"></div>
+                    {% include related-posts.html %}
+                    <div class="clear"></div>
+                    <div class="single-post-comments">
+                        <div class="comments-area">
+                            {% include comments.html %}
+                        </div>
+                    </div>
+                    <!-- single-blog end -->
+                </div>
+                <!-- Start Right Sidebar blog -->
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    {% include sidebar.html %}
+                </div>
+                <!-- End Right Sidebar -->
+            </div>
+            <!-- End row -->
+        </div>
+    </div>
+    <!--End of Blog Area-->
+</main>

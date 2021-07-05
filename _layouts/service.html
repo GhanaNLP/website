@@ -1,0 +1,130 @@
+---
+layout: default
+---
+<!-- End header area -->
+<main>
+    <!-- Start Breadcrumb Area -->
+    <div class="page-area bread-pd">
+        <div class="breadcumb-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumb-title text-center">
+                        <h2>{{page.title}} </h2>
+                        <div class="bread-come">
+                            <nav aria-label="breadcrumb ">
+                                <ol class="breadcrumb purple lighten-4 justify-content-center">
+                                    <li class="breadcrumb-items"><a class="black-text" href="{{'/' | relative_url}}">Home</a><i
+                                            class="ti-angle-right" aria-hidden="true"></i></li>
+                                    <li class="breadcrumb-items"><a class="black-text" href="{{page.url | relative_url }}">{{page.title}}</a>
+                                    </li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb Area -->
+
+    <!-- End services Area -->
+    <div class="single-services-page bg-color-xs area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="page-head-left">
+                        <!-- strat single area -->
+                        <div class="single-page-head">
+                            <div class="left-menu">
+                                <ul>
+                                    <li class="active"><a href="#">Server Security</a></li>
+                                    <li><a href="#">Products Design</a></li>
+                                    <li><a href="#">Digital Marketing</a></li>
+                                    <li><a href="#">Data Analysis</a></li>
+                                    <li><a href="#">Web Research</a></li>
+                                    <li><a href="#">Tech Support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- strat single area -->
+                        <div class="single-page-head">
+                            <div class="download-btn">
+                                <a href="{{page.brochure_url | relative_url}}" class="down-btn">Download Brochure <i class="fa fa-file-pdf-o"></i></a>
+
+                                <a href="{{page.application_url | relative_url}}" class="down-btn apli">Download Application <i
+                                        class="fa fa-file-word-o"></i></a>
+                            </div>
+                        </div>
+                        <!-- strat single area -->
+                        <div class="single-page-head">
+                            <div class="clients-testi">
+                                <div class="single-review">
+                                    <div class="review-text">
+                                        <p>selection consists fully of lowercase or capital letters text maintains
+                                            the amount of lines. When replacing a selection indent line.</p>
+                                        <h4>Daniyel kreg</h4>
+                                        <span class="guest-rev">Clients - <a href="#">Software</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end single area -->
+                        <div class="single-page-head">
+                            <div class="new-project">
+                                <div class="project-new">
+                                    <h4>Are you ready new project?</h4>
+                                    <a class="hire-btn" href="https://docs.google.com/forms/">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end single area -->
+                    </div>
+                </div>
+                <!-- End left sidebar -->
+                <!-- Start service page -->
+                <div class="col-xl-8 col-lg-8 col-md-8">
+                    <div class="service-content">
+                        {{page.content}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End service details area -->
+    <!-- Start service area -->
+    <div class="service-area bg-color area-padding-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12">
+                    <div class="section-headline text-center">
+                        <h2>More services</h2>
+                        <p>We help agencies to define their new business objectives and then create the road map</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                {% for service in site.services limit:4 %}
+                    {% if page.service_id != service.service_id %}
+                    <!-- single dervices -->
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-service text-center wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="service-icon">
+                                <img src="{{service.icon}}" alt="{{service.title}}">
+                            </div>
+                            <div class="service-inner">
+                                <div class="service-content">
+                                    <h4>{{service.title}}</h4>
+                                    <p>{{service.description}}</p>
+                                    <a class="service-btn" href="{{service.url | relative_url }}"><i class="ti-arrow-top-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- End service area -->
+</main>

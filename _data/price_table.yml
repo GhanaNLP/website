@@ -1,0 +1,59 @@
+- name: Basic
+  price: 15
+  currency: $
+  duration: Per Hour
+  label: false
+  label_text: Top Rated
+  features:
+    - f_name: Online System
+      has_feature: true  
+    - f_name: Free Apps 
+      has_feature: true 
+    - f_name: Full Access
+      has_feature: false 
+    - f_name: Live Preview
+      has_feature: true 
+    - f_name: Support Unlimited
+      has_feature: false 
+  button_text: Buy Now
+  button_url: /#
+  
+- name: Standard
+  price: 85
+  currency: $
+  duration: Per Day
+  label: true
+  label_text: Top Rated
+  features:
+    - f_name: Online System
+      has_feature: true  
+    - f_name: Free Apps 
+      has_feature: true 
+    - f_name: Full Access
+      has_feature: false 
+    - f_name: Live Preview
+      has_feature: true 
+    - f_name: Support Unlimited
+      has_feature: true 
+  button_text: Buy Now
+  button_url: /#
+
+- name: Premium
+  price: 900
+  currency: $
+  duration: Per Month
+  label: false
+  label_text: Top Rated
+  features:
+    - f_name: Online System
+      has_feature: true  
+    - f_name: Free Apps 
+      has_feature: true 
+    - f_name: Full Access
+      has_feature: true 
+    - f_name: Live Preview
+      has_feature: true 
+    - f_name: Support Unlimited
+      has_feature: true 
+  button_text: Buy Now
+  button_url: /#

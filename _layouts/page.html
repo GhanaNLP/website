@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<!--  ========== Page Title Area Start ==========  -->
+<section class="page-title-area position-relative pt-10 pb-6"
+    style="background-image: url('{{'/assets/images/blog/01.jpg' | relative_url}}');">
+    <div class="bg-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 m-auto">
+                <div class="page-title-content text-center">
+                    <h3 class="text-light"> {{page.title}}</h3>
+                    <nav class="mt-5">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="{{'/'}}">Home</a></li>
+                            <li class="breadcrumb-item">{{page.title}}</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  ========== Page Title Area End ==========  -->
+
+<!--  ======== Single Area Start ==========  -->
+<section class="blog-area my-10">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                <div class="entry-content typofix">
+                    {{page.content}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  ======= Single Area End ==========  -->

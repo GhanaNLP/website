@@ -1,0 +1,20 @@
+<div class="single-awesome-project">
+    {% if project.img_src %}
+    <div class="awesome-img">
+        <a href="{{project.url | relative_url}}">
+            <img src="{{project.img_src | relative_url }}" alt="{{project.project_name}}" />
+        </a>
+        <div class="add-actions text-center">
+            <a href="{{project.img_src | relative_url}}" class="venobox" data-gall="myGallery"
+                href="{{project.img_src | relative_url }}">
+                <i class="port-icon ti-zoom-in"></i>
+            </a>
+        </div>
+    </div>
+    {% endif %}
+    <div class="project-dec">
+        <a href="{{project.url | relative_url}}">
+            <h4>{{project.project_name}}</h4>
+        </a>
+    </div>
+</div>

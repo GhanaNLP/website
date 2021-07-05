@@ -1,0 +1,15 @@
+
+<div class="single-service wow fadeInUp" data-wow-delay="0.3s">
+    {% if service.icon %}
+    <div class="service-icon">
+        <img src="{{'service.icon | relative_url }}" alt="{{service.title}}">
+    </div>
+    {% endif %}
+    <div class="service-inner">
+        <div class="service-content">
+            <h4>{{service.title}}</h4>
+            <p>{{service.description}}</p>
+            <a class="service-btn" href="{{service.url | relative_url }}"><i class="ti-arrow-top-right"></i></a>
+        </div>
+    </div>
+</div>

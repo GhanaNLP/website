@@ -1,0 +1,1070 @@
+@media (min-width: 1919px) {
+.header-right {
+    margin-left: 30px;
+}
+.header-area.stick .header-right {
+    margin-left: 30px;
+}   
+.title-2 {
+    font-size: 50px;
+}    
+.left-headline h2 {
+    font-size: 40px;
+}    
+.header-area-3 .container, .header-area-3 .container-lg{
+    max-width: 1360px;
+    }     
+.header-area-3.stick .container, .header-area-3.stick .container-lg{
+    max-width: 1260px;
+    }    
+.quote-all {
+    padding: 110px 250px 110px 60px;
+} 
+.single-service:hover::after {
+    top: 80%;
+}    
+    
+    
+    
+    
+    
+    
+	
+}
+
+@media (min-width: 1290px) and (max-width: 1500px) {
+    
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1260px;
+    }  
+    
+    
+    
+    
+    
+    
+}
+
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1290px) {
+
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.header_menu ul li {
+    margin-left: 15px;
+}
+.header-area.stick .header-right,
+.header-right {
+    margin-left: 25px;
+}
+.hd-btn {
+    padding: 0 15px;
+}  
+.title-2 {
+    font-size: 40px;
+    line-height: 52px;
+}    
+.title-1 {
+    font-size: 22px;
+    padding: 15px 6px;
+}    
+.well-services {
+    padding: 40px 10px;
+}
+.well-services:hover::before {
+    top: 55%;
+} 
+.project-dec h4 {
+    font-size: 20px;
+}    
+.project-dec {
+    width: 95%;
+    padding: 20px 15px;
+}    
+.blog-content {
+    padding: 40px 15px 40px 20px;
+}    
+.slide-images {
+    margin-top: 30px;
+}
+.review-head h2,
+.right-headline h2,
+.left-headline h2 {
+    font-size: 32px;
+    line-height: 44px;
+}    
+.ab-mark-text ul li a {
+    font-size: 15px;
+}    
+.single-service {
+    padding: 40px 30px;
+}    
+.single-service:hover::after {
+    top: 67%;
+} 
+.feature-all {
+    margin-right: 40px;
+}
+.feature-area-2 .feature-all {
+    margin-left: 0px;
+}    
+.intro-area-2 .slide-images {
+    margin-top: 10px;
+}    
+.over-content {
+    top: 68%;
+}
+.over-content h4{
+    font-size: 20px;
+}
+.over-text:hover .over-content p{
+    display: none;
+}    
+.over-text:hover .over-content {
+    padding: 40px 20px;
+}    
+.blog-content {
+    padding: 25px 20px 25px 20px;  
+}  
+.faq-content {
+    margin-right: 0px;
+}    
+.company-faq {
+    margin-left: 0px;
+}     
+.faq-head-text h2 {
+    font-size: 30px;
+    line-height: 38px;
+}    
+.footer-content.logo-footer {
+    margin-right: 0px;
+}    
+.single-awesome-project:hover .project-dec {
+    height: 70px;
+    bottom: 20px;
+}   
+.intro-area-3 .title-2 {
+    width: 700px;
+}    
+.welcome-area-2 .well-services:hover::before {
+    top: 62%;
+}
+.service-tab .nav-link {
+    margin: 0px 16px;
+    padding: 20px 5px;
+}       
+.service-tab .nav-link .cha-title {
+    font-size: 17px;
+}    
+.service-tab .nav-item {
+    flex-basis: 16.25%;
+}     
+.machine-text h2 {
+    font-size: 28px;
+    line-height: 36px;
+}    
+.single-member .team-img {
+    width: 180px;
+    height: 180px;
+}    
+.quote-all {
+    padding: 60px 20px 60px 30px;
+}    
+.intro-area-4 .title-2 {
+    font-size: 42px;
+    line-height: 50px;
+}    
+.overview-wrapper h2 {
+    font-size: 34px;
+    line-height: 42px;
+}    
+.intro-area-4 .title-1 {
+    font-size: 20px;
+} 
+.high-text span img {
+    margin: 0px 20px 0px 0px;
+}    
+.page-head-left {
+    margin-right: 0px;
+}    
+.project-history {
+    padding: 30px 17px;
+}    
+.project-new h4 {
+    line-height: 34px;
+    font-size: 24px;
+}    
+.blog-area-2 .image-scale>img {
+    min-height: auto;
+}    
+.right-side {
+    padding-left: 0px;
+}    
+.left-blog-page {
+    padding: 20px 15px;
+}    
+.blog-search-option input {
+    width: 78%;
+}    
+.pst-content p a {
+    font-size: 15px;
+}    
+.contact-icon {
+    padding: 30px 15px;
+}       
+.single-icon i {
+    font-size: 24px;
+    height: 60px;
+    line-height: 58px;
+    margin-right: 15px;
+    width: 60px;
+}    
+.single-icon p {
+    font-size: 14px;
+}    
+.contact-area .contact-form {
+    margin-left: 0px;
+} 
+.sign-icon ul li a {
+    font-size: 14px;
+    padding: 0px 10px;
+}    
+    
+    
+    
+    
+    
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 992px) {
+.header-right {
+    margin-right: 80px;
+    padding: 15px 0px;
+}
+.mean-container a.meanmenu-reveal {
+    margin-top: -66px;
+}
+.mean-container .mean-nav {
+    margin-top: 0px;
+}    
+.intro-area{
+    float: none;
+    width: 100%;
+    height: 100%;
+    min-height: 560px;
+}
+.bg-wrapper,
+.bg-wrapper img {
+    width: 100%;
+    height: 100%;
+    min-height: 560px;
+    object-fit: cover;
+}
+.title-1 {
+    font-size: 20px;
+    padding: 0px 0px;
+    line-height: 28px;
+}    
+.title-2 {
+    color: #2a354e;
+    font-size: 30px;
+    line-height: 38px;
+}    
+.ready-btn {
+    color: #fff;
+    font-weight: 600;
+    padding: 13px 25px
+}    
+.slide-images {
+    margin-top: 20px;
+}
+.slide-images {
+    margin-top: 20px;
+}
+.intro-content {
+    margin-top: -140px;
+}   
+.ab-image {
+    padding-left: 0px;
+    position: relative;
+    padding-bottom: 0px;
+    padding-top: 50px;
+}    
+.left-headline h2 {
+    font-size: 36px;
+    line-height: 45px;
+}    
+.single-service:hover::after {
+    top: 70%;
+}    
+.fun_text span {
+    font-size: 38px;
+}
+.feature-all {
+    margin-right: 0px;
+}    
+.feature-area-2 .feature-all {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.right-headline h2 {
+    font-size: 26px;
+    line-height: 36px;
+}    
+.review-head h2{
+    font-size: 32px;
+    line-height: 40px;
+} 
+.well-services:hover::before {
+    top: 75%;
+}
+.project-dec h4 {
+    font-size: 20px;
+}
+.project-dec {
+    padding: 20px 20px;
+}
+.footer-content.logo-footer {
+    margin-right: 0px;
+}
+.subs-feilds {
+    margin-right: 0px;
+}
+.suscribe-input input {
+    width: 100%;
+    border-right: 1px solid #ccc;
+}
+.suscribe-input button {
+    width: 100%;
+    margin-top: 20px;
+}
+.footer-list {
+    width: 100%;
+    float: left;
+}
+.intro-area-2 {
+    float: none;
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+}
+.intro-area-2 .bg-wrapper, 
+.intro-area-2 .bg-wrapper img {
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+    object-fit: cover;
+}
+.intro-area-2 .intro-content {
+    margin-top: -130px;
+}
+.prices {
+    font-size: 34px;
+}
+.base {
+    right: -50px;
+    top: 25px;
+}
+.table-list {
+    padding: 30px 15px;
+}
+.top-price-inner h3 {
+    font-size: 28px;
+}
+.blog-content {
+    padding: 25px 20px 25px 30px;  
+}  
+.faq-content {
+    margin-left: 0px;
+}    
+.company-faq {
+    margin-left: 0px;
+} 
+.faq-head-text h2 {
+    font-size: 28px;
+    line-height: 36px;
+}
+.fun_text > h5 {
+    font-size: 17px;
+}    
+.single-awesome-project:hover .project-dec {
+    height: 70px;
+    bottom: 30px
+}    
+.over-text:hover .over-content {
+    padding: 60px 20px;
+}    
+.over-content {
+    top: 77%;
+}    
+.intro-area-3 .title-2 {
+    width: 500px;
+}    
+.welcome-area-2 .well-services {
+    border: 1px solid #f1f1f1;
+}    
+.service-tab .nav-item {
+    flex-basis: 33%;
+    margin-bottom: 40px;
+}
+.service-tab {
+    margin-bottom: 0px;
+}
+.machine-text h2 {
+    font-size: 24px;
+    line-height: 34px;
+}    
+.services-top-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+} 
+.single-member {
+    padding: 30px 15px;
+    margin-right: 10px;
+    margin-bottom: 45px;
+}    
+.single-member::before {
+    left: 15px;
+    top: 15px;
+}    
+.single-member .team-img {
+    width: 160px;
+    height: 160px;
+}    
+.quote-all {
+    padding: 80px 40px 80px 40px;
+}    
+.header-info span {
+    margin-right: 10px;
+}    
+.intro-area-4 .title-2 {
+    font-size: 30px;
+    line-height: 40px;
+}    
+.intro-area-4 .title-1 {
+    font-size: 18px;
+}    
+.intro-area-4 .slide-images {
+    margin-top: 60px;
+}    
+.overview-wrapper h2 {
+    font-size: 26px;
+    line-height: 34px;
+}    
+.overview-area-2.area-padding{
+    padding: 80px 0px;
+}    
+.count-num {
+    font-size: 40px;
+    line-height: 52px;
+}    
+.overview-area-2 .single-count {
+    padding: 10px 10px;
+}    
+.single-count h4 {
+    font-size: 18px;
+}    
+.total-count {
+    margin-top: 15px;
+}    
+.overview-area-2 .overview-image {
+    margin-top: 50px;
+}
+.faq_inner .card-header h4 button {
+    font-size: 17px;
+    padding: 6px 11px;
+    line-height: 24px;
+}    
+.faq_inner .card-body {
+    padding-bottom: 10px;
+}    
+.faq_inner .card-header{
+    padding: 0px;
+} 
+.copyright > p {
+    margin-bottom: 0;
+    font-size: 15px;
+}    
+.footer-menu ul li a {
+    padding: 0px 5px;
+    font-size: 15px;
+}    
+.footer-area::after {
+    opacity: 0.98;
+}    
+.section-headline h2 {
+    font-size: 36px;
+    line-height: 44px;
+}    
+.breadcrumb-title h2 {
+    font-size: 36px;
+    line-height: 46px;
+}    
+.project-details {
+    margin-left: 0px;
+}    
+.project-details h2 {
+    font-size: 30px;
+    line-height: 40px;
+}    
+.project-history {
+    padding: 30px 15px;
+}    
+.project-name ul li {
+    font-size: 15px;
+}    
+.project-new h4 {
+    line-height: 34px;
+    font-size: 22px;
+}    
+.project-details h3 {
+    font-size: 26px;
+    line-height: 34px;
+}    
+.blog-area-2 .image-scale>img {
+    min-height: auto;
+}
+.right-side {
+    padding-left: 0px;
+}    
+.left-blog-page {
+    padding: 20px 10px;
+}   
+.blog-search-option input {
+    width: 70%;
+}    
+.post-img {
+    display: none;
+}    
+.pst-content {
+    padding-left: 0px;
+}    
+.blog-post-wrapper .blog-content h3 {
+    font-size: 28px;
+    line-height: 36px;
+}       
+.login-form {
+    padding: 40px 20px;
+}    
+.sign-icon ul li a {
+    font-size: 13px;
+    padding: 0px 10px;
+}    
+.page-head-left {
+    margin-right: 0px;
+}
+.left-menu ul li a {
+    padding: 20px 15px;
+}    
+.single-well h2 {
+    font-size: 32px;
+    line-height: 40px;
+}    
+.single-well h3 {
+    font-size: 24px;
+    line-height: 32px;
+}   
+.down-btn {
+    padding: 15px 15px; ease 0s;
+}    
+.down-btn {
+    font-size: 14px;
+}    
+.single-page-head .clients-testi {
+    padding: 20px 15px;
+}
+.single-page-head .review-text p {
+    font-size: 15px;
+    line-height: 26px;
+}    
+.new-project {
+    padding: 30px 20px 40px;
+}    
+.hire-btn {
+    padding: 10px 20px;
+    font-size: 15px;
+} 
+.single-icon i {
+    float: none;
+    margin-bottom: 20px;
+}    
+.single-icon {
+    display: block;
+    align-items: inherit;
+}    
+.contact-area .contact-form {
+    margin-left: 20px;
+}    
+.contact-icon {
+    padding: 30px 15px;
+}     
+.single-icon p {
+    font-size: 14px;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.header-menu-area{
+    padding: 15px 0px;
+}    
+.header-area.stick .logo a {
+    padding: 2px 0;
+}
+.intro-content {
+    margin-top: -250px;
+}
+.intro-bg{
+	display: none;
+}
+.intro-area{
+    float: none;
+    width: 100%;
+    height: 100%;
+    min-height: 660px;
+}
+.bg-wrapper,
+.bg-wrapper img {
+    width: 100%;
+    height: 100%;
+    min-height: 660px;
+    object-fit: cover;
+}
+.title-1 {
+    font-size: 20px;
+    color: #313d58;
+    padding: 0px;
+    margin-bottom: 0px;
+    line-height: 28px;
+}
+.title-2 {
+    font-size: 24px;
+    line-height: 38px;
+}
+.layer-3 p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+} 
+.ready-btn {
+    padding: 13px 15px;
+}
+.slider-content .video-content {
+    margin-left: 15px;
+} 
+.slide-images {
+    margin-top: 15px;
+}
+.header-right {
+    display: none;
+}  
+.header-area.stick .logo a {
+    padding: 2px 0;
+}
+.left-headline h2 {
+    font-size: 26px;
+    line-height: 38px;
+}
+.ab-image {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+}    
+.flat-content .flat-text {
+    padding: 10px 15px;
+    width: 270px;
+    height: 70px;
+    font-size: 16px;
+}   
+.flat-content .f-text-down {
+    top: 85%;
+    left: 15px;
+    color: #028E96;
+}    
+.section-headline p {
+    width: auto;
+}    
+.section-headline h2 {
+    font-size: 30px;
+    line-height: 40px;
+}    
+.single-fun {
+    margin-bottom: 40px;
+}
+.review-head h2,
+.right-headline h2{
+    font-size: 26px;
+    line-height: 38px;
+}    
+.feature-all {
+    margin-right: 0px;
+}
+.feature-area-2 .feature-all {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.ab-text-one {
+    margin-right: 0px;
+}
+.single-about {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+}   
+.single-service {
+    padding: 30px 25px;
+}    
+.single-service:hover::after {
+    top: 73%;
+}    
+.feature-images {
+    padding-right: 0px;
+    margin-top: 40px;
+}
+.feature-area-2 .feature-images {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.over-img {
+    top: 20%;
+    width: 150px;
+    height: 150px;
+}    
+.review-head {
+    margin-bottom: 40px;
+} 
+.blog-content {
+    padding: 30px 20px 30px 20px;
+}       
+.footer-content {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.last-item{
+    margin-bottom: 0px;
+}        
+.footer-content.logo-footer {
+    margin-right: 0px;
+}
+.subs-feilds {
+    margin-right: 0px;
+}       
+.suscribe-input button {
+    font-size: 17px;
+    padding: 10px 10px;
+}  
+.intro-area-2 .bg-wrapper,
+.intro-area-2 .bg-wrapper img {
+    width: 100%;
+    height: 100%;
+    min-height: 660px;
+    object-fit: none;
+}    
+.top-up {
+    top: 0;
+}    
+.project-dec {
+    padding: 20px 15px;
+}    
+.project-dec h4 {
+    font-size: 20px;
+}    
+.company-faq {
+    margin-left: 0px;
+}    
+.faq-content {
+    margin-left: 0px;
+    margin-bottom: 40px;
+}  
+.faq-head-text h2 {
+    font-size: 30px;
+    line-height: 38px;
+}
+.last-content{
+    margin-bottom: 0px;
+}  
+.single-awesome-project:hover .project-dec {
+    height: 70px;
+    bottom: 30px;
+}
+.blog-grid .image-scale>img {
+    min-height: 350px;
+}  
+.intro-area-3 .title-2 {
+    width: auto;
+    margin: 0px auto 20px;
+    font-size: 26px;
+}    
+.intro-area-3 .title-1 {
+    font-size: 17px;
+}    
+.intro-area-3,    
+.intro-area-3 .bg-wrapper, 
+.intro-area-3 .bg-wrapper img {
+    min-height: 460px;
+}
+.intro-area-3 .intro-content {
+    margin-top: -150px;
+}       
+.service-tab .nav-item {
+    flex-basis: 95%;
+    margin-bottom: 40px;
+} 
+.machine-text {
+    margin-top: 30px;
+}
+.machine-text h2 {
+    font-size: 23px;
+    line-height: 36px;
+}    
+.services-top-text {
+    font-size: 16px;
+    line-height: 24px;
+}    
+.single-member .team-img {
+    width: 180px;
+    height: 180px;
+}  
+.quote-all {
+    padding: 110px 20px 110px 20px;
+}    
+.sub-head.white-headline h2 {
+    font-size: 30px;
+}    
+.footer-area-bottom {
+    text-align: center;
+}    
+.footer-menu ul li a {
+    padding: 10px 6px 0px;
+}    
+.top-bar {
+    display: none;
+}    
+.header-bg {
+    padding: 10px 0px;
+}    
+.header-area-4{
+    padding: 0px;
+}
+.intro-area-4 .slide-all-text {
+    margin-top: 20px;
+    text-align: center;
+}   
+.intro-area-4 .title-1 {
+    font-size: 17px;
+}    
+.intro-area-4 .title-2 {
+    font-size: 27px;
+    line-height: 42px;
+}    
+.overview-wrapper h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 30px;
+}   
+.count-num {
+    font-size: 40px;
+}    
+.single-count h4 {
+    font-size: 20px;
+}    
+.footer-area::after {
+    opacity: 0.98;
+}    
+.breadcrumb-title h2 {
+    font-size: 32px;
+    line-height: 42px;
+}    
+.single-member::before {
+    left: 20px;
+    top: 20px;
+}    
+.single-member {
+    margin-right: 20px;
+    margin-bottom: 50px;
+}    
+.high-text {
+    font-size: 120px;
+    line-height: 140px;
+}    
+.high-text span img {
+    margin: 0px 10px 0px 30px;
+    width: 90px;
+    height: 90px;
+}    
+.error-easy-text {
+    font-size: 22px;
+}    
+.error-bot {
+    font-size: 20px;
+    line-height: 30px;
+}
+.page-head-left {
+    margin-right: 0px;
+    margin-bottom: 40px;
+}    
+.single-well h2 {
+    font-size: 30px;
+    line-height: 42px;
+}    
+.single-well h3 {
+    font-size: 23px;
+    line-height: 34px;
+}    
+.project-inner .project-image img {
+    height: auto;
+}    
+.project-history {
+    padding: 30px 20px;
+}
+.project-name span,
+.project-name ul li {
+    font-size: 16px;
+}    
+.project-new h4 {
+    line-height: 34px;
+    font-size: 24px;
+}    
+.project-details h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 30px;
+}
+.project-details{
+    margin-left: 0px;
+}
+.project-details .marker-list li {
+    width: 100%;
+    float: none;
+}    
+.blog-area-2 .image-scale>img {
+    min-height: auto;
+}
+.right-side {
+    padding-left: 0px;
+    padding-top: 40px;
+}    
+.left-blog-page {
+    padding: 20px 15px;
+}    
+.blog-search-option input {
+    width: 78%;
+}   
+.post-img {
+    padding-right: 10px;
+}
+.pst-content {
+    padding-left: 95px;
+}
+.blog-details .blog-content h3 {
+    font-size: 24px;
+    line-height: 34px;
+}
+blockquote {
+    padding: 30px 20px 20px 50px;
+}    
+blockquote::before {
+    top: 15px;
+    left: 10px;
+}    
+.blog-post-wrapper .blog-content h4 {
+    font-size: 20px;
+    line-height: 28px;
+}    
+.related-post-list .recent-single-post {
+    width: 100%;
+    float: none;
+    padding: 0px;
+}
+.post-img {
+    padding-right: 10px;
+}    
+.related-post-list .recent-single-post:last-child {
+    padding: 0px;
+}    
+.comments-details {
+    padding: 30px 10px;
+}    
+.comments-content-wrap {
+    padding-left: 98px;
+}    
+.comments-list-img {
+    margin-right: 15px;
+}    
+.threaded-comments {
+    margin-left: 15px;
+}    
+.pst-content p a {
+    font-size: 15px;
+}    
+.contact-icon {
+    padding: 20px 10px;
+    margin-bottom: 30px;
+}    
+.single-icon {
+    display: inherit;
+}    
+.single-icon i {
+    font-size: 24px;
+    height: 60px;
+    line-height: 58px;
+    margin-right: 10px;
+    width: 60px;
+}    
+.contact-area .contact-form {
+    margin-left: 0px;
+    margin-top: 40px;
+}    
+.bg-color-xs{
+  background: #fdf9f9;
+} 
+.login-form {
+    padding: 40px 15px;
+    margin-top: 40px;
+}    
+.sign-icon ul li a {
+    font-size: 13px;
+    padding: 0px 5px;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}

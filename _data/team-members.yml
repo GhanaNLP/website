@@ -1,0 +1,47 @@
+- name: Hamilton
+  img_src: /assets/img/team/t1.jpg
+  designation: CEO - Redron 
+  facebook: https://facebook.com/
+  twitter: https://twitter.com/
+  instagram: https://instagram.com/
+  website: /#
+
+- name: Arizona
+  img_src: /assets/img/team/t2.jpg
+  designation: Product Manager 
+  facebook: https://facebook.com/
+  twitter: https://twitter.com/
+  instagram: https://instagram.com/
+  website: /#
+
+- name: Arnold
+  img_src: /assets/img/team/t3.jpg
+  designation: Software Engineer
+  facebook: https://facebook.com/
+  twitter: https://twitter.com/
+  instagram: https://instagram.com/
+  website: /#
+
+- name: Lunia
+  img_src: /assets/img/team/t4.jpg
+  designation: Clean Experts
+  facebook: https://facebook.com/
+  twitter: https://twitter.com/
+  instagram: https://instagram.com/
+  website: /#
+
+- name: Jeckmo
+  img_src: /assets/img/team/t5.jpg
+  designation: Clean Experts
+  facebook: https://facebook.com/
+  twitter: https://twitter.com/
+  instagram: https://instagram.com/
+  website: /#
+
+- name: Beralt
+  img_src: /assets/img/team/t6.jpg
+  designation: Web Designer
+  facebook: https://facebook.com/
+  twitter: https://twitter.com/
+  instagram: https://instagram.com/
+  website: /#

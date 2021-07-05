@@ -1,0 +1,29 @@
+- title: Grocery Shop Design
+  image: /assets/images/protfolio/blog-img1.jpg
+  category: Web Design
+  classes_name: creative photography #Data filter classes name separeted by space
+  
+- title: Resturent App
+  image: /assets/images/protfolio/blog-img2.jpg
+  category: Web Design
+  classes_name: natural photography #Data filter classes name separeted by space
+  
+- title: Business Branding
+  image: /assets/images/protfolio/blog-img3.jpg
+  category: Marketing
+  classes_name: natural personal #Data filter classes name separeted by space
+  
+- title: Boost Sales
+  image: /assets/images/protfolio/blog-img4.jpg
+  category: Digital Marketing
+  classes_name: natural creative #Data filter classes name separeted by space
+  
+- title: Reputation Management
+  image: /assets/images/protfolio/blog-img5.jpg
+  category: SEO
+  classes_name: photography personal #Data filter classes name separeted by space
+  
+- title: Photo Retouch
+  image: /assets/images/protfolio/blog-img6.jpg
+  category: Editing
+  classes_name: photography creative #Data filter classes name separeted by space

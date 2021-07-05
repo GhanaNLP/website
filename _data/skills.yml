@@ -1,0 +1,35 @@
+- name: HTML
+  icon: /assets/images/icons/001-web-browser.png
+  
+- name: CSS
+  icon: /assets/images/icons/002-css.png
+
+- name: JavaScript
+  icon: /assets/images/icons/003-js-format.png
+
+- name: Photo Editing
+  icon: /assets/images/icons/005-photo-editing.png
+
+- name: Cliping Path
+  icon: /assets/images/icons/004-photo-size.png
+
+- name: Ecommerce
+  icon: /assets/images/icons/006-ecommerce.png
+
+- name: Reading
+  icon: /assets/images/icons/007-book.png
+
+- name: Cycleing
+  icon: /assets/images/icons/008-bicycle.png
+
+- name: Painting
+  icon: /assets/images/icons/009-paint-roller.png
+
+- name: Walking
+  icon: /assets/images/icons/010-footprint.png
+
+- name: Traveling 
+  icon: /assets/images/icons/011-travel.png
+
+- name: Playing
+  icon: /assets/images/icons/001-web-browser.png

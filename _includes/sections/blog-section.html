@@ -1,0 +1,28 @@
+<!--Blog Area Start-->
+<div class="blog-area bg-color blog-grid fix area-padding-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="section-headline text-center">
+                    <span class="top-text">
+                        <i class="ti-comments"></i>
+                        <span>Latest News</span>
+                    </span>
+                    <h2>Latest Blogs</h2>
+                    <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for post in site.posts limit:4 %}
+            <!-- Start single blog -->
+            <div class="col-xl-4 col-lg-4 col-md-6 {% if forloop.index == 4 %} d-lg-none {% endif %}">
+                {% include post-card-01.html %}
+            </div>
+            <!-- End single blog -->
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+<!--End Blog Area-->

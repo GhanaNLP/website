@@ -1,0 +1,56 @@
+
+{% if page.home == 3 %}
+{% assign classes = 'header-area-2' %}
+{% elsif page.home == 4 %}
+{% assign classes = 'header-area-4' %}
+{% endif %}
+
+<!-- Start header -->
+
+<header class="header-one">
+    {% if page.home == 4 %}
+    {% include header-topbar.html %}
+    {% endif %}
+    <div id="sticker" class="header-menu-area header-area {{classes}}">
+        <div class="container">
+            <div class="row {% if page.home == 4 %}header-bg{% endif %} ">
+                <div class="col-xl-2 col-lg-2 col-md-3 d-flex align-items-center">
+                    {% include logo.html %}
+                </div>
+                <div class="col-xl-10 col-lg-10 col-md-9">
+                    <div class="header-right">
+                        <!-- search option start -->
+                        {% comment %} <div class="search-inner">
+                            <a class="main-search" data-bs-toggle="modal" data-bs-target="#redron-search" href="#"><i class="fa fa-search"></i></a>
+                           
+                        </div> {% endcomment %}
+                        <!-- search option end -->
+                        <a href="{{'/contact' | relative_url }}" class="hd-btn">Join Us </a>
+                    </div>
+                    <div class="header_menu f-right">
+                        <nav id="mobile-menu">
+                            {% include navigation.html %}
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mobile-menu"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End header area -->
+  
+  <!-- Modal -->
+  <div class="modal modal-search-form fade" id="redron-search" tabindex="-1" aria-labelledby="redron-searchLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+          <form action="" method="post" class="search-form">
+            <input type="text" id="search-input" name="q" class="form-control" placeholder="Search...">
+            <i class="fa fa-search"></i>
+        </form>
+        <div id="results-container"></div>
+      </div>
+    </div>
+  </div>

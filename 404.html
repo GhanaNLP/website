@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<main>
+    <!-- Start Breadcrumb Area -->
+    <div class="page-area bread-pd">
+        <div class="breadcumb-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumb-title text-center">
+                        <h2>Error</h2>
+                        <div class="bread-come">
+                            {% include breadcrumb.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb Area -->
+    <div class="page-head bg-color-xs area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12">
+                    <div class="error-page">
+                        <div class="error-main-text text-center">
+                            <h1 class="high-text">4<span> <img src="{{'/assets/img/about/e1.png' | relative_url }}" alt="{{page.title}}"></span>4</h1>
+                            <h2 class="error-easy-text">Page Not Found</h2>
+                            <h3 class="error-bot">Oops, the page you are looking for does not exit.</h3>
+                            <a class="error-btn" href="{{'/' | relative_url}}">Back Homepage</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</main>

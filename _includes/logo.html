@@ -1,0 +1,19 @@
+{% assign logo = '/assets/img/logo/logo.png' %}
+{% assign logo2 = '/assets/img/logo/logo2.png' %}
+
+<div class="logo">
+    {% if page.home == 2 or page.home == 3 %}
+    <a class="white-logo" href="{{'/' | relative_url}}">
+        <img src="{{logo2 | relative_url}}" alt="{{site.title}}" width="120px">
+    </a>
+    <a class="black-logo" href="{{'/' | relative_url}}">
+        <img src="{{logo | relative_url}}" alt="{{site.title}}" width="120px">
+    </a>
+    {% elsif page.home == 1 %}
+    <a  href="{{'/' | relative_url}}"> <img src="{{logo | relative_url}}" alt="{{site.title}}" width="120px"> </a>
+    {% elsif page.home == 4 %}
+    <a  href="{{'/' | relative_url}}"> <img src="{{logo2 | relative_url}}" alt="{{site.title}}" width="120px"> </a>
+    {% else %}
+    <a  href="{{'/' | relative_url}}"> <img src="{{logo | relative_url}}" alt="{{site.title}}" width="120px"> </a>
+    {% endif %}
+</div>

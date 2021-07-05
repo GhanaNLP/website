@@ -1,0 +1,13 @@
+<ul class="main-menu">
+    {% for link in site.data.navigation %}
+    <li class="{% if link.submenu %}menu-item-has-children{% endif %}"><a href="{{ link.url|prepend:site.baseurl }}">{{ link.text }}</a>
+        {% if link.submenu %}
+            <ul class="submenu">
+                {% for sublink in link.submenu %}
+                <li><a href="{{ sublink.url|prepend:site.baseurl }}">{{ sublink.text }}</a></li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+
+<head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% seo %}
+
+    <!-- favicon.png and root directory -->
+    <link rel="icon" href="{{'/assets/img/logo/favicon.ico' | relative_url}}" type="image/x-icon" />
+
+     <!-- All css here -->
+
+    <!-- bootstrap 5.0 css -->
+    <link rel="stylesheet" href="{{'/assets/css/bootstrap.min.css' | relative_url }}">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" href="{{'/assets/css/owl.carousel.min.css' | relative_url }}">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="{{'/assets/css/animate.min.css' | relative_url }}">
+    <!-- magnific css -->
+    <link rel="stylesheet" href="{{'/assets/css/magnific-popup.css' | relative_url }}">
+    <!-- meanmenu css -->
+    <link rel="stylesheet" href="{{'/assets/css/meanmenu.min.css' | relative_url }}">
+    <!-- venobox css -->
+    <link rel="stylesheet" href="{{'/assets/css/venobox.css' | relative_url }}">
+    <!-- Prism css -->
+    <link rel="stylesheet" href="{{'/assets/css/prism.css' | relative_url }}">
+    <!-- Icon font css -->
+    <link rel="stylesheet" href="{{'/assets/css/font-awesome.min.css' | relative_url }}">
+    <link rel="stylesheet" href="{{'/assets/css/themify-icons.css' | relative_url }}">
+    <link rel="stylesheet" href="{{'/assets/css/flaticon.css' | relative_url }}">
+    <!-- style css -->
+    <link rel="stylesheet" href="{{'/style.css' | relative_url }}">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="{{'/assets/css/responsive.css' | relative_url }}">
+    <link rel="stylesheet" href="{{'/assets/css/jekyllfix.css' | relative_url }}">
+
+    
+    {% feed_meta %}
+    
+
+</head>
+
+<body>
+    <!-- preloader  -->
+    <div id="preloader"></div>
+
+    {% include header.html %}
+    {{content}}
+    {% include footer.html %}
+
+     <!-- All JS here -->
+
+    <!-- modernizr JS -->
+    <script src="{{'/assets/js/modernizr.min.js' | relative_url }}"></script>
+    <!-- jquery latest version -->
+    <script src="{{'/assets/js/jquery.min.js' | relative_url }}"></script>
+    <!-- Poper js -->
+    <script src="{{'/assets/js/popper.min.js' | relative_url }}"></script>
+    <!-- bootstrap js -->
+    <script src="{{'/assets/js/bootstrap.min.js' | relative_url }}"></script>
+    <!-- owl.carousel js -->
+    <script src="{{'/assets/js/jquery-migrate.min.js' | relative_url }}"></script>
+    <!-- owl.carousel js -->
+    <script src="{{'/assets/js/owl.carousel.min.js' | relative_url }}"></script>
+
+    {% if page.url == '/contact' %}
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBceNl50o3BU6LrsIGJxSL9tKKvqBKIeVs"></script>
+    <script src="{{'/assets/js/mapcode.js' | relative_url }}"></script>
+    {% endif %}
+
+    <!-- meanmenu js -->
+    <script src="{{'/assets/js/jquery.meanmenu.js' | relative_url }}"></script>
+    <!-- Counter js -->
+    <script src="{{'/assets/js/jquery.counterup.min.js' | relative_url }}"></script>
+    <!-- waypoint js -->
+    <script src="{{'/assets/js/waypoints.js' | relative_url }}"></script>
+    <!-- venobox js -->
+    <script src="{{'/assets/js/venobox.min.js' | relative_url }}"></script>
+    <!-- magnific js -->
+    <script src="{{'/assets/js/magnific.min.js' | relative_url }}"></script>
+    <!-- wow js -->
+    <script src="{{'/assets/js/wow.min.js' | relative_url }}"></script>
+
+    <!-- plugins js -->
+    <script src="{{'/assets/js/plugins.js' | relative_url }}"></script>
+
+    <!-- plugins js -->
+    <script src="{{'/assets/js/prism.js' | relative_url }}"></script>
+
+    <!-- jekyll search -->
+    <script src="{{'/assets/js/simple-jekyll-search.min.js' | relative_url }}"></script>
+
+    <!-- jekyll Loadmore -->
+    <script src="{{'/assets/js/infinite-scroll.pkgd.min.js' | relative_url }}"></script>
+
+    <!-- main js -->
+    <script src="{{'/assets/js/app.js' | relative_url }}"></script>
+
+
+</body>
+
+</html>

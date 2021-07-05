@@ -1,0 +1,57 @@
+{
+  "name": "gulp-quickstart-pack",
+  "version": "1.1.0",
+  "description": "Write the theme description",
+  "scripts": {
+    "dev": "gulp production",
+    "zip": "gulp zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/themeix/gulp-quickstart-pack.git"
+  },
+  "author": "Themeix <support@themeix.com> (https://themeix.com)",
+  "license": "MIT",
+  "keywords": [
+    "starter",
+    "template",
+    "themeix"
+  ],
+  "bugs": {
+    "url": "https://github.com/themeix/gulp-quickstart-pack/issues"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-update": "0.0.2",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "ansi-colors": "^4.1.1",
+    "concat": "^3.0.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^4.0.1",
+    "gulp-inject": "^5.0.5",
+    "gulp-jshint": "^2.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-size": "^3.0.0",
+    "gulp-terser": "^1.2.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-zip": "^5.0.2",
+    "jshint": "^2.11.1",
+    "jshint-stylish": "^2.2.1",
+    "node-sass": "^4.14.1",
+    "run-sequence": "^2.2.1",
+    "bootstrap": "^5.0.0-beta1"
+  },
+  "homepage": "https://github.com/themeix/gulp-quickstart-pack#readme",
+  "main": "gulpfile.js"
+}

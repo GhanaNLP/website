@@ -1,0 +1,18 @@
+{% if page.home == 1 %}
+    {% assign intro_bg = '/assets/img/background/bg1.png' %}
+    {% assign slide_img = '/assets/img/slider/s1.png' %}
+{% elsif page.home == 2 %}
+    {% assign intro_bg = '/assets/img/background/bg2.png' %}
+    {% assign slide_img = '/assets/img/slider/s2.png' %}
+    {% assign classes = 'intro-area-2' %}
+{% endif %}
+<!-- Start intro area -->
+<div class="intro-area intro-home {{classes}}">
+    {% if intro_bg %}
+    <div class="bg-wrapper">
+        <img src="{{intro_bg | relative_url }}" alt="">
+    </div>
+    {% endif %}
+    {% include intro-content.html %}
+</div>
+<!-- End Slider Area -->

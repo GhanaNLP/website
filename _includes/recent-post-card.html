@@ -1,0 +1,16 @@
+<!-- start single post -->
+<div class="recent-single-post">
+    {% if post.post_image %}
+    <div class="post-img">
+        <a href="{{post.url | relative_url}}">
+            <img src="{{post.post_image | relative_url}}" alt="{{post.title}}">
+        </a>
+    </div>
+    {% endif %}
+    <div class="pst-content">
+        <p><a href="{{post.url | relative_url }}">{{post.title}}</a></p>
+        <span class="date-type">
+            {{post.date | date: '%d %b / %Y'}}
+        </span>
+    </div>
+</div>

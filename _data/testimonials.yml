@@ -1,0 +1,36 @@
+
+- name: Mr. Joe
+  image: /assets/img/review/1.jpg
+  review: Themeix Live Chat option was really helpful for me. I got quick support from them where other companies usually take a day to reply.
+  designation: Generel Customer
+  rating: 4
+
+- name: Franklin
+  image: /assets/img/review/3.jpg
+  review: Got excellent design from themeix for my business site. They added few sections for me which was really helpful for my business. Thank you. 
+  designation: Primium Customer
+  rating: 5
+
+- name: David Smith
+  image: /assets/img/review/5.jpg
+  review: I got friendly support fromt themeix support team. They helped me untill my problem solved. Highly recommended for others specially for themes. 
+  designation: Generel Customer
+  rating: 5
+
+- name: Charlotte 
+  image: /assets/img/review/2.jpg
+  review: Themeix Live Chat option was really helpful for me. I got quick support from them where other companies usually take a day to reply.
+  designation: Generel Customer
+  rating: 5
+
+- name: Emma Sophia
+  image: /assets/img/review/4.jpg
+  review: When replacing a selection. help agencies. When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. . 
+  designation: Primium Customer
+  rating: 5
+
+- name: Joss Butler
+  image: /assets/img/review/6.jpg
+  review: When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection. help agencies.
+  designation: Generel Customer
+  rating: 5

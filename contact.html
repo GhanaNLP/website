@@ -1,0 +1,94 @@
+---
+layout: default
+title: Contact Us
+permalink: /contact
+---
+
+<main>
+    <!-- Start Breadcrumb Area -->
+    <div class="page-area bread-pd">
+        <div class="breadcumb-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumb-title text-center">
+                        <h2>{{page.title}}</h2>
+                        <div class="bread-come">
+                            {% include breadcrumb.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb Area -->
+    
+    <!-- Start contact Area -->
+    <div class="contact-area bg-color-xs area-padding">
+        <div class="container">
+            <div class="row contact-page">
+                <!-- Start contact icon column -->
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <!-- Start Map -->
+                    <div class="map-area">
+                        <div id="googleMap" style="width:100%;height:350px;"></div>
+                    </div>
+                    <!-- End Map -->
+                </div>
+            </div>
+            <div class="row">
+                <!-- Start contact icon column -->
+                {% comment %} <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="contact-icon">
+                        <div class="single-icon">
+                            <i class="fa fa-phone"></i>
+                            <p>
+                                Call : +0091-654-876<br>
+                                <span>Monday-Friday (10am-18pm)</span>
+                            </p>
+                        </div>
+                    </div>
+                </div> {% endcomment %}
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="contact-icon">
+                        <div class="single-icon">
+                            <i class="fa fa-envelope-o"></i>
+                            <p>
+                            {% if site.email %}
+                                Email : {{site.email}}
+                            {% endif %}
+                                {% comment %} <br>
+                                <span>Web: www.rockstheme.com</span> {% endcomment %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="contact-icon">
+                        <div class="single-icon">
+                            <i class="fa fa-map-marker"></i>
+                            <p>
+                                Location : house-22, Road-3<br>
+                                <span>Manhattan, New York,</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End contact icon -->
+            <!-- End row -->
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-5">
+                    <div class="contact-image">
+                        <img src="{{'/assets/img/about/view.png' | relative_url}}" alt="{{page.title}}">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-7">
+                    {% include contact-form.html %}
+                </div>
+                <!-- End contact Form -->
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Area -->
+</main>
