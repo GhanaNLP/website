@@ -1,47 +1,140 @@
-- name: Hamilton
-  img_src: /assets/img/team/t1.jpg
-  designation: CEO - Redron 
-  facebook: https://facebook.com/
-  twitter: https://twitter.com/
-  instagram: https://instagram.com/
-  website: /#
+- name: PAUL AZUNRE
+  img_src: /assets/img/team/azunre.jpg
+  designation: Founder & Director of Research 
+  twitter: http://twitter.com/pazunre
+  linkedin: https://www.linkedin.com/in/paulazunre
+  github: http://github.com/azunre
 
-- name: Arizona
-  img_src: /assets/img/team/t2.jpg
-  designation: Product Manager 
-  facebook: https://facebook.com/
-  twitter: https://twitter.com/
-  instagram: https://instagram.com/
-  website: /#
+- name: JOEL BUDU
+  img_src: /assets/img/team/joel.jpg
+  designation: Director of Engineering
+  twitter: http://twitter.com/j0eBee
+  linkedin: http://linkedin.com/in/joelbudu
+  github: http://github.com/joelbudu
 
-- name: Arnold
-  img_src: /assets/img/team/t3.jpg
+- name: SALOMEY OSEI
+  img_src: /assets/img/team/salomeyosei.jpeg
+  designation: Data Science & NLP Researcher
+  twitter: http://twitter.com/NanaYaaSally
+  linkedin: http://linkedin.com/in/salomey-osei-4b08a5b8
+  github: http://github.com/salomeyosei
+
+- name: RICHARD NII LANTE LAWSON
+  img_src: /assets/img/team/niilante.jpeg
+  designation: Software Engineer & Deep Learning Researcher
+  twitter: http://twitter.com/aimlcamp
+  linkedin: http://linkedin.com/in/theniilante
+  github: http://github.com/niilante
+
+- name: FRANKLIN ADJEI
+  img_src: /assets/img/team/FranklinAdjei.jpg
+  designation: Data Scientist
+  twitter: http://twitter.com/hotspot100
+  linkedin: http://linkedin.com/in/franklin-koomson-adjei-227bb5130/
+  github: http://github.com/hotlynn2
+
+- name: DEBORAH DORMAH KANUBALA
+  img_src: /assets/img/team/kanubala.jpg
+  designation: Data Scientist
+  twitter: http://twitter.com/Kanubalad
+  linkedin: https://www.linkedin.com/in/kanubalad/
+  github: https://github.com/KANUBALAD
+
+- name: DAVID SASU
+  img_src: /assets/img/team/david.png
+  designation: Data Scientist
+  linkedin: https://www.linkedin.com/in/david-sasu-0667861b7/
+  github: http://github.com/sasudavid
+
+- name: BERNARD OPOKU
+  img_src: /assets/img/team/bernard.jpeg
+  designation: Data Scientist
+  twitter: http://twitter.com/jerrisonbernard
+  linkedin: https://www.linkedin.com/in/bernard-kwabena-opoku-965653b1
+  github: http://github.com/benopoku
+
+- name: BENJAMIN ESSILFIE-NYAME
+  img_src: /assets/img/team/Benjamin.png
+  designation: Data Scientist
+  linkedin: https://www.linkedin.com/in/benjamin-essilfie-nyame-14a05b14a
+
+- name: GLORIA APPIAH NSIAH
+  img_src: /assets/img/team/gloria.jpeg
+  designation: Graduate Research Assistant
+  linkedin: https://www.linkedin.com/in/gloria-appiah-nsiah
+
+- name: FELIX AKWERH
+  img_src: /assets/img/team/felix.jpg
+  designation: Machine learning Engineer
+  twitter: http://twitter.com/arkfelix6
+  linkedin: https://www.linkedin.com/in/%20felix-akwerh-029314
+  github: http://github.com/felix-akwerh
+
+- name: SAMUEL NYARKO
+  img_src: /assets/img/team/samuel.jpeg
+  designation: Machine learning Engineer
+  twitter: http://twitter.com/SamuelN21709452
+  linkedin: https://www.linkedin.com/in/samuelnyarko
+
+- name: BERNARD ADABANKAH
+  img_src: /assets/img/team/adabankah.jpeg
+  designation: Senior Data Scientist
+  twiiter: http://twitter.com/ben_adabankah
+  linkedin: https://www.linkedin.com/in/bernard-adabankah-3109b015/
+  github: http://github.com/benadaba
+
+- name: DANIEL ELIJAH
+  img_src: /assets/img/team/elijah.jpg
+  designation: Database and Applications Engineer
+  twitter: http://twitter.com/KomlaElijah
+  linkedin: https://www.linkedin.com/in/daniel-komla-elijah-21384a63/
+  github: http://github.com/DanielKomlaElijah
+
+- name: CLARA ASARE-NYARKO
+  img_src: /assets/img/team/clara.jpg
+  designation: Machine learning Engineer
+  twitter: http://twitter.com/clairenyak
+  linkedin: https://www.linkedin.com/in/clara-asare-nyarko-99a66a72
+
+- name: EMILE ADOTEY
+  img_src: /assets/img/team/emile.jpeg
   designation: Software Engineer
-  facebook: https://facebook.com/
-  twitter: https://twitter.com/
-  instagram: https://instagram.com/
-  website: /#
+  linkedin: https://linkedin.com/in/emile-adotey-47163954
 
-- name: Lunia
-  img_src: /assets/img/team/t4.jpg
-  designation: Clean Experts
-  facebook: https://facebook.com/
-  twitter: https://twitter.com/
-  instagram: https://instagram.com/
-  website: /#
+- name: KWAKU DOMPREH
+  img_src: /assets/img/team/kweku.jpeg
+  designation: Entrepreneur
+  twitter: http://twitter.com/DomprehKk
+  linkedin: https://gh.linkedin.com/in/foster-dompreh-8b383b49
+  github: https://github.com/kw3ku
 
-- name: Jeckmo
-  img_src: /assets/img/team/t5.jpg
-  designation: Clean Experts
-  facebook: https://facebook.com/
-  twitter: https://twitter.com/
-  instagram: https://instagram.com/
-  website: /#
+- name: JOSEPH OTOO
+  img_src: /assets/img/team/joseph.jpg
+  designation: Researcher
+  twitter: http://twitter.com/AppJOTOO
+  linkedin: https://www.linkedin.com/in/joseph-otoo-8aa82633
+  github: https://github.com/Joseph1Otoo
 
-- name: Beralt
-  img_src: /assets/img/team/t6.jpg
-  designation: Web Designer
-  facebook: https://facebook.com/
-  twitter: https://twitter.com/
-  instagram: https://instagram.com/
-  website: /#
+- name: SALOMEY ADDO
+  img_src: /assets/img/team/salomey.jpg
+  designation: Research Associate
+  linkedin: https://http//www.linkedin.com/in/salomey-addo
+  github: https://github.com/Salomey%20Afua%20Addo
+
+- name: HUSSEIN SUHUYINI
+  img_src: /assets/img/team/hussein.png
+  designation: Full Stack Developer
+  twitter: http://twitter.com/pie_arr_square
+  github: https://github.com/wanoh
+
+- name: WISDOM OFORI
+  img_src: /assets/img/team/wizdees.jpg
+  designation: Management Consultant
+  twitter: http://twitter.com/wizdeesghana
+  github: https://github.com/wizdeesghana
+
+- name: MARK AMOAKO MARCEL
+  img_src: /assets/img/team/mark.jpg
+  designation: Software Engineer
+  twitter: http://twitter.com/iseek16
+  github: https://github.com/MarkMarcel
