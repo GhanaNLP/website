@@ -6,9 +6,18 @@
         </a>
         {% endif %}
         <ul class="team-hover">
-            <li><a href="{{member.facebook | relative_url }}"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="{{member.twitter | relative_url }}"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="{{member.instagram | relative_url }}"><i class="fa fa-instagram"></i></a></li>
+
+            {% if member.linkedin %}
+                <li><a href="{{member.linkedin | relative_url }}"><i class="fa fa-linkedin"></i></a></li>
+            {% endif %}
+
+            {% if member.twitter %}
+                <li><a href="{{member.twitter | relative_url }}"><i class="fa fa-twitter"></i></a></li>
+            {% endif %}
+
+            {% if member.github %}
+                <li><a href="{{member.github | relative_url }}"><i class="fa fa-github"></i></a></li>
+            {% endif %}
         </ul>
     </div>
     <div class="team-content">
