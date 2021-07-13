@@ -20,7 +20,7 @@ facebook: https://www.facebook.com/GhanaNLP
 twitter: https://twitter.com/GhanaNLP
 github: https://github.com/GhanaNLP
 slack: https://ghananlp.slack.com
-
+lang: en
 
 # Build settings
 markdown: kramdown
