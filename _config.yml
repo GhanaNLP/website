@@ -11,7 +11,7 @@
 title: "Ghana Natural Language Processing (NLP) - Ghana NLP "
 email: "natural.language.processing.gh@gmail.com"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ghananlp.org " # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ghananlp.org" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/logo/logo.png"
 description: "Open Source Initiative focused on Natural Language Processing (NLP) of Ghanaian Languages, & its Applications to Local Problems"
 keywords: "ai, ml, artificial intelligence, ghana, nlp, ghananlp, natural language processing"
