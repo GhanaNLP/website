@@ -28,11 +28,11 @@ permalink: /contact
         <div class="container">
             <div class="row contact-page">
                 <!-- Start contact icon column -->
-                <div class="col-md-12 col-sm-12 col-xs-12">
+                {% comment %} <div class="col-md-12 col-sm-12 col-xs-12"> {% endcomment %}
                     <!-- Start Map -->
-                    <div class="map-area">
+                    {% comment %} <div class="map-area">
                         <div id="googleMap" style="width:100%;height:350px;"></div>
-                    </div>
+                    </div> {% endcomment %}
                     <!-- End Map -->
                 </div>
             </div>
@@ -68,8 +68,10 @@ permalink: /contact
                         <div class="single-icon">
                             <i class="fa fa-map-marker"></i>
                             <p>
-                                Location : house-22, Road-3<br>
-                                <span>Manhattan, New York,</span>
+                                Location : USA
+                                {% comment %} Location : house-22, Road-3 {% endcomment %}
+                                {% comment %} <br>
+                                <span>Manhattan, New York,</span> {% endcomment %}
                             </p>
                         </div>
                     </div>
@@ -83,9 +85,9 @@ permalink: /contact
                         <img src="{{'/assets/img/about/view.png' | relative_url}}" alt="{{page.title}}">
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-7">
+                {% comment %} <div class="col-xl-6 col-lg-6 col-md-7">
                     {% include contact-form.html %}
-                </div>
+                </div> {% endcomment %}
                 <!-- End contact Form -->
             </div>
         </div>

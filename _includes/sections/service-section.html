@@ -1,7 +1,9 @@
 <!-- Start service area -->
 <div class="service-area {% if page.home != 4 %}bg-color {% endif %} area-padding-2">
     <div class="container">
-        <div class="row">
+
+        <h3 class="text-center"> Under Maintainance</h3>
+        {% comment %} <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12">
                 <div class="section-headline text-center">
                     <span class="top-text">
@@ -14,14 +16,19 @@
             </div>
         </div>
         <div class="row">
-            {% assign services = site.services | where: 'service_card_layout', 2 %}
-            {% for service in services %}
-                <!-- single dervices -->
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    {% include service-card-layout-2.html %}
-                </div>
-            {% endfor %}
-        </div>
+
+
+            <h4 class="text-center">Under maintaince</h4>
+        
+            {% assign getinvolveds = site.getinvolveds | where: 'service_card_layout', 2 %}
+                {% for getinvolved in getinvolveds %}
+                    <!-- single dervices -->
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        {% include service-card-layout-2.html %}
+                    </div>
+                {% endfor %}
+        
+        </div> {% endcomment %}
     </div>
 </div>
 <!-- End service area -->
