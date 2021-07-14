@@ -1,6 +1,8 @@
 - text: Home
   url: /
 - text: Get Involved
-  url: /get-involved
+  url: /getinvolved
 - text: About
   url: /about
+- text: Blog
+  url: /blog

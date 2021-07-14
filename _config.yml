@@ -82,9 +82,9 @@ jekyll-archives:
     category: '/category/:name/'
 
 collections:
-  get-involved:
+  getinvolved:
     output: true
-    permalink: /get-involved/:path/
+    permalink: /getinvolved/:path/
   projects:
     output: true
     permalink: /project/:path/
