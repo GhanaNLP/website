@@ -36,7 +36,7 @@ title: Get Involved
                 <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="page-head-left">
                         <!-- strat single area -->
-                        <div class="single-page-head">
+                        {% comment %} <div class="single-page-head">
                             <div class="left-menu">
                                 <ul>
                                     <li class="active"><a href="#">Server Security</a></li>
@@ -47,38 +47,38 @@ title: Get Involved
                                     <li><a href="#">Tech Support</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> {% endcomment %}
                         <!-- strat single area -->
-                        <div class="single-page-head">
+                        {% comment %} <div class="single-page-head">
                             <div class="download-btn">
-                                <a href="{{page.brochure_url | relative_url}}" class="down-btn">Download Brochure <i class="fa fa-file-pdf-o"></i></a>
+                                <a href="{{page.application_url | relative_url}}" class="down-btn">Let's Go <i class="fa fa-globe"></i></a>
 
                                 <a href="{{page.application_url | relative_url}}" class="down-btn apli">Download Application <i
                                         class="fa fa-file-word-o"></i></a>
                             </div>
-                        </div>
+                        </div> {% endcomment %}
                         <!-- strat single area -->
                         <div class="single-page-head">
                             <div class="clients-testi">
                                 <div class="single-review">
                                     <div class="review-text">
+                                        <h4>How to Participate</h4>
                                         <p>selection consists fully of lowercase or capital letters text maintains
                                             the amount of lines. When replacing a selection indent line.</p>
-                                        <h4>Daniyel kreg</h4>
-                                        <span class="guest-rev">Clients - <a href="#">Software</a></span>
+                                            <span class="guest-rev">URL - <a href="{{ page.how_to_join_url }}" target="_blank">Address</a></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- end single area -->
-                        <div class="single-page-head">
+                        {% comment %} <div class="single-page-head">
                             <div class="new-project">
                                 <div class="project-new">
                                     <h4>Are you ready new project?</h4>
                                     <a class="hire-btn" href="https://docs.google.com/forms/">Contact Us</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> {% endcomment %}
                         <!-- end single area -->
                     </div>
                 </div>
@@ -94,7 +94,7 @@ title: Get Involved
     </div>
     <!-- End service details area -->
     <!-- Start service area -->
-    <div class="service-area bg-color area-padding-2">
+    {% comment %} <div class="service-area bg-color area-padding-2">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12">
@@ -126,6 +126,6 @@ title: Get Involved
                 {% endfor %}
             </div>
         </div>
-    </div>
+    </div> {% endcomment %}
     <!-- End service area -->
 </main>
