@@ -2,33 +2,30 @@
 <div class="service-area {% if page.home != 4 %}bg-color {% endif %} area-padding-2">
     <div class="container">
 
-        <h3 class="text-center"> Under Maintainance</h3>
-        {% comment %} <div class="row">
+        {% comment %} <h3 class="text-center"> Under Maintainance</h3> {% endcomment %}
+       <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12">
                 <div class="section-headline text-center">
-                    <span class="top-text">
-                        <i class="ti-layers"></i>
-                        <span>What we have done</span>
-                    </span>
-                    <h2>Our Works</h2>
-                    <p>We present to you a list of our project that have been develop by GhanaNLP. Our project are accessible on a wide range of platforms and you are welcome to check them out.</p>
+                    <h2>Get Involved</h2>
+                    <p>Here is a list of outlets to aid you join and contribute to the community at large</p>
                 </div>
             </div>
         </div>
         <div class="row">
 
 
-            <h4 class="text-center">Under maintaince</h4>
+            {% comment %} <h4 class="text-center">Under maintaince</h4> {% endcomment %}
         
-            {% assign getinvolveds = site.getinvolveds | where: 'service_card_layout', 2 %}
-                {% for getinvolved in getinvolveds %}
+            {% assign getinvolved = site.getinvolved | where: 'service_card_layout', 2 %}
+                {% for getinvolved in getinvolved %}
                     <!-- single dervices -->
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         {% include service-card-layout-2.html %}
                     </div>
                 {% endfor %}
         
-        </div> {% endcomment %}
+        </div>
+
     </div>
 </div>
 <!-- End service area -->
