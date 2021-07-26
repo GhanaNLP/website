@@ -13,13 +13,13 @@
                             <p>
                                 Open Source Initiative focused on Natural Language Processing (NLP) of Ghanaian Languages, & its Applications to Local Problems
                             </p>
-                            <div class="subs-feilds">
+                            {% comment %} <div class="subs-feilds">
                                 <form action="{{site.mailclimp}}" method="post" class="suscribe-input">
                                     <input type="email" name="email" class="email form-control width-80" id="sus_email"
                                         placeholder="Type Email">
                                     <button type="submit" id="sus_submit" class="add-btn">Subscribe</button>
                                 </form>
-                            </div>
+                            </div> {% endcomment %}
                         </div>
                     </div>
                 </div>
@@ -27,10 +27,10 @@
                 <div class="col-md-2">
                     <div class="footer-content">
                         <div class="footer-head">
-                            <h4>Services Link</h4>
+                            <h4>Get Invloved Link</h4>
                             <ul class="footer-list">
-                                {% for service in site.services limit:5 %}
-                                <li><a href="{{service.url | relative_url}}">{{service.title}}</a></li>
+                                {% for getinvolved in site.getinvolved limit:4 %}
+                                <li><a href="{{getinvolved.url | relative_url}}">{{getinvolved.title}}</a></li>
                                 {% endfor %}
                             </ul>
                         </div>

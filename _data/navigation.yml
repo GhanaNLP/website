@@ -1,59 +1,10 @@
 - text: Home
   url: /
-  # submenu:
-  #   - text: Home 01
-  #     url: /
-  #   - text: Home 02
-  #     url: /home-02
-  #   - text: Home 03
-  #     url: /home-03
-  #   - text: Home 04
-  #     url: /home-04
-- text: Services
-  url: /all-services
+- text: Get Involved
+  url: /getinvolved
+- text: Projects
+  url: /projects
 - text: About
   url: /about
-  # submenu:
-  #   - text: About
-  #     url: /about
-  #   - text: Team 
-  #     url: /team
-  #   - text: Reviews
-  #     url: /review
-  #   - text: Pricing
-  #     url: /pricing
-  #   - text: FAQ
-  #     url: /faq
-  #   - text: Error
-  #     url: /4O4
-  #   - text: Login
-  #     url: /login
-  #   - text: Signup
-  #     url: /signup
-# - text: Services
-#   url: /all-services
-#   submenu:
-#     - text: Services 01
-#       url: /all-services
-#     - text: Services 02
-#       url: /all-services-02
-#     - text: Service Details
-#       url: /service/digital-marketing/
-# - text: Projects
-#   url: /#
-#   submenu:
-#     - text: Projects 01
-#       url: /all-projects
-#     - text: Project Details
-#       url: /project/mobile-apps/
-# - text: Blog
-#   url: /#
-#   submenu:
-#     - text: Blog Grid
-#       url: /blog
-#     - text: Blog Sidebar
-#       url: /blog-with-sidebar
-#     - text: Blog Details
-#       url: /tech/2019/02/09/alternative-for-free
-# - text: Contact
-#   url: /contact
+- text: Blog
+  url: /blog

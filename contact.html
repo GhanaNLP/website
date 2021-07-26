@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact Us
+title: Join Us
 permalink: /contact
 ---
 
@@ -26,7 +26,7 @@ permalink: /contact
     <!-- Start contact Area -->
     <div class="contact-area bg-color-xs area-padding">
         <div class="container">
-            <div class="row contact-page">
+            {% comment %} <div class="row contact-page">
                 <!-- Start contact icon column -->
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <!-- Start Map -->
@@ -35,7 +35,7 @@ permalink: /contact
                     </div>
                     <!-- End Map -->
                 </div>
-            </div>
+            </div> {% endcomment %}
             <div class="row">
                 <!-- Start contact icon column -->
                 {% comment %} <div class="col-xl-4 col-lg-4 col-md-4">
@@ -68,8 +68,10 @@ permalink: /contact
                         <div class="single-icon">
                             <i class="fa fa-map-marker"></i>
                             <p>
-                                Location : house-22, Road-3<br>
-                                <span>Manhattan, New York,</span>
+                                Location : USA
+                                {% comment %} Location : house-22, Road-3 {% endcomment %}
+                                {% comment %} <br>
+                                <span>Manhattan, New York,</span> {% endcomment %}
                             </p>
                         </div>
                     </div>
@@ -83,9 +85,9 @@ permalink: /contact
                         <img src="{{'/assets/img/about/view.png' | relative_url}}" alt="{{page.title}}">
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-7">
+                {% comment %} <div class="col-xl-6 col-lg-6 col-md-7">
                     {% include contact-form.html %}
-                </div>
+                </div> {% endcomment %}
                 <!-- End contact Form -->
             </div>
         </div>
