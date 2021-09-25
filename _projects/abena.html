@@ -4,25 +4,23 @@ title: ABENA
 img_src: '/assets/img/project/abena.png'
 project_name: ABENA
 company: Algorine & GhanaNLP
-status: Complete
+status: Work in progress
 date: 15 July 2021
-city: New Work
-country: USA
 ---
 
-<p>Khaya was the first translation app for Ghanaian languages relying on Machine Learning/Artificial Intelligence. Since version 1.0.2, it has started expanding to other African languages, such as Yoruba.</p>
-
-It also now includes Automatic Speech Recognition capabilities for Twi and Yoruba - speak directly to your phone and the app will transcribe your speech to text! For these languages, to the best of our knowledge, it is the first and only app to date offering such general speech recognition capabilities!</p>
-
-If you find the app useful and would like to see it grow and improve, kindly purchase an ad-free subscription to support our research. Thank you for your support!</p>
-
-The underlying algorithms are various neural network architectures, built by Algorine Research on top of open source technology developed by Ghana NLP.</p>
+<p>
+We named our main model <b>ABENA</b> — <b>A</b> <b>B</b>ERT <b>N</b>ow in <b>A</b>kan
 </p>
 
-<div class="project-carousel-2 owl-carousel owl-loaded owl-drag">
+<p>
+This model— which we have shared in our Kasa Library repo — enables a computer to begin to reason in Twi computationally. However it is “static” in the sense that the vectors do not change with different contexts. State-of-the-art NLP in high-resource languages such as English has largely moved away from these to more sophisticated “dynamic” embeddings capable of understanding a changing contexts. The most prominent example of such a dynamic embedding architecture is BERT — Bidirectional Encoder Representations from Transformers.
+</p>
 
+<p>
+We share all models through the Hugging Face Model Hub allowing you to begin executing modern NLP on your Twi data in just a few lines of Python code. Concepts are linked to Kaggle notebooks illustrating them whenever possible, to enable you to test out the ideas in code very quickly. To use ABENA to fill in the blanks in the blanks, for instance, it is sufficient to execute the following python code.
+</p>
 
-
+{% comment %} <div class="project-carousel-2 owl-carousel owl-loaded owl-drag">
     <div class="owl-stage-outer">
         <div class="owl-stage"
             style="transform: translate3d(-1298px, 0px, 0px); transition: all 0.25s ease 0s; width: 3031px;">
@@ -52,14 +50,15 @@ The underlying algorithms are various neural network architectures, built by Alg
                 class="ti-angle-left"></i></button><button type="button" role="presentation" class="owl-next"><i
                 class="ti-angle-right"></i></button></div>
     <div class="owl-dots disabled"></div>
-</div>
-<h3>Successful Complete project </h3>
+</div> {% endcomment %}
+
+<h3>Project is work in progress </h3>
 <p>Features:
 </p>
 <ul class="marker-list">
-    <li>1. Speak to the app in Twi and Yoruba and it will transcribe it into text</li>
-    <li>2. Translate from English to a set of African Languages</li>
-    <li>3. Translate from a set of African Languages to English</li>
-    <li>4. Currently supported African Languages for text translation include Twi, Ewe, Yoruba and Ga (many more will be added soon!)</li>
-    <li>5. Submit improved translation corrections and recommendations directly from the app, and watch the technology improve to serve the African community</li>
+    <li>1. Model is able to address both the Asante and Akuapem Twi dialects.</li>
+    {% comment %} <li>2. Translate from English to a set of African Languages</li>
+    <li>3. Translate from a set of African Languages to English</li> {% endcomment %}
+    {% comment %} <li>4. Currently supported African Languages for text translation include Twi, Ewe, Yoruba and Ga (many more will be added soon!)</li>
+    <li>5. Submit improved translation corrections and recommendations directly from the app, and watch the technology improve to serve the African community</li> {% endcomment %}
 </ul>
