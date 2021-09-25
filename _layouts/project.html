@@ -35,7 +35,7 @@ title: Projects
                 <div class="col-xl-12 col-lg-12 col-md-12">
                     <div class="project-inner">
                         <div class="project-image">
-                            <img src="{{page.img_src | relative_url }}" alt="{{page.title}}">
+                            <img src="{{page.img_src | relative_url }}" style="height: 50%;" alt="{{page.title}}">
                         </div>
                     </div>
                 </div>
@@ -48,8 +48,8 @@ title: Projects
                                 <li><span>Company :</span> {{page.company}}</li>
                                 <li><span>Status :</span> {{page.status}}</li>
                                 <li><span>Date :</span> {{page.date}}</li>
-                                <li><span>City :</span> {{page.city}}</li>
-                                <li><span>Country :</span> {{page.country}}</li>
+                                {% comment %} <li><span>City :</span> {{page.city}}</li>
+                                <li><span>Country :</span> {{page.country}}</li> {% endcomment %}
                             </ul>
                         </div>
                     </div>
