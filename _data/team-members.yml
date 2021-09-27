@@ -14,9 +14,9 @@ team:
   - name: SALOMEY OSEI
     img_src: /assets/img/team/salomeyosei.jpeg
     designation: Data Science & NLP Researcher
-    twitter: http://twitter.com/NanaYaaSally
-    linkedin: http://linkedin.com/in/salomey-osei-4b08a5b8
-    github: http://github.com/salomeyosei
+    twitter: https://twitter.com/NanaYaaSally
+    linkedin: https://linkedin.com/in/salomey-osei-4b08a5b8
+    github: https://github.com/salomeyosei
   - name: RICHARD NII LANTE LAWSON
     img_src: /assets/img/team/niilante.jpeg
     designation: Software Engineer & Deep Learning Researcher
