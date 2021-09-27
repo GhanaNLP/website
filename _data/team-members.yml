@@ -2,9 +2,9 @@ team:
   - name: PAUL AZUNRE
     img_src: /assets/img/team/azunre.jpg
     designation: Founder & Director of Research
-    twitter: http://twitter.com/pazunre
+    twitter: https://twitter.com/pazunre
     linkedin: https://www.linkedin.com/in/paulazunre
-    github: http://github.com/azunre
+    github: https://github.com/azunre
   - name: JOEL BUDU
     img_src: /assets/img/team/joel.jpg
     designation: Director of Engineering
@@ -14,9 +14,9 @@ team:
   - name: SALOMEY OSEI
     img_src: /assets/img/team/salomeyosei.jpeg
     designation: Data Science & NLP Researcher
-    twitter: http://twitter.com/NanaYaaSally
-    linkedin: http://linkedin.com/in/salomey-osei-4b08a5b8
-    github: http://github.com/salomeyosei
+    twitter: https://twitter.com/NanaYaaSally
+    linkedin: https://linkedin.com/in/salomey-osei-4b08a5b8
+    github: https://github.com/salomeyosei
   - name: RICHARD NII LANTE LAWSON
     img_src: /assets/img/team/niilante.jpeg
     designation: Software Engineer & Deep Learning Researcher
