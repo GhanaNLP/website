@@ -17,10 +17,12 @@ collections:
     fields: # The fields for each document, usually in front matter
       # - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Featured Image", name: "background", widget: "image", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "post_image", widget: "image", required: false}
       - {label: "Categories", name: "categories", widget: "list", required: false}
-      - {label: "Comments", name: "comments", widget: "boolean" , required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      # - {label: "Comments", name: "comments", widget: "boolean" , required: false}
+      - {label: "Author Name", name: "author_name", widget: "string" , required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "Pages"
     name: "Pages"
