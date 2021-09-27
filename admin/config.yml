@@ -1,7 +1,7 @@
 backend:
-  name: git-gateway
+  # name: git-gateway
   branch: main
-  # name: github
+  name: github
   repo: GhanaNLP/website  # Path to your GitHub repository
 publish_mode: editorial_workflow
 # open_authoring: true # accept contributions from GitHub users without giving them access to your repository. https://www.netlifycms.org/docs/open-authoring/
