@@ -3,7 +3,7 @@ backend:
   branch: main
   name: github
   repo: GhanaNLP/website  # Path to your GitHub repository
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 # open_authoring: true # accept contributions from GitHub users without giving them access to your repository. https://www.netlifycms.org/docs/open-authoring/
 media_folder: "assets/img/uploads" # Media files will be stored in the repo under images/uploads
 # local_backend: true # Use local files instead of GitHub
