@@ -36,9 +36,9 @@ collections:
             widget: "list"
             fields:
               - {label: "Name", name: "name", widget: "string"}
-              - {label: "Designation", name: "designation", widget: "string", required: false}
+              - {label: "Designation", name: "designation", widget: "string"}
               #- {label: "Description", name: "description", widget: "markdown", required: false}
-              - {label: "Photo", name: "image_src", widget: "image" , required: false}
+              - {label: "Photo", name: "image_src", widget: "image" }
               - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
               - {label: "GitHub", name: "github", widget: "string", required: false}
               - {label: "Twitter", name: "twitter", widget: "string", required: false}
