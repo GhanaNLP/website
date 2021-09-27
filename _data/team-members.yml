@@ -2,9 +2,9 @@ team:
   - name: PAUL AZUNRE
     img_src: /assets/img/team/azunre.jpg
     designation: Founder & Director of Research
-    twitter: http://twitter.com/pazunre
+    twitter: https://twitter.com/pazunre
     linkedin: https://www.linkedin.com/in/paulazunre
-    github: http://github.com/azunre
+    github: https://github.com/azunre
   - name: JOEL BUDU
     img_src: /assets/img/team/joel.jpg
     designation: Director of Engineering
