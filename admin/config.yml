@@ -2,10 +2,11 @@ backend:
   name: git-gateway
   branch: main
   # name: github
-  repo: website # Path to your GitHub repository
+  repo: GhanaNLP/website  # Path to your GitHub repository
 publish_mode: editorial_workflow
 # open_authoring: true # accept contributions from GitHub users without giving them access to your repository. https://www.netlifycms.org/docs/open-authoring/
 media_folder: "assets/img/uploads" # Media files will be stored in the repo under images/uploads
+# local_backend: true # Use local files instead of GitHub
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -31,7 +32,7 @@ collections:
           preview: false
         fields:
           - label: "Team members"
-            name: "items"
+            name: "team"
             widget: "list"
             fields:
               - {label: "Name", name: "name", widget: "string"}
