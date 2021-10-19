@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <!-- end single footer -->
-                <div class="col-md-2">
+                <!--<div class="col-md-2">
                     <div class="footer-content">
                         <div class="footer-head">
                             <h4>Get Invloved Link</h4>
@@ -35,11 +35,11 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md-3">
                     <div class="footer-content">
                         <div class="footer-head">
-                            <h4>Projects Link</h4>
+                            <h4>Projects</h4>
                             <ul class="footer-list">
                                 {% for project in site.projects limit:4 %}
                                 <li><a href="{{project.url | relative_url}}">{{project.title}}</a></li>

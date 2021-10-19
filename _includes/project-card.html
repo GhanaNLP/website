@@ -2,7 +2,7 @@
     {% if project.img_src %}
     <div class="awesome-img">
         <a href="{{project.url | relative_url}}">
-            <img style="width: 100%; height: 100%;" src="{{project.img_src | relative_url }}" alt="{{project.project_name}}" />
+            <img src="{{project.img_src | relative_url }}" alt="{{project.project_name}}" />
         </a>
         <div class="add-actions text-center">
             <a href="{{project.img_src | relative_url}}" class="venobox" data-gall="myGallery"
