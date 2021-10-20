@@ -1,16 +1,16 @@
 
 <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
-    {% if getinvolveds.icon | getinvolveds.title %}
+    {% if getinvolved.icon | getinvolved.title %}
         <div class="service-icon">
-            <img src="{{'getinvolveds.icon | relative_url' }}" alt="{{getinvolveds.title}}">
+            <img src="{{'getinvolved.icon | relative_url' }}" alt="{{getinvolved.title}}">
         </div>
     {% endif %}
 
     <div class="service-inner">
         <div class="service-content">
-            <h4>{{getinvolveds.title}}</h4>
-            <p>{{getinvolveds.description}}</p>
-            <a class="service-btn" href="{{getinvolveds.url | relative_url }}"><i class="ti-arrow-top-right"></i></a>
+            <h4>{{getinvolved.title}}</h4>
+            <p>{{getinvolved.description}}</p>
+            <a class="service-btn" href="{{getinvolved.url | relative_url }}"><i class="ti-arrow-top-right"></i></a>
         </div>
     </div>
 </div>
