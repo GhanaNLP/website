@@ -26,7 +26,7 @@ It also now includes Automatic Speech Recognition capabilities for Twi and Yorub
 Check it out here [Go to Khaya Mobile App](https://ghananlp.org/project/khaya-android/)
 
 
-## How to download and install the code/Setting up your system for the 
+## Setting up your system for the project
 
 1. Download and install Ruby if it's not already on your system. To check, type `ruby --version` in your cmd. If it's not already on your system, [download here](https://rubyinstaller.org/downloads/) and install on your system
 
@@ -37,7 +37,7 @@ Check it out here [Go to Khaya Mobile App](https://ghananlp.org/project/khaya-an
 3. Your system is now set.
 
 
-## Getting Started with project/ Contributing
+## Contributing
 
 
 To make changes, clone the repo to your system, create a branch, make changes and push
@@ -64,6 +64,15 @@ Push initial changes to the repo
 
 To push subsequent changes
 > git push
+
+## To run locally (not on Github pages, to serve on your own computer)
+
+1. Clone the repository and make updates as detailed above.
+2. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
+3. Run `bundle clean` to clean up the directory (no need to run `--force`)
+4. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+5. Run  `bundle exec jekyll serve` to generate the HTML and serve it from localhost:4000 the local server will automatically rebuild and refresh the pages on change.
+
 
 # Thank you🙏🏾
 
