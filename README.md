@@ -1,6 +1,5 @@
 # GhanaNLP Website
 
----
 
 **About GhanaNLP:** Ghana NLP is an Open Source Initiative focused on Natural Language Processing (NLP) of Ghanaian Languages, & its Applications to Local Problems. While we will begin work on Ghanaian languages initially, likely focusing on Twi due to number of speakers, our ultimate goal is for our tools to be applicable throughout the West African subregion and beyond. [Website](https://ghananlp.org/)
 
@@ -29,8 +28,6 @@ Check it out here [Go to Khaya Mobile App](https://ghananlp.org/project/khaya-an
 
 ## How to download and install the code/Setting up your system for the 
 
----
-
 1. Download and install Ruby if it's not already on your system. To check, type `ruby --version` in your cmd. If it's not already on your system, [download here](https://rubyinstaller.org/downloads/) and install on your system
 
 2. Install **jekyll**. To install,
@@ -42,7 +39,6 @@ Check it out here [Go to Khaya Mobile App](https://ghananlp.org/project/khaya-an
 
 ## Getting Started with project/ Contributing
 
----
 
 To make changes, clone the repo to your system, create a branch, make changes and push
 
