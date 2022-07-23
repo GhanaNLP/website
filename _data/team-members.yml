@@ -111,8 +111,9 @@ team:
   - name: WISDOM OFORI
     img_src: /assets/img/uploads/img_5484.jpg
     designation: Data Scientist & Director of Communications
-    twitter: http://twitter.com/wizdeesghana
-    github: https://github.com/wizdeesghana
+    twitter: "@wizdeesghana"
+    github: https://github.com/wizdees
+    linkedin: www.linkedin.com/in/wizdees
   - name: MARK AMOAKO MARCEL
     img_src: /assets/img/team/mark.jpg
     designation: Software Engineer
