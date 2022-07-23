@@ -1,5 +1,5 @@
 team:
-  - name: PAUL AZUNRE
+  - name: DR PAUL AZUNRE
     img_src: /assets/img/team/azunre.jpg
     designation: Founder & Director of Research
     twitter: https://twitter.com/pazunre
@@ -111,11 +111,26 @@ team:
   - name: WISDOM OFORI
     img_src: /assets/img/uploads/img_5484.jpg
     designation: Data Scientist & Director of Communications
-    twitter: "@wizdeesghana"
+    twitter: https://twitter.com/wizdeesghana
     github: https://github.com/wizdees
-    linkedin: www.linkedin.com/in/wizdees
+    linkedin: https://www.linkedin.com/in/wizdees/
   - name: MARK AMOAKO MARCEL
     img_src: /assets/img/team/mark.jpg
     designation: Software Engineer
     twitter: http://twitter.com/iseek16
     github: https://github.com/MarkMarcel
+  - name: VINCENT-MICHAEL AMPADU
+    designation: Data Scientist & Engineer
+    img_src: /assets/img/uploads/vincent.jpg
+    linkedin: https://www.linkedin.com/in/vincentmichaelkampadu/
+    github: https://github.com/Vincemikes294/GSRS-2021-v2
+  - name: "ATSU AGBEMABIASE "
+    designation: Corporate Secretary & Data Scientist
+    img_src: /assets/img/uploads/atsu.jpg
+    linkedin: https://www.linkedin.com/in/atsu-agbemabiase-a490b617a
+  - twitter: https://twitter.com/moorekwesi
+    linkedin: https://www.linkedin.com/in/moorekwesi/
+    name: DR STEPHEN MOORE
+    designation: Founder & Lecturer at UCC
+    img_src: /assets/img/uploads/stephen.jpg
+    github: https://github.com/moorekwesi
