@@ -120,7 +120,7 @@ team:
     twitter: http://twitter.com/iseek16
     github: https://github.com/MarkMarcel
   - name: DR VINCENT-MICHAEL AMPADU
-    designation: Civil Engineer, Data Scientist & Head of Communications
+    designation: Civil Engineer & Head of Communications
     img_src: /assets/img/uploads/vincent.jpg
     linkedin: https://www.linkedin.com/in/vincentmichaelkampadu/
     github: https://github.com/Vincemikes294/GSRS-2021-v2
@@ -151,3 +151,8 @@ team:
     designation: Director of Product
     linkedin: https://www.linkedin.com/in/lawrence-adu-gyamfi/
     github: https://github.com/Lagyamfi
+  - img_src: /assets/img/uploads/naafi_2.jpg
+    name: "NAAFI DASANA IBRAHIM "
+    designation: Computer Science Student (KNUST)
+    linkedin: https://www.linkedin.com/in/naafi-ibrahim-67622a161
+    twitter: https://twitter.com/naafi_2?s=09
