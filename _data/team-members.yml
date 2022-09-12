@@ -119,8 +119,8 @@ team:
     designation: Software Engineer
     twitter: http://twitter.com/iseek16
     github: https://github.com/MarkMarcel
-  - name: VINCENT-MICHAEL AMPADU
-    designation: Data Scientist & Engineer
+  - name: DR VINCENT-MICHAEL AMPADU
+    designation: Data Scientist & Head of Communications
     img_src: /assets/img/uploads/vincent.jpg
     linkedin: https://www.linkedin.com/in/vincentmichaelkampadu/
     github: https://github.com/Vincemikes294/GSRS-2021-v2
@@ -134,3 +134,10 @@ team:
     designation: Founder & Lecturer at UCC
     img_src: /assets/img/uploads/stephen.jpg
     github: https://github.com/moorekwesi
+  - name: Immanuel Wallace
+    designation: ML Engineer
+    linkedin: https://www.linkedin.com/in/emmanuel-agbeli-419008a2/
+    img_src: /assets/img/uploads/pass_2-1-.jpg
+  - name: Gideon Brogya
+    designation: Cloud Student & Engineer (Oil and Gas)
+    img_src: /assets/img/uploads/file.jpg
