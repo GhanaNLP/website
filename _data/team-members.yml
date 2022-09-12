@@ -119,8 +119,8 @@ team:
     designation: Software Engineer
     twitter: http://twitter.com/iseek16
     github: https://github.com/MarkMarcel
-  - name: VINCENT-MICHAEL AMPADU
-    designation: Data Scientist & Engineer
+  - name: DR VINCENT-MICHAEL AMPADU
+    designation: Civil Engineer & Head of Communications
     img_src: /assets/img/uploads/vincent.jpg
     linkedin: https://www.linkedin.com/in/vincentmichaelkampadu/
     github: https://github.com/Vincemikes294/GSRS-2021-v2
@@ -134,3 +134,25 @@ team:
     designation: Founder & Lecturer at UCC
     img_src: /assets/img/uploads/stephen.jpg
     github: https://github.com/moorekwesi
+  - name: IMMANUEL WALLACE
+    designation: ML Engineer & Data Scientist
+    linkedin: https://www.linkedin.com/in/emmanuel-agbeli-419008a2/
+    img_src: /assets/img/uploads/pass_2-1-.jpg
+  - name: GIDEON BROGYA
+    designation: Cloud Student & Engineer (Oil and Gas)
+    img_src: /assets/img/uploads/file.jpg
+  - img_src: /assets/img/uploads/img_9753-2__01.jpg
+    name: EDWIN MUNKOH-BUABENG
+    designation: Data Scientist
+    linkedin: https://linkedin.com/in/ebmunkoh
+    twitter: "https://twitter.com/edwyn34 "
+  - img_src: /assets/img/uploads/lawrence.jpg
+    name: LAWRENCE ADU-GYAMFI
+    designation: Director of Product
+    linkedin: https://www.linkedin.com/in/lawrence-adu-gyamfi/
+    github: https://github.com/Lagyamfi
+  - img_src: /assets/img/uploads/naafi_2.jpg
+    name: "NAAFI DASANA IBRAHIM "
+    designation: Computer Science Student (KNUST)
+    linkedin: https://www.linkedin.com/in/naafi-ibrahim-67622a161
+    twitter: https://twitter.com/naafi_2?s=09
