@@ -152,6 +152,7 @@
       var brand = $('.brand-carousel');
       brand.owlCarousel({
       loop:false,
+      center:true,
       nav:false,
           margin:30,
       dots:true,
