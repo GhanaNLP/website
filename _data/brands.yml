@@ -1,22 +1,22 @@
-- name: A
+- name: Algorine
   img_src: /assets/img/brand/ALGORINE_LOGO_smaller.png
   link: /#
   
-# - name: B
-#   img_src: /assets/img/brand/2.png
-#   link: /#
+- name: Google
+  img_src: /assets/img/brand/google.png
+  link: /#
   
-- name: C
+- name: GAJ
   img_src: /assets/img/brand/gaj_smaller.png
   link: /#
   
-- name: D
+- name: Microsoft
   img_src: /assets/img/brand/microsoft.png
   link: /#
   
-# - name: E
-#   img_src: /assets/img/brand/5.png
-#   link: /#
+- name: Haravard
+  img_src: /assets/img/brand/harvard.png
+  link: /#
   
 # - name: F
 #   img_src: /assets/img/brand/6.png
