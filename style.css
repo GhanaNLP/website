@@ -1359,7 +1359,7 @@ div#preloader {
   display: block;
   background: #fff;
   width: 90%;
-  height: 100px;
+  min-height: 100px;
   position: absolute;
   left: 0;
   right: 0;
