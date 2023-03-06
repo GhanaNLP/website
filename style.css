@@ -1274,6 +1274,7 @@ div#preloader {
 .single-awesome-project {
   position: relative;
   overflow: hidden;
+  height: 400px;
 }
 
 .project-all {
