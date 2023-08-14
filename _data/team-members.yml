@@ -5,12 +5,27 @@ team:
     twitter: https://twitter.com/pazunre
     linkedin: https://www.linkedin.com/in/paulazunre
     github: https://github.com/azunre
+  - img_src: /assets/img/uploads/lawrence.jpg
+    name: LAWRENCE ADU-GYAMFI
+    designation: Director of Product
+    linkedin: https://www.linkedin.com/in/lawrence-adu-gyamfi/
+    github: https://github.com/Lagyamfi
   - name: JOEL BUDU
     img_src: /assets/img/team/joel.jpg
     designation: Director of Engineering
     twitter: https://twitter.com/j0eBee
     linkedin: https://linkedin.com/in/joelbudu
     github: https://github.com/joelbudu
+  - twitter: https://twitter.com/moorekwesi
+    linkedin: https://www.linkedin.com/in/moorekwesi/
+    name: DR STEPHEN MOORE
+    designation: Founder & Lecturer at UCC
+    img_src: /assets/img/uploads/stephen.jpg
+    github: https://github.com/moorekwesi
+  - name: "ATSU AGBEMABIASE "
+    designation: Corporate Secretary & Data Scientist
+    img_src: /assets/img/uploads/atsu.jpg
+    linkedin: https://www.linkedin.com/in/atsu-agbemabiase-a490b617a
   - name: SALOMEY OSEI
     img_src: /assets/img/team/salomeyosei.jpeg
     designation: Data Science & NLP Researcher
@@ -29,6 +44,11 @@ team:
     twitter: http://twitter.com/hotspot100
     linkedin: http://linkedin.com/in/franklin-koomson-adjei-227bb5130/
     github: http://github.com/hotlynn2
+  - name: DR VINCENT-MICHAEL AMPADU
+    designation: Civil Engineer & Head of Communications
+    img_src: /assets/img/uploads/vincent.jpg
+    linkedin: https://www.linkedin.com/in/vincentmichaelkampadu/
+    github: https://github.com/Vincemikes294/GSRS-2021-v2
   - name: DEBORAH DORMAH KANUBALA
     img_src: /assets/img/team/kanubala.jpg
     designation: Data Scientist
@@ -119,21 +139,6 @@ team:
     designation: Software Engineer
     twitter: http://twitter.com/iseek16
     github: https://github.com/MarkMarcel
-  - name: DR VINCENT-MICHAEL AMPADU
-    designation: Civil Engineer & Head of Communications
-    img_src: /assets/img/uploads/vincent.jpg
-    linkedin: https://www.linkedin.com/in/vincentmichaelkampadu/
-    github: https://github.com/Vincemikes294/GSRS-2021-v2
-  - name: "ATSU AGBEMABIASE "
-    designation: Corporate Secretary & Data Scientist
-    img_src: /assets/img/uploads/atsu.jpg
-    linkedin: https://www.linkedin.com/in/atsu-agbemabiase-a490b617a
-  - twitter: https://twitter.com/moorekwesi
-    linkedin: https://www.linkedin.com/in/moorekwesi/
-    name: DR STEPHEN MOORE
-    designation: Founder & Lecturer at UCC
-    img_src: /assets/img/uploads/stephen.jpg
-    github: https://github.com/moorekwesi
   - name: IMMANUEL WALLACE
     designation: ML Engineer & Data Scientist
     linkedin: https://www.linkedin.com/in/emmanuel-agbeli-419008a2/
@@ -146,11 +151,6 @@ team:
     designation: Data Scientist
     linkedin: https://linkedin.com/in/ebmunkoh
     twitter: "https://twitter.com/edwyn34 "
-  - img_src: /assets/img/uploads/lawrence.jpg
-    name: LAWRENCE ADU-GYAMFI
-    designation: Director of Product
-    linkedin: https://www.linkedin.com/in/lawrence-adu-gyamfi/
-    github: https://github.com/Lagyamfi
   - img_src: /assets/img/uploads/naafi_2.jpg
     name: "NAAFI DASANA IBRAHIM "
     designation: Computer Science Student (KNUST)
