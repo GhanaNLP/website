@@ -2,6 +2,7 @@
 title: "Introducing ghana-speech-eval: A Multi-Source ASR Benchmark for 43
   Ghanaian Languages"
 date: 2026-08-19T13:41:54.474Z
+post_image: /assets/img/uploads/b2.jpg
 categories:
   - ASR
 tags:
