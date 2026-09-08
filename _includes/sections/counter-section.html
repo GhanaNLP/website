@@ -6,11 +6,17 @@
             <div class="col-xl-3 col-lg-3 col-md-3">
                 <div class="single-fun">
                     <div class="fun-icon">
-                        <i class="flaticon-067-curriculum"></i>
+                        <i class="{{ counter.icon | default: 'flaticon-067-curriculum' }}"></i>
                     </div>
                     <div class="fun_text">
                         <span class="counter">{{counter.counter_up}}</span>
-                        <h5>{{counter.title}}</h5>
+                        <h5>
+                            {% if counter.url %}
+                                <a href="{{ counter.url }}" target="_blank" rel="noopener">{{counter.title}}</a>
+                            {% else %}
+                                {{counter.title}}
+                            {% endif %}
+                        </h5>
                     </div>
                 </div>
             </div>
