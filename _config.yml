@@ -13,6 +13,8 @@ email: "natural.language.processing.gh@gmail.com"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ghananlp.org" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/logo/logo.png"
+# Short name used in browser tab titles: "<page> | Ghana NLP"
+short_title: "Ghana NLP"
 description: "Open Source Initiative focused on Natural Language Processing (NLP) of Ghanaian Languages, & its Applications to Local Problems"
 keywords: "ai, ml, artificial intelligence, ghana, nlp, ghananlp, natural language processing"
 # mailclimp: 'https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884'

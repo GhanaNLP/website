@@ -19,7 +19,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    {% seo %}
+    {%- comment -%}
+      seo-tag would render "<page> | Ghana Natural Language Processing (NLP) -
+      Ghana NLP", which is too long for a browser tab. Build the title here and
+      tell seo-tag to leave it alone; that also drops its og:title and
+      twitter:title, so those are set below.
+    {%- endcomment -%}
+    {%- if page.url == '/' -%}
+      {%- assign tab_title = 'Welcome to ' | append: site.short_title -%}
+    {%- elsif page.title and page.title != '' -%}
+      {%- assign tab_title = page.title | append: ' | ' | append: site.short_title -%}
+    {%- else -%}
+      {%- comment -%} 404, the alternate home layouts and friends carry no title {%- endcomment -%}
+      {%- assign tab_title = site.short_title -%}
+    {%- endif -%}
+
+    {% seo title=false %}
+    <title>{{ tab_title }}</title>
+    <meta property="og:title" content="{{ tab_title }}">
+    <meta name="twitter:title" content="{{ tab_title }}">
 
     <!-- favicon.png and root directory -->
     <link rel="icon" href="{{'/assets/img/logo/favicon.ico' | relative_url}}" type="image/x-icon" />
