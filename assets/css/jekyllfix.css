@@ -88,13 +88,44 @@ h5.search-post-title {
 }
 
 /* ---- Contributors page ---- */
+/* the theme's bootstrap build has no .sr-only */
+.contributor-search .sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+.contributor-search{
+    position: relative;
+    margin-bottom: 10px;
+}
+.contributor-search i.fa{
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    margin-top: -8px;
+    color: #9aa4b5;
+}
+.contributor-search input{
+    width: 100%;
+    height: 48px;
+    padding: 0 18px 0 44px;
+    border: 1px solid #e4e9f0;
+    border-radius: 4px;
+    background: #fff;
+    color: #2a354e;
+    font-size: 15px;
+}
+.contributor-search input:focus{
+    outline: none;
+    border-color: #017BFF;
+}
 .single-contributor{
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    min-height: 84px;
+    height: calc(100% - 30px);
     margin-bottom: 30px;
-    padding: 18px 22px;
+    padding: 22px 24px;
     background: #fff;
     border-radius: 4px;
     box-shadow: 0 8px 24px rgba(8, 10, 8, 0.07);
@@ -104,17 +135,34 @@ h5.search-post-title {
     transform: translateY(-4px);
     box-shadow: 0 14px 32px rgba(8, 10, 8, 0.13);
 }
-.contributor-initials{
-    flex: 0 0 48px;
-    width: 48px;
-    height: 48px;
+.contributor-cell{
+    display: flex;
+}
+.contributor-cell > .single-contributor{
+    flex: 1;
+}
+.contributor-head{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.contributor-initials,
+.contributor-photo{
+    flex: 0 0 52px;
+    width: 52px;
+    height: 52px;
     border-radius: 50%;
+}
+.contributor-initials{
     background: #eaf3ff;
     color: #017BFF;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 48px;
+    line-height: 52px;
     text-align: center;
+}
+.contributor-photo{
+    object-fit: cover;
 }
 .single-contributor .contributor-name{
     flex: 1 1 auto;
@@ -140,4 +188,62 @@ h5.search-post-title {
 .contributor-linkedin:hover{
     background: #017BFF;
     color: #fff;
+}
+.contributor-projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0 0;
+    padding: 0;
+    list-style: none;
+}
+.contributor-projects a{
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background: #f2f5f9;
+    color: #5a6579;
+    font-size: 13px;
+    line-height: 1.6;
+    text-decoration: none;
+    transition: background .3s ease, color .3s ease;
+}
+.contributor-projects a:hover{
+    background: #eaf3ff;
+    color: #017BFF;
+}
+.contributor-empty{
+    margin: 20px 0 0;
+    color: #5a6579;
+    text-align: center;
+}
+.contributor-pager{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.contributor-pager button{
+    padding: 9px 22px;
+    border: 1px solid #e4e9f0;
+    border-radius: 4px;
+    background: #fff;
+    color: #2a354e;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background .3s ease, color .3s ease, border-color .3s ease;
+}
+.contributor-pager button:hover:not(:disabled){
+    border-color: #017BFF;
+    background: #017BFF;
+    color: #fff;
+}
+.contributor-pager button:disabled{
+    opacity: .45;
+    cursor: default;
+}
+.contributor-status{
+    color: #5a6579;
+    font-size: 14px;
 }

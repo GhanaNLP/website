@@ -5,13 +5,27 @@
   {% assign last_initial = last_name | slice: 0 %}
   {% assign initials = initials | append: last_initial %}
 {% endif %}
-<div class="single-contributor">
-    <span class="contributor-initials" aria-hidden="true">{{ initials | upcase }}</span>
-    <h4 class="contributor-name">{{ contributor.name }}</h4>
-    {% if contributor.linkedin %}
-        <a class="contributor-linkedin" href="{{ contributor.linkedin }}" target="_blank" rel="noopener"
-           aria-label="{{ contributor.name }} on LinkedIn">
-            <i class="fa fa-linkedin"></i>
-        </a>
+<div class="single-contributor" data-name="{{ contributor.name | downcase }}">
+    <div class="contributor-head">
+        {% if contributor.img %}
+            <img class="contributor-photo" src="{{ contributor.img | relative_url }}"
+                 alt="{{ contributor.name }}" loading="lazy">
+        {% else %}
+            <span class="contributor-initials" aria-hidden="true">{{ initials | upcase }}</span>
+        {% endif %}
+        <h4 class="contributor-name">{{ contributor.name }}</h4>
+        {% if contributor.linkedin %}
+            <a class="contributor-linkedin" href="{{ contributor.linkedin }}" target="_blank"
+               rel="noopener" aria-label="{{ contributor.name }} on LinkedIn">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        {% endif %}
+    </div>
+    {% if contributor.projects %}
+        <ul class="contributor-projects">
+            {% for project in contributor.projects %}
+                <li><a href="{{ project.url }}" target="_blank" rel="noopener">{{ project.name }}</a></li>
+            {% endfor %}
+        </ul>
     {% endif %}
 </div>

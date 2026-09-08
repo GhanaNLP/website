@@ -3,6 +3,9 @@
 # the membership form responses. Re-run the script to refresh.
 - name: "A.Ganiw Naporo Alhassan"
   linkedin: https://www.linkedin.com/in/naporo-alhassan-abdul-ganiw-986982319
+  projects:
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
 - name: "Abubakari Alidu"
   linkedin: https://www.linkedin.com/in/alidu-abubakari-2612bb57
 - name: "Akwasi Asare"
@@ -11,59 +14,144 @@
   linkedin: https://www.linkedin.com/in/atsu-agbemabiase-a490b617a
 - name: "Baffoe Nicholas"
   linkedin: https://www.linkedin.com/in/baffoe-nicholas-3b8159267
+  projects:
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
 - name: "Bernard Adjei"
   linkedin: https://www.linkedin.com/in/bernardmarfoadjei
+  projects:
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
 - name: "Chantelle Amoako-Atta"
   linkedin: https://www.linkedin.com/in/chantelleaa
+  projects:
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
 - name: "Elias Dzobo"
   linkedin: https://www.linkedin.com/in/eliasdzobo
+  projects:
+    - name: "Nsanku"
+      url: https://github.com/GhanaNLP/nsanku
 - name: "Emmanuel Saah"
   linkedin: https://www.linkedin.com/in/emmanuel-saah
+  projects:
+    - name: "Ghana Nouns"
+      url: https://github.com/GhanaNLP/GhanaNouns
 - name: "Gerhardt Datsomor"
   linkedin: https://www.linkedin.com/in/gerhardt-datsomor
+  projects:
+    - name: "Nsanku"
+      url: https://github.com/GhanaNLP/nsanku
+    - name: "Ghana Topics"
+      url: https://github.com/GhanaNLP/GhanaTopics
+    - name: "Ghana Nouns"
+      url: https://github.com/GhanaNLP/GhanaNouns
 - name: "Isaac Donkoh"
   linkedin: https://www.linkedin.com/in/isaac-kojo-donkoh
+  projects:
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
 - name: "Joel Budu"
   linkedin: https://www.linkedin.com/in/joelbudu
 - name: "John Ayernor"
   linkedin: https://www.linkedin.com/in/john-kwabena-ayernor-45b497186
+  projects:
+    - name: "Nsanku"
+      url: https://github.com/GhanaNLP/nsanku
 - name: "Jonathan Asiamah"
   linkedin: https://www.linkedin.com/in/jonathan-asiamah-4639a5147
+  projects:
+    - name: "Nsanku"
+      url: https://github.com/GhanaNLP/nsanku
 - name: "Jonathan Markin"
   linkedin: https://www.linkedin.com/in/atomarkin
+  projects:
+    - name: "Ghana Topics"
+      url: https://github.com/GhanaNLP/GhanaTopics
+    - name: "Ghana Nouns"
+      url: https://github.com/GhanaNLP/GhanaNouns
 - name: "Josephus Bawah"
   linkedin: https://www.linkedin.com/in/josephus-bawah-57a309276
+  projects:
+    - name: "Ghana Topics"
+      url: https://github.com/GhanaNLP/GhanaTopics
 - name: "Julius Segbedzi"
   linkedin: https://www.linkedin.com/in/julius-segbedzi-8a1203203
 - name: "Kasuadana Adams"
   linkedin: https://www.linkedin.com/in/kasuadana1
+  projects:
+    - name: "Ghana Topics"
+      url: https://github.com/GhanaNLP/GhanaTopics
+    - name: "Ghana Nouns"
+      url: https://github.com/GhanaNLP/GhanaNouns
 - name: "Kelvin Newman"
   linkedin: https://www.linkedin.com/in/kelvin-newman-09b961255
+  projects:
+    - name: "Nsanku"
+      url: https://github.com/GhanaNLP/nsanku
 - name: "Kenneth Dotse"
   linkedin: https://www.linkedin.com/in/kenneth-kwame-dotse
+  projects:
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
 - name: "Kwaku Dompreh"
   linkedin: https://www.linkedin.com/in/foster-dompreh-8b383b49
+  projects:
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
 - name: "Lawrence Adu-Gyamfi"
   linkedin: https://www.linkedin.com/in/lawrence-adu-gyamfi
 - name: "Lucas Kpatah"
   linkedin: https://www.linkedin.com/in/lucas-kpatah-351086376
+  projects:
+    - name: "Ghana Nouns"
+      url: https://github.com/GhanaNLP/GhanaNouns
 - name: "Maxwell Sam"
   linkedin: https://www.linkedin.com/in/maxwell-sam-42133044
+  projects:
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
 - name: "Mich-Seth Owusu"
   linkedin: https://www.linkedin.com/in/mich-seth-owusu
+  projects:
+    - name: "Nsanku"
+      url: https://github.com/GhanaNLP/nsanku
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
+    - name: "Ghana Topics"
+      url: https://github.com/GhanaNLP/GhanaTopics
+    - name: "Ghana Nouns"
+      url: https://github.com/GhanaNLP/GhanaNouns
 - name: "Mustapha Saani"
   linkedin: https://www.linkedin.com/in/saani-mustapha-3747b925a
+  projects:
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
 - name: "Onesimus Addo Appiah"
   linkedin: https://www.linkedin.com/in/onesimus-appiah
+  projects:
+    - name: "Nsanku"
+      url: https://github.com/GhanaNLP/nsanku
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
 - name: "Paul Azunre"
   linkedin: https://www.linkedin.com/in/paulazunre
 - name: "Prince Alhassan"
   linkedin: https://www.linkedin.com/in/alhassan-prince
+  projects:
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
 - name: "Priscilla Lartey"
   linkedin: https://www.linkedin.com/in/larteypriscilla
 - name: "Stephen Moore"
   linkedin: https://www.linkedin.com/in/moorekwesi
 - name: "Timothy Aguya Akasiya"
   linkedin: https://www.linkedin.com/in/timothy-aguya-akasiya
+  projects:
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
 - name: "Tyra Koranteng"
   linkedin: https://www.linkedin.com/in/tyrakoranteng46
+  projects:
+    - name: "Ghana Corpus Builder"
+      url: https://github.com/GhanaNLP/ghana-corpus-builder
