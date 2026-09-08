@@ -5,7 +5,6 @@ date: 2021-7-23 00:37:13 +0000
 tags: [African Languages, Speech Recognition, Machine Learning, Ghana]
 categories: [tech]
 author_name: "GhanaNLP"
-post_image: "/assets/img/blog/b2.jpg"
 post_id: 2
 ---
 
