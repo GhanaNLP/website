@@ -304,3 +304,21 @@ h5.search-post-title {
     border-bottom-color: #4da3ff;
 }
 
+/* ---- Partner logo strip ---- */
+/* Owl floats its items and forces images to width:100%, so each logo is scaled
+   to the same width and ends up a different height -- 51px for one, 106px for
+   another -- and floated items all sit at the top of the stage. Give the items
+   a common height, centre the logo in it, and cap the height so no one logo
+   towers over the rest. */
+.brand-carousel .owl-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90px;
+}
+.brand-carousel .owl-item img{
+    width: auto;
+    max-width: 100%;
+    max-height: 62px;
+}
+

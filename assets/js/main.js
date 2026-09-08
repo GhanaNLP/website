@@ -159,7 +159,10 @@ $.scrollUp({
 		nav:false,
         margin:30,
 		dots:true,
-		autoplay:false,
+		autoplay:true,
+		autoplayTimeout:2500,
+		autoplayHoverPause:true,
+		smartSpeed:800,
 		responsive:{
 			0:{
 				items:1
