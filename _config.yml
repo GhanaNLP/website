@@ -20,6 +20,8 @@ facebook: https://www.facebook.com/GhanaNLP
 twitter: https://twitter.com/GhanaNLP
 github: https://github.com/GhanaNLP
 slack: https://ghananlp.slack.com
+# Membership form, used by the Join Us and Get Involved buttons
+join_form: "https://docs.google.com/forms/d/e/1FAIpQLScJ87RHv-Or__ccWBlqXsZzdFC_7_1gJw6YvAco4z5pMizO5w/viewform"
 lang: en
 
 # Build settings

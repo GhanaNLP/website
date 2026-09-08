@@ -49,6 +49,36 @@
 .project-dec a{
     text-decoration: none;
 }
+
+/* Blog cards without a thumbnail. Same shape as the project cards above: the
+   theme sizes .single-blog from the image and lays .blog-content over it
+   absolutely, so with the thumbnails gone the card collapsed to nothing and
+   overflow:hidden clipped the text away. Put the content back in flow. */
+.single-blog{
+    height: 100%;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 24px rgba(8, 10, 8, 0.07);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+.single-blog:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 14px 32px rgba(8, 10, 8, 0.13);
+}
+.single-blog .blog-content{
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 30px;
+}
+.single-blog .blog-content h4{
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+.single-blog .blog-content p{
+    margin-bottom: 18px;
+}
 .search-inner {
     position: relative;
 }
