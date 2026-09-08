@@ -257,3 +257,20 @@ h5.search-post-title {
     color: #5a6579;
     font-size: 14px;
 }
+
+/* ---- Front page counters ---- */
+/* three of the four labels link out; keep them looking like the plain label
+   until hovered, rather than browser-underlined on the dark background */
+.fun_text h5 a{
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    padding-bottom: 2px;
+    transition: color .3s ease, border-color .3s ease;
+}
+.fun_text h5 a:hover,
+.fun_text h5 a:focus{
+    color: #4da3ff;
+    border-bottom-color: #4da3ff;
+}
+
