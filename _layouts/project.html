@@ -47,7 +47,7 @@ title: Projects
                                 <li><span>Project :</span> {{page.project_name}}</li>
                                 <li><span>Company :</span> {{page.company}}</li>
                                 <li><span>Status :</span> {{page.status}}</li>
-                                <li><span>Date :</span> {{page.date}}</li>
+                                <li><span>Date :</span> {{ page.date | date: "%-d %B %Y" }}</li>
                                 {% comment %} <li><span>City :</span> {{page.city}}</li>
                                 <li><span>Country :</span> {{page.country}}</li> {% endcomment %}
                             </ul>
