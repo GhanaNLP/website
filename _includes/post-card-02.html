@@ -17,7 +17,7 @@
                 </span>
                 <span class="comments-type">
                     <i class="ti-book"></i>
-                    {% assign words = content | number_of_words %}
+                    {% assign words = post.content | number_of_words %}
                     {% if words < 360 %}
                         1 min
                     {% else %}

@@ -17,7 +17,7 @@
                 </span>
                 <span class="comments-type">
                     <i class="ti-book"></i>
-                    {% assign words = content | number_of_words %}
+                    {% assign words = post.content | number_of_words %}
                     {% if words < 360 %}
                         1 min
                     {% else %}
@@ -28,7 +28,7 @@
             <a href="{{post.url | relative_url }}">
                 <h4>{{post.title}}</h4>
             </a>
-            <p>{{ post.content | truncatewords: 20 }}  </p>
+            <p>{{ post.content | strip_html | normalize_whitespace | truncatewords: 20 }}</p>
             <a class="blog-btn anti-bttn" href="{{post.url | relative_url }}"> Read more</a>
         </div>
     </div>
