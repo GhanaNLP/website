@@ -22,30 +22,63 @@
   projects:
     - name: "Ghana Corpus Builder"
       url: https://github.com/GhanaNLP/ghana-corpus-builder
+- name: "Benjamin Essilfie-Nyame"
+  linkedin: https://www.linkedin.com/in/benjamin-essilfie-nyame-14a05b14a
+  img: /assets/img/contributors/benjamin-essilfie-nyame.jpg
+- name: "Bernard Adabankah"
+  linkedin: https://www.linkedin.com/in/bernard-adabankah-3109b015
+  img: /assets/img/contributors/bernard-adabankah.jpg
 - name: "Bernard Adjei"
   linkedin: https://www.linkedin.com/in/bernardmarfoadjei
   img: /assets/img/contributors/bernard-adjei.jpg
   projects:
     - name: "Ghana Corpus Builder"
       url: https://github.com/GhanaNLP/ghana-corpus-builder
+- name: "Bernard Opoku"
+  linkedin: https://www.linkedin.com/in/bernard-kwabena-opoku-965653b1
+  img: /assets/img/contributors/bernard-opoku.jpg
 - name: "Chantelle Amoako-Atta"
   linkedin: https://www.linkedin.com/in/chantelleaa
   img: /assets/img/contributors/chantelle-amoako-atta.jpg
   projects:
     - name: "Ghana Corpus Builder"
       url: https://github.com/GhanaNLP/ghana-corpus-builder
+- name: "Clara Asare-Nyarko"
+  linkedin: https://www.linkedin.com/in/clara-asare-nyarko-99a66a72
+  img: /assets/img/contributors/clara-asare-nyarko.jpg
+- name: "Daniel Elijah"
+  linkedin: https://www.linkedin.com/in/daniel-komla-elijah-21384a63
+  img: /assets/img/contributors/daniel-elijah.jpg
+- name: "David Sasu"
+  linkedin: https://www.linkedin.com/in/david-sasu-0667861b7
+  img: /assets/img/contributors/david-sasu.jpg
+- name: "Deborah Dormah Kanubala"
+  linkedin: https://www.linkedin.com/in/kanubalad
+  img: /assets/img/contributors/deborah-dormah-kanubala.jpg
+- name: "Edwin Munkoh-Buabeng"
+  linkedin: https://www.linkedin.com/in/ebmunkoh
+  img: /assets/img/contributors/edwin-munkoh-buabeng.jpg
 - name: "Elias Dzobo"
   linkedin: https://www.linkedin.com/in/eliasdzobo
   img: /assets/img/contributors/elias-dzobo.jpg
   projects:
     - name: "Nsanku"
       url: https://github.com/GhanaNLP/nsanku
+- name: "Emile Adotey"
+  linkedin: https://www.linkedin.com/in/emile-adotey-47163954
+  img: /assets/img/contributors/emile-adotey.jpg
 - name: "Emmanuel Saah"
   linkedin: https://www.linkedin.com/in/emmanuel-saah
   img: /assets/img/contributors/emmanuel-saah.jpg
   projects:
     - name: "Ghana Nouns"
       url: https://github.com/GhanaNLP/GhanaNouns
+- name: "Felix Akwerh"
+  linkedin: https://www.linkedin.com/in/%20felix-akwerh-029314
+  img: /assets/img/contributors/felix-akwerh.jpg
+- name: "Franklin Adjei"
+  linkedin: https://www.linkedin.com/in/franklin-koomson-adjei-227bb5130
+  img: /assets/img/contributors/franklin-adjei.jpg
 - name: "Gerhardt Datsomor"
   linkedin: https://www.linkedin.com/in/gerhardt-datsomor
   img: /assets/img/contributors/gerhardt-datsomor.jpg
@@ -56,6 +89,18 @@
       url: https://github.com/GhanaNLP/GhanaTopics
     - name: "Ghana Nouns"
       url: https://github.com/GhanaNLP/GhanaNouns
+- name: "Gideon Brogya"
+  linkedin:
+  img: /assets/img/contributors/gideon-brogya.jpg
+- name: "Gloria Appiah Nsiah"
+  linkedin: https://www.linkedin.com/in/gloria-appiah-nsiah
+  img: /assets/img/contributors/gloria-appiah-nsiah.jpg
+- name: "Hussein Suhuyini"
+  linkedin:
+  img: /assets/img/contributors/hussein-suhuyini.jpg
+- name: "Immanuel Wallace"
+  linkedin: https://www.linkedin.com/in/emmanuel-agbeli-419008a2
+  img: /assets/img/contributors/immanuel-wallace.jpg
 - name: "Isaac Donkoh"
   linkedin: https://www.linkedin.com/in/isaac-kojo-donkoh
   img: /assets/img/contributors/isaac-donkoh.jpg
@@ -84,6 +129,9 @@
       url: https://github.com/GhanaNLP/GhanaTopics
     - name: "Ghana Nouns"
       url: https://github.com/GhanaNLP/GhanaNouns
+- name: "Joseph Otoo"
+  linkedin: https://www.linkedin.com/in/joseph-otoo-8aa82633
+  img: /assets/img/contributors/joseph-otoo.jpg
 - name: "Josephus Bawah"
   linkedin: https://www.linkedin.com/in/josephus-bawah-57a309276
   img: /assets/img/contributors/josephus-bawah.jpg
@@ -127,6 +175,9 @@
   projects:
     - name: "Ghana Nouns"
       url: https://github.com/GhanaNLP/GhanaNouns
+- name: "Mark Amoako Marcel"
+  linkedin:
+  img: /assets/img/contributors/mark-amoako-marcel.jpg
 - name: "Maxwell Sam"
   linkedin: https://www.linkedin.com/in/maxwell-sam-42133044
   img: /assets/img/contributors/maxwell-sam.jpg
@@ -151,6 +202,9 @@
   projects:
     - name: "Ghana Corpus Builder"
       url: https://github.com/GhanaNLP/ghana-corpus-builder
+- name: "Naafi Dasana Ibrahim"
+  linkedin: https://www.linkedin.com/in/naafi-ibrahim-67622a161
+  img: /assets/img/contributors/naafi-dasana-ibrahim.jpg
 - name: "Onesimus Addo Appiah"
   linkedin: https://www.linkedin.com/in/onesimus-appiah
   img: /assets/img/contributors/onesimus-addo-appiah.jpg
@@ -171,6 +225,18 @@
 - name: "Priscilla Lartey"
   linkedin: https://www.linkedin.com/in/larteypriscilla
   img: /assets/img/contributors/priscilla-lartey.jpg
+- name: "Richard Nii Lante Lawson"
+  linkedin: https://www.linkedin.com/in/theniilante
+  img: /assets/img/contributors/richard-nii-lante-lawson.jpg
+- name: "Salomey Addo"
+  linkedin: https://www.linkedin.com/in/salomey-addo
+  img: /assets/img/contributors/salomey-addo.jpg
+- name: "Salomey Osei"
+  linkedin: https://www.linkedin.com/in/salomey-osei-4b08a5b8
+  img: /assets/img/contributors/salomey-osei.jpg
+- name: "Samuel Nyarko"
+  linkedin: https://www.linkedin.com/in/samuelnyarko
+  img: /assets/img/contributors/samuel-nyarko.jpg
 - name: "Stephen Moore"
   linkedin: https://www.linkedin.com/in/moorekwesi
   img: /assets/img/contributors/stephen-moore.jpg
@@ -186,3 +252,9 @@
   projects:
     - name: "Ghana Corpus Builder"
       url: https://github.com/GhanaNLP/ghana-corpus-builder
+- name: "Vincent-Michael Ampadu"
+  linkedin: https://www.linkedin.com/in/vincentmichaelkampadu
+  img: /assets/img/contributors/vincent-michael-ampadu.jpg
+- name: "Wisdom Ofori"
+  linkedin: https://www.linkedin.com/in/wizdees
+  img: /assets/img/contributors/wisdom-ofori.jpg

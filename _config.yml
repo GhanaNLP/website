@@ -27,6 +27,10 @@ lang: en
 # Build settings
 markdown: kramdown
 theme: minima
+# Jekyll skips files beginning with an underscore, and Netlify needs this one
+include:
+  - _redirects
+
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2

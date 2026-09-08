@@ -21,6 +21,7 @@ SIZE = 400
 MIN_SIZE = 240        # avatars render at 52px CSS, so keep 2x headroom
 MARGIN = 2.1          # square side as a multiple of the face box
 EYE_LINE = 0.42       # put the face centre this far down the crop
+MIN_FACE_FRAC = 0.08  # a detection much smaller than the frame is not a face
 
 # Explicit, because several filenames differ from the name we list people under
 # (spellings, middle names, or a different given name entirely).
@@ -59,6 +60,36 @@ MAP = {
 }
 
 
+# Contributors whose photo already lives in the repo, from when they were listed
+# on the team page. Cropped the same way as everyone else so the circles match.
+REPO_SOURCES = {
+    'Benjamin Essilfie-Nyame'   : 'assets/img/team/Benjamin.png',
+    'Bernard Adabankah'         : 'assets/img/team/adabankah.jpeg',
+    'Bernard Opoku'             : 'assets/img/team/bernard.jpeg',
+    'Clara Asare-Nyarko'        : 'assets/img/team/clara.jpg',
+    'Daniel Elijah'             : 'assets/img/team/elijah.jpg',
+    'David Sasu'                : 'assets/img/team/david.png',
+    'Deborah Dormah Kanubala'   : 'assets/img/team/kanubala.jpg',
+    'Edwin Munkoh-Buabeng'      : 'assets/img/uploads/img_9753-2__01.jpg',
+    'Emile Adotey'              : 'assets/img/team/emile.jpeg',
+    'Felix Akwerh'              : 'assets/img/team/felix.jpg',
+    'Franklin Adjei'            : 'assets/img/team/FranklinAdjei.jpg',
+    'Gideon Brogya'             : 'assets/img/uploads/file.jpg',
+    'Gloria Appiah Nsiah'       : 'assets/img/team/gloria.jpeg',
+    'Hussein Suhuyini'          : 'assets/img/team/hussein.png',
+    'Immanuel Wallace'          : 'assets/img/uploads/pass_2-1-.jpg',
+    'Joseph Otoo'               : 'assets/img/team/joseph.jpg',
+    'Mark Amoako Marcel'        : 'assets/img/team/mark.jpg',
+    'Naafi Dasana Ibrahim'      : 'assets/img/uploads/naafi_2.jpg',
+    'Richard Nii Lante Lawson'  : 'assets/img/team/niilante.jpg',
+    'Salomey Addo'              : 'assets/img/team/salomey.jpg',
+    'Salomey Osei'              : 'assets/img/team/salomeyosei.jpeg',
+    'Samuel Nyarko'             : 'assets/img/team/samuel.jpeg',
+    'Vincent-Michael Ampadu'    : 'assets/img/uploads/vincent.jpg',
+    'Wisdom Ofori'              : 'assets/img/uploads/img_5484.jpg',
+}
+
+
 def slug(name):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", name.lower())).strip("-")
 
@@ -67,8 +98,11 @@ cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 
 report = []
-for fn, name in sorted(MAP.items(), key=lambda kv: kv[1]):
-    path = os.path.join(SRC, fn)
+jobs = [(os.path.join(SRC, fn), name) for fn, name in MAP.items()]
+jobs += [(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", rel), name)
+         for name, rel in REPO_SOURCES.items()]
+
+for path, name in sorted(jobs, key=lambda kv: kv[1]):
     im = ImageOps.exif_transpose(Image.open(path))
     if im.mode in ("RGBA", "LA", "P"):
         im = im.convert("RGBA")
@@ -77,7 +111,15 @@ for fn, name in sorted(MAP.items(), key=lambda kv: kv[1]):
     W, H = im.size
 
     gray = cv2.cvtColor(cv2.imread(path), cv2.COLOR_BGR2GRAY) if os.path.exists(path) else None
-    faces = cascade.detectMultiScale(gray, 1.1, 6, minSize=(40, 40)) if gray is not None else []
+    faces = []
+    if gray is not None:
+        # Two guards against false positives. A detection much smaller than the
+        # frame is usually a detail rather than a face -- a mouth, or a picture
+        # on the wall -- and one low in the frame is something else again: on a
+        # full-length portrait the cascade matches shoes down there.
+        floor = max(40, int(min(gray.shape[:2]) * MIN_FACE_FRAC))
+        faces = [f for f in cascade.detectMultiScale(gray, 1.1, 6, minSize=(floor, floor))
+                 if (f[1] + f[3] / 2) < gray.shape[0] * 0.6]
     if len(faces):
         x, y, w, h = max(faces, key=lambda f: f[2] * f[3])
         side = min(int(max(w, h) * MARGIN), W, H)
@@ -88,8 +130,12 @@ for fn, name in sorted(MAP.items(), key=lambda kv: kv[1]):
         top = max(0, min(top, H - side))
         box, how = (left, top, left + side, top + side), f"face {w}x{h}"
     else:
-        s = min(W, H)
-        box, how = ((W - s)//2, (H - s)//2, (W + s)//2, (H + s)//2), "centre (no face)"
+        # No usable face. Take the square from the top of a portrait rather than
+        # its middle -- heads sit near the top -- and from the middle of a
+        # landscape, where there is no vertical crop to get wrong.
+        sq = min(W, H)
+        top = 0 if H > W else (H - sq) // 2
+        box, how = ((W - sq)//2, top, (W + sq)//2, top + sq), "top crop (no face)"
 
     out_im = im.crop(box)
     target = max(MIN_SIZE, min(SIZE, out_im.size[0]))
