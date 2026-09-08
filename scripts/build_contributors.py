@@ -23,6 +23,22 @@ CSV_ = os.environ.get(
 OUT = os.path.join(os.path.dirname(__file__), "..", "_data", "contributors.yml")
 TEAM = os.path.join(os.path.dirname(__file__), "..", "_data", "team-members.yml")
 
+# LinkedIn URLs for contributors whose form response has none, taken from the
+# contributor credits in our own GitHub repos (GhanaNLP/nsanku,
+# ghana-corpus-builder, GhanaTopics, GhanaNouns). Keyed by the name this script
+# produces, so add an entry here rather than hand-editing the generated YAML.
+GITHUB_LINKEDIN = {
+    "bernard adjei":        "https://www.linkedin.com/in/bernardmarfoadjei/",
+    "chantelle amoako-atta": "https://www.linkedin.com/in/chantelleaa/",
+    "elias dzobo":          "https://www.linkedin.com/in/eliasdzobo/",
+    "gerhardt datsomor":    "https://www.linkedin.com/in/gerhardt-datsomor/",
+    "john ayernor":         "https://www.linkedin.com/in/john-kwabena-ayernor-45b497186/",
+    "jonathan markin":      "https://www.linkedin.com/in/atomarkin/",
+    "kelvin newman":        "https://www.linkedin.com/in/kelvin-newman-09b961255/",
+    "onesimus addo appiah": "https://www.linkedin.com/in/onesimus-appiah/",
+    "tyra koranteng":       "https://www.linkedin.com/in/tyrakoranteng46/",
+}
+
 
 def norm_email(e):
     """Gmail ignores dots and +tags, so fold those before joining on email."""
@@ -147,6 +163,7 @@ def main():
             unresolved.append(m)
             continue
         link = link or team.get(norm_name(name), "")
+        link = link or linkedin_url(GITHUB_LINKEDIN.get(name.lower(), ""))
         nk = norm_name(name)
         if nk in seen:          # same person, two Slack accounts / two signups
             if link and not seen[nk]["linkedin"]:
