@@ -269,6 +269,7 @@ def main():
     for person in people:
         person["projects"] = projects_for(person, credits)
         person["img"] = photo_for(person["name"])
+        person["slug"] = slug(person["name"])   # the page's anchor id
 
     people.sort(key=lambda p: p["name"].lower())
     with open(OUT, "w") as fh:
@@ -277,6 +278,7 @@ def main():
         fh.write("# the membership form responses. Re-run the script to refresh.\n")
         for p in people:
             fh.write(f'- name: "{p["name"]}"\n')
+            fh.write(f'  slug: {p["slug"]}\n')
             fh.write(f'  linkedin: {p["linkedin"]}\n' if p["linkedin"] else "  linkedin:\n")
             if p["img"]:
                 fh.write(f'  img: {p["img"]}\n')

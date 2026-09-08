@@ -172,6 +172,37 @@ h5.search-post-title {
     font-weight: 500;
     line-height: 1.35;
 }
+/* the anchor each contributor can share; visible on hover or keyboard focus */
+.contributor-anchor{
+    flex: 0 0 auto;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    color: #9aa4b5;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity .3s ease, background .3s ease, color .3s ease;
+}
+.single-contributor:hover .contributor-anchor,
+.contributor-anchor:focus{
+    opacity: 1;
+}
+.contributor-anchor:hover{
+    background: #f2f5f9;
+    color: #017BFF;
+}
+/* someone arriving from a shared link lands here */
+.single-contributor:target{
+    scroll-margin-top: 110px;
+    box-shadow: 0 0 0 2px #017BFF, 0 14px 32px rgba(8, 10, 8, 0.13);
+}
+.single-contributor:target .contributor-anchor{
+    opacity: 1;
+    color: #017BFF;
+}
 .contributor-linkedin{
     flex: 0 0 auto;
     width: 34px;
