@@ -19,13 +19,81 @@ permalink: /contributors
                     </div>
                 </div>
             </div>
+
             <div class="row">
+                <div class="col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+                    <div class="contributor-search">
+                        <i class="fa fa-search"></i>
+                        <label class="sr-only" for="contributor-filter">Search contributors</label>
+                        <input type="search" id="contributor-filter" autocomplete="off"
+                               placeholder="Search by name or project">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contributor-grid">
                 {% for contributor in site.data.contributors %}
-                    <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="col-xl-4 col-lg-4 col-md-6 contributor-cell">
                         {% include contributor-card.html %}
                     </div>
                 {% endfor %}
             </div>
+
+            <p class="contributor-empty" hidden>No contributor matches that search.</p>
+
+            <nav class="contributor-pager" aria-label="Contributors pages" hidden>
+                <button type="button" class="contributor-prev">Previous</button>
+                <span class="contributor-status" aria-live="polite"></span>
+                <button type="button" class="contributor-next">Next</button>
+            </nav>
         </div>
     </div>
 </main>
+
+<script>
+(function () {
+    var PER_PAGE = 12;
+    var grid = document.getElementById('contributor-grid');
+    var pager = document.querySelector('.contributor-pager');
+    if (!grid || !pager) return;
+
+    var cells = [].slice.call(grid.querySelectorAll('.contributor-cell'));
+    var input = document.getElementById('contributor-filter');
+    var empty = document.querySelector('.contributor-empty');
+    var status = pager.querySelector('.contributor-status');
+    var prev = pager.querySelector('.contributor-prev');
+    var next = pager.querySelector('.contributor-next');
+    var page = 0;
+
+    // Search covers the name and the project names shown on the card.
+    cells.forEach(function (cell) {
+        cell.dataset.haystack = cell.textContent.toLowerCase().replace(/\s+/g, ' ');
+    });
+
+    function render() {
+        var query = input.value.trim().toLowerCase();
+        var matches = cells.filter(function (cell) {
+            return !query || cell.dataset.haystack.indexOf(query) !== -1;
+        });
+        var pages = Math.max(1, Math.ceil(matches.length / PER_PAGE));
+        if (page >= pages) page = pages - 1;
+
+        cells.forEach(function (cell) { cell.hidden = true; });
+        matches.slice(page * PER_PAGE, (page + 1) * PER_PAGE)
+               .forEach(function (cell) { cell.hidden = false; });
+
+        empty.hidden = matches.length > 0;
+        pager.hidden = matches.length <= PER_PAGE;
+        prev.disabled = page === 0;
+        next.disabled = page >= pages - 1;
+        status.textContent = 'Page ' + (page + 1) + ' of ' + pages +
+                             ' · ' + matches.length +
+                             (matches.length === 1 ? ' contributor' : ' contributors');
+    }
+
+    prev.addEventListener('click', function () { if (page > 0) { page--; render(); } });
+    next.addEventListener('click', function () { page++; render(); });
+    input.addEventListener('input', function () { page = 0; render(); });
+    render();
+}());
+</script>
