@@ -2,23 +2,49 @@
 .project-dec{
     z-index: 4;
 }
+/* Project listing cards: the theme's .project-dec is an overlay meant to sit on
+   top of a thumbnail. The cards have no thumbnail, so lay it out in flow and let
+   the card size itself. min-height fits a two-line title, so one- and two-line
+   cards line up across a row without needing equal-height hacks. */
 .single-awesome-project{
-    min-height: 200px;
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    padding: 22px 28px;
     background: #fff;
     border-radius: 4px;
-    box-shadow: 0 10px 30px rgba(8, 10, 8, 0.06);
+    box-shadow: 0 8px 24px rgba(8, 10, 8, 0.07);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+.single-awesome-project:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 14px 32px rgba(8, 10, 8, 0.13);
 }
 .single-awesome-project .project-dec{
     position: static;
-    width: auto;
+    width: 100%;
     height: auto;
     margin: 0;
+    padding: 0;
     background: transparent;
     border-radius: 0;
-    text-align: center;
+}
+/* the theme animates the overlay's height/offset on hover; harmless once it is
+   in flow, but it still makes the card jump */
+.single-awesome-project:hover .project-dec{
+    height: auto;
+    bottom: auto;
 }
 .single-awesome-project .project-dec h4{
     margin: 0;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: left;
+    padding-right: 58px; /* room for the arrow that slides in on hover */
+}
+.single-awesome-project .project-dec h4::after{
+    top: 50%;
+    margin-top: -15px;
 }
 .project-dec a{
     text-decoration: none;
@@ -59,4 +85,59 @@ h5.search-post-title {
     margin: 0;
     font-size: 18px;
     line-height: normal;
+}
+
+/* ---- Contributors page ---- */
+.single-contributor{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    min-height: 84px;
+    margin-bottom: 30px;
+    padding: 18px 22px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 24px rgba(8, 10, 8, 0.07);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+.single-contributor:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 14px 32px rgba(8, 10, 8, 0.13);
+}
+.contributor-initials{
+    flex: 0 0 48px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #eaf3ff;
+    color: #017BFF;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+}
+.single-contributor .contributor-name{
+    flex: 1 1 auto;
+    margin: 0;
+    color: #2a354e;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.35;
+}
+.contributor-linkedin{
+    flex: 0 0 auto;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #f2f5f9;
+    color: #2a354e;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: none;
+    transition: background .3s ease, color .3s ease;
+}
+.contributor-linkedin:hover{
+    background: #017BFF;
+    color: #fff;
 }

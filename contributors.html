@@ -1,0 +1,31 @@
+---
+layout: default
+title: Contributors
+permalink: /contributors
+---
+
+<main>
+    <div class="contributor-area bg-color-xs area-padding-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12">
+                    <div class="section-headline text-center">
+                        <span class="top-text">
+                            <i class="ti-user"></i>
+                            <span>Community</span>
+                        </span>
+                        <h2>Contributors</h2>
+                        <p>The people building Ghana NLP with us</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                {% for contributor in site.data.contributors %}
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        {% include contributor-card.html %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</main>
