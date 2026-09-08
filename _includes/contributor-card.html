@@ -13,7 +13,10 @@
         {% else %}
             <span class="contributor-initials" aria-hidden="true">{{ initials | upcase }}</span>
         {% endif %}
-        <h4 class="contributor-name">{{ contributor.name }}</h4>
+        <h4 class="contributor-name">
+            <a href="{{ '/contributors' | relative_url }}?q={{ contributor.name | url_encode }}"
+               title="Show only {{ contributor.name }}">{{ contributor.name }}</a>
+        </h4>
         {% if contributor.linkedin %}
             <a class="contributor-linkedin" href="{{ contributor.linkedin }}" target="_blank"
                rel="noopener" aria-label="{{ contributor.name }} on LinkedIn">

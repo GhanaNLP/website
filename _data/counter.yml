@@ -1,11 +1,20 @@
-- title: GHANAIAN LANGUAGES SUPPORTED
-  counter_up: 17 
+# Counts are current as of September 2026 and are updated by hand -- see the
+# source next to each one.
+- title: DATASETS
+  counter_up: 107
+  url: https://huggingface.co/ghananlpcommunity/datasets
+  icon: flaticon-004-database   # source: huggingface.co/ghananlpcommunity
 
-- title: SENTENCES TRANSLATED
-  counter_up: 726
+- title: MODELS
+  counter_up: 113
+  url: https://huggingface.co/ghananlpcommunity/models
+  icon: flaticon-014-hierarchical-structure
 
-- title: CONTRIBUTORS
-  counter_up: 105
+- title: OPEN SOURCE REPOS
+  counter_up: 69
+  url: https://github.com/GhanaNLP
+  icon: flaticon-007-laptop     # source: GitHub org public_repos
 
-- title: OPEN SOURCE PROJECTS
-  counter_up: 15
+- title: COMMUNITY MEMBERS
+  counter_up: 600
+  icon: flaticon-082-networking # source: Slack workspace, humans only
