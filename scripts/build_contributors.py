@@ -52,6 +52,7 @@ CREDIT_REPOS = {
     "ghana-corpus-builder": "Ghana Corpus Builder",
     "GhanaTopics":          "Ghana Topics",
     "GhanaNouns":           "Ghana Nouns",
+    "Ghana-QA":             "Ghana QA",
 }
 
 # Contributors to list who are not in the Slack channel at all.

@@ -10,6 +10,9 @@
 - name: "Abubakari Alidu"
   linkedin: https://www.linkedin.com/in/alidu-abubakari-2612bb57
   img: /assets/img/contributors/abubakari-alidu.jpg
+  projects:
+    - name: "Ghana QA"
+      url: https://github.com/GhanaNLP/Ghana-QA
 - name: "Akwasi Asare"
   linkedin: https://www.linkedin.com/in/nana-akwasi-asare-1301481b0
   img: /assets/img/contributors/akwasi-asare.jpg
@@ -89,6 +92,8 @@
       url: https://github.com/GhanaNLP/GhanaTopics
     - name: "Ghana Nouns"
       url: https://github.com/GhanaNLP/GhanaNouns
+    - name: "Ghana QA"
+      url: https://github.com/GhanaNLP/Ghana-QA
 - name: "Gideon Brogya"
   linkedin:
   img: /assets/img/contributors/gideon-brogya.jpg
@@ -196,6 +201,8 @@
       url: https://github.com/GhanaNLP/GhanaTopics
     - name: "Ghana Nouns"
       url: https://github.com/GhanaNLP/GhanaNouns
+    - name: "Ghana QA"
+      url: https://github.com/GhanaNLP/Ghana-QA
 - name: "Mustapha Saani"
   linkedin: https://www.linkedin.com/in/saani-mustapha-3747b925a
   img: /assets/img/contributors/mustapha-saani.jpg
@@ -225,6 +232,9 @@
 - name: "Priscilla Lartey"
   linkedin: https://www.linkedin.com/in/larteypriscilla
   img: /assets/img/contributors/priscilla-lartey.jpg
+  projects:
+    - name: "Ghana QA"
+      url: https://github.com/GhanaNLP/Ghana-QA
 - name: "Richard Nii Lante Lawson"
   linkedin: https://www.linkedin.com/in/theniilante
   img: /assets/img/contributors/richard-nii-lante-lawson.jpg
