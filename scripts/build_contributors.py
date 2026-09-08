@@ -58,6 +58,56 @@ CREDIT_REPOS = {
 EXTRA_PEOPLE = [
     {"name": "Atsu Agbemabiase",
      "linkedin": "https://www.linkedin.com/in/atsu-agbemabiase-a490b617a/"},
+    # moved off the team page when it became the board listing; their photos and
+    # LinkedIn URLs come from _data/team-members.yml, where they already lived
+    {"name": "Salomey Osei",
+     "linkedin": "https://linkedin.com/in/salomey-osei-4b08a5b8"},
+    {"name": "Richard Nii Lante Lawson",
+     "linkedin": "http://linkedin.com/in/theniilante"},
+    {"name": "Franklin Adjei",
+     "linkedin": "http://linkedin.com/in/franklin-koomson-adjei-227bb5130/"},
+    {"name": "Vincent-Michael Ampadu",
+     "linkedin": "https://www.linkedin.com/in/vincentmichaelkampadu/"},
+    {"name": "Deborah Dormah Kanubala",
+     "linkedin": "https://www.linkedin.com/in/kanubalad/"},
+    {"name": "David Sasu",
+     "linkedin": "https://www.linkedin.com/in/david-sasu-0667861b7/"},
+    {"name": "Bernard Opoku",
+     "linkedin": "https://www.linkedin.com/in/bernard-kwabena-opoku-965653b1"},
+    {"name": "Benjamin Essilfie-Nyame",
+     "linkedin": "https://www.linkedin.com/in/benjamin-essilfie-nyame-14a05b14a"},
+    {"name": "Gloria Appiah Nsiah",
+     "linkedin": "https://www.linkedin.com/in/gloria-appiah-nsiah"},
+    {"name": "Felix Akwerh",
+     "linkedin": "https://www.linkedin.com/in/%20felix-akwerh-029314"},
+    {"name": "Samuel Nyarko",
+     "linkedin": "https://www.linkedin.com/in/samuelnyarko"},
+    {"name": "Bernard Adabankah",
+     "linkedin": "https://www.linkedin.com/in/bernard-adabankah-3109b015/"},
+    {"name": "Daniel Elijah",
+     "linkedin": "https://www.linkedin.com/in/daniel-komla-elijah-21384a63/"},
+    {"name": "Clara Asare-Nyarko",
+     "linkedin": "https://www.linkedin.com/in/clara-asare-nyarko-99a66a72"},
+    {"name": "Emile Adotey",
+     "linkedin": "https://linkedin.com/in/emile-adotey-47163954"},
+    {"name": "Joseph Otoo",
+     "linkedin": "https://www.linkedin.com/in/joseph-otoo-8aa82633"},
+    {"name": "Salomey Addo",
+     "linkedin": "https://http//www.linkedin.com/in/salomey-addo"},
+    {"name": "Hussein Suhuyini",
+     "linkedin": ""},
+    {"name": "Wisdom Ofori",
+     "linkedin": "https://www.linkedin.com/in/wizdees/"},
+    {"name": "Mark Amoako Marcel",
+     "linkedin": ""},
+    {"name": "Immanuel Wallace",
+     "linkedin": "https://www.linkedin.com/in/emmanuel-agbeli-419008a2/"},
+    {"name": "Gideon Brogya",
+     "linkedin": ""},
+    {"name": "Edwin Munkoh-Buabeng",
+     "linkedin": "https://linkedin.com/in/ebmunkoh"},
+    {"name": "Naafi Dasana Ibrahim",
+     "linkedin": "https://www.linkedin.com/in/naafi-ibrahim-67622a161"},
 ]
 
 # Channel members with no membership-form response, so there is no name to look
@@ -261,7 +311,7 @@ def main():
         nk = norm_name(extra["name"])
         if nk in seen:
             continue
-        entry = {"name": extra["name"], "linkedin": linkedin_url(extra["linkedin"])}
+        entry = {"name": extra["name"], "linkedin": linkedin_url(extra.get("linkedin", ""))}
         seen[nk] = entry
         people.append(entry)
 
