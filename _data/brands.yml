@@ -1,23 +1,27 @@
-- name: Algorine
-  img_src: /assets/img/brand/ALGORINE_LOGO_smaller.png
+- name: AISCA
+  img_src: /assets/img/brand/aisca.png
   link: /#
-  
-- name: Google
-  img_src: /assets/img/brand/google.png
+
+- name: Stanford University
+  img_src: /assets/img/brand/stanford.png
   link: /#
-  
+
 - name: UNICEF
   img_src: /assets/img/brand/unicef.png
   link: /#
-  
+
+- name: Google
+  img_src: /assets/img/brand/google.png
+  link: /#
+
 - name: Microsoft
   img_src: /assets/img/brand/microsoft.png
   link: /#
-  
-- name: Haravard
+
+- name: Harvard University
   img_src: /assets/img/brand/harvard.png
   link: /#
-  
+
 # - name: F
 #   img_src: /assets/img/brand/6.png
 #   link: /#
