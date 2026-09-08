@@ -21,6 +21,7 @@ CSV_ = os.environ.get(
     "MEMBERS_CSV",
     "/home/owusus/Dropbox/Mich/Projects/Ghana-NLP/CRM/mail merge/members_latest.csv")
 OUT = os.path.join(os.path.dirname(__file__), "..", "_data", "contributors.yml")
+PHOTO_DIR = os.path.join(os.path.dirname(__file__), "..", "assets", "img", "contributors")
 TEAM = os.path.join(os.path.dirname(__file__), "..", "_data", "team-members.yml")
 
 # LinkedIn URLs for contributors whose form response has none. Keyed by the name
@@ -169,6 +170,16 @@ def team_linkedin():
     return out
 
 
+def slug(name):
+    return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", name.lower())).strip("-")
+
+
+def photo_for(name):
+    """assets/img/contributors/<slug>.jpg if someone has supplied a photo."""
+    rel = f"/assets/img/contributors/{slug(name)}.jpg"
+    return rel if os.path.exists(os.path.join(PHOTO_DIR, slug(name) + ".jpg")) else ""
+
+
 def name_tokens(n):
     """Bare word set for loose name matching; drops "(Buabeng)"-style asides."""
     return set(re.sub(r"[^a-z ]", "", re.sub(r"\(.*?\)", "", (n or "").lower())).split())
@@ -257,6 +268,7 @@ def main():
     credits = repo_credits()
     for person in people:
         person["projects"] = projects_for(person, credits)
+        person["img"] = photo_for(person["name"])
 
     people.sort(key=lambda p: p["name"].lower())
     with open(OUT, "w") as fh:
@@ -266,6 +278,8 @@ def main():
         for p in people:
             fh.write(f'- name: "{p["name"]}"\n')
             fh.write(f'  linkedin: {p["linkedin"]}\n' if p["linkedin"] else "  linkedin:\n")
+            if p["img"]:
+                fh.write(f'  img: {p["img"]}\n')
             if p["projects"]:
                 fh.write("  projects:\n")
                 for repo in p["projects"]:
@@ -274,9 +288,13 @@ def main():
 
     have = sum(1 for p in people if p["linkedin"])
     tagged = sum(1 for p in people if p["projects"])
+    photos = sum(1 for p in people if p["img"])
     print(f"{len(members)} in channel + {len(EXTRA_PEOPLE)} listed manually "
           f"-> {len(people)} unique contributors, {have} with LinkedIn, "
-          f"{tagged} with project credits")
+          f"{tagged} with project credits, {photos} with a photo")
+    for p in people:
+        if not p["img"]:
+            print(f"  no photo: {p['name']}")
     for m in unresolved:
         print(f"  no form response for: {m['real']} <{m['email']}>")
     for p in people:
