@@ -91,9 +91,39 @@ permalink: /contributors
                              (matches.length === 1 ? ' contributor' : ' contributors');
     }
 
+    // The search term lives in the URL, so /contributors/?q=mich-seth is a link
+    // someone can share that opens the page already showing them.
+    function syncUrl() {
+        var q = input.value.trim();
+        var url = location.pathname + (q ? '?q=' + encodeURIComponent(q) : '');
+        history.replaceState(null, '', url + location.hash);
+    }
+
+    // Clicking a tile filters down to that person, which puts their name in the
+    // URL so it can be copied straight from the address bar. Clicks on the
+    // links inside the tile (LinkedIn, projects) are left alone; the name is a
+    // real link to the same URL so it can be copied or opened in a new tab.
+    grid.addEventListener('click', function (event) {
+        var card = event.target.closest('.single-contributor');
+        if (!card) return;
+        var link = event.target.closest('a');
+        if (link && !link.closest('.contributor-name')) return;
+        if (event.metaKey || event.ctrlKey || event.shiftKey || event.button !== 0) return;
+        event.preventDefault();
+        input.value = card.dataset.name || '';
+        page = 0;
+        render();
+        syncUrl();
+    });
+
     prev.addEventListener('click', function () { if (page > 0) { page--; render(); } });
     next.addEventListener('click', function () { page++; render(); });
-    input.addEventListener('input', function () { page = 0; render(); });
+    input.addEventListener('input', function () { page = 0; render(); syncUrl(); });
+
+    try {
+        var q = new URLSearchParams(location.search).get('q');
+        if (q) input.value = q;
+    } catch (e) { /* no URLSearchParams: fall through to the unfiltered list */ }
     render();
 }());
 </script>
