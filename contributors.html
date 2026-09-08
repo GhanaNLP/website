@@ -94,27 +94,6 @@ permalink: /contributors
     prev.addEventListener('click', function () { if (page > 0) { page--; render(); } });
     next.addEventListener('click', function () { page++; render(); });
     input.addEventListener('input', function () { page = 0; render(); });
-
-    // A shared link like /contributors/#mich-seth-owusu has to land on the
-    // person even when they are not on the first page: clear any filter, turn
-    // to their page, then scroll. The highlight itself is CSS :target.
-    function goToHash() {
-        var id = decodeURIComponent((location.hash || '').slice(1));
-        if (!id) return false;
-        var card = document.getElementById(id);
-        if (!card) return false;
-        var cell = card.closest('.contributor-cell');
-        var index = cells.indexOf(cell);
-        if (index < 0) return false;
-        input.value = '';
-        page = Math.floor(index / PER_PAGE);
-        render();
-        card.scrollIntoView({block: 'center'});
-        return true;
-    }
-
-    window.addEventListener('hashchange', goToHash);
-    // clicking a card's own link icon only changes the hash within the page
-    if (!goToHash()) render();
+    render();
 }());
 </script>
