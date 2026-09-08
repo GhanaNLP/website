@@ -164,6 +164,16 @@ h5.search-post-title {
 .contributor-photo{
     object-fit: cover;
 }
+.single-contributor{
+    cursor: pointer;   /* the tile filters to this person */
+}
+.single-contributor .contributor-name a{
+    color: inherit;
+    text-decoration: none;
+}
+.single-contributor:hover .contributor-name a{
+    color: #017BFF;
+}
 .single-contributor .contributor-name{
     flex: 1 1 auto;
     margin: 0;
