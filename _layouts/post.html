@@ -27,9 +27,11 @@ layout: default
                     <!-- single-blog start -->
                     <article class="blog-post-wrapper">
                         <div class="blog-banner">
+                            {% if page.post_image %}
                             <div class="blog-images">
                                 <img src="{{page.post_image | relative_url }}" alt="{{page.title}}">
                             </div>
+                            {% endif %}
                             <div class="blog-content">
                                 <div class="blog-meta">
                                     <span class="admin-type">
