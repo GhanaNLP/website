@@ -2,6 +2,24 @@
 .project-dec{
     z-index: 4;
 }
+.single-awesome-project{
+    min-height: 200px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(8, 10, 8, 0.06);
+}
+.single-awesome-project .project-dec{
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    background: transparent;
+    border-radius: 0;
+    text-align: center;
+}
+.single-awesome-project .project-dec h4{
+    margin: 0;
+}
 .project-dec a{
     text-decoration: none;
 }
