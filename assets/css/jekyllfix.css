@@ -86,3 +86,58 @@ h5.search-post-title {
     font-size: 18px;
     line-height: normal;
 }
+
+/* ---- Contributors page ---- */
+.single-contributor{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    min-height: 84px;
+    margin-bottom: 30px;
+    padding: 18px 22px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 24px rgba(8, 10, 8, 0.07);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+.single-contributor:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 14px 32px rgba(8, 10, 8, 0.13);
+}
+.contributor-initials{
+    flex: 0 0 48px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #eaf3ff;
+    color: #017BFF;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+}
+.single-contributor .contributor-name{
+    flex: 1 1 auto;
+    margin: 0;
+    color: #2a354e;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.35;
+}
+.contributor-linkedin{
+    flex: 0 0 auto;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #f2f5f9;
+    color: #2a354e;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: none;
+    transition: background .3s ease, color .3s ease;
+}
+.contributor-linkedin:hover{
+    background: #017BFF;
+    color: #fff;
+}

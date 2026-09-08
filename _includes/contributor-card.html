@@ -1,0 +1,17 @@
+{% assign name_parts = contributor.name | split: " " %}
+{% assign initials = name_parts[0] | slice: 0 %}
+{% if name_parts.size > 1 %}
+  {% assign last_name = name_parts | last %}
+  {% assign last_initial = last_name | slice: 0 %}
+  {% assign initials = initials | append: last_initial %}
+{% endif %}
+<div class="single-contributor">
+    <span class="contributor-initials" aria-hidden="true">{{ initials | upcase }}</span>
+    <h4 class="contributor-name">{{ contributor.name }}</h4>
+    {% if contributor.linkedin %}
+        <a class="contributor-linkedin" href="{{ contributor.linkedin }}" target="_blank" rel="noopener"
+           aria-label="{{ contributor.name }} on LinkedIn">
+            <i class="fa fa-linkedin"></i>
+        </a>
+    {% endif %}
+</div>
