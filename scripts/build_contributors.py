@@ -23,11 +23,12 @@ CSV_ = os.environ.get(
 OUT = os.path.join(os.path.dirname(__file__), "..", "_data", "contributors.yml")
 TEAM = os.path.join(os.path.dirname(__file__), "..", "_data", "team-members.yml")
 
-# LinkedIn URLs for contributors whose form response has none, taken from the
-# contributor credits in our own GitHub repos (GhanaNLP/nsanku,
-# ghana-corpus-builder, GhanaTopics, GhanaNouns). Keyed by the name this script
-# produces, so add an entry here rather than hand-editing the generated YAML.
-GITHUB_LINKEDIN = {
+# LinkedIn URLs for contributors whose form response has none. Keyed by the name
+# this script produces, so add an entry here rather than hand-editing the
+# generated YAML, which is overwritten on every run.
+EXTRA_LINKEDIN = {
+    # from the contributor credits in our own repos: GhanaNLP/nsanku,
+    # ghana-corpus-builder, GhanaTopics, GhanaNouns
     "bernard adjei":        "https://www.linkedin.com/in/bernardmarfoadjei/",
     "chantelle amoako-atta": "https://www.linkedin.com/in/chantelleaa/",
     "elias dzobo":          "https://www.linkedin.com/in/eliasdzobo/",
@@ -37,6 +38,16 @@ GITHUB_LINKEDIN = {
     "kelvin newman":        "https://www.linkedin.com/in/kelvin-newman-09b961255/",
     "onesimus addo appiah": "https://www.linkedin.com/in/onesimus-appiah/",
     "tyra koranteng":       "https://www.linkedin.com/in/tyrakoranteng46/",
+    # supplied by hand
+    "abubakari alidu":      "https://www.linkedin.com/in/alidu-abubakari-2612bb57/",
+    "priscilla lartey":     "https://www.linkedin.com/in/larteypriscilla/",
+    "akwasi asare":         "https://www.linkedin.com/in/nana-akwasi-asare-1301481b0/",
+}
+
+# Channel members with no membership-form response, so there is no name to look
+# up. Keyed by email; the value is the name to list them under.
+NO_FORM_RESPONSE = {
+    "nasare34@yahoo.com": "Akwasi Asare",
 }
 
 
@@ -159,11 +170,13 @@ def main():
         elif c:
             name = " ".join(f'{c["First name"]} {c["Last name"]}'.split())
             link = ""
+        elif key in NO_FORM_RESPONSE:
+            name, link = NO_FORM_RESPONSE[key], ""
         else:
             unresolved.append(m)
             continue
         link = link or team.get(norm_name(name), "")
-        link = link or linkedin_url(GITHUB_LINKEDIN.get(name.lower(), ""))
+        link = link or linkedin_url(EXTRA_LINKEDIN.get(name.lower(), ""))
         nk = norm_name(name)
         if nk in seen:          # same person, two Slack accounts / two signups
             if link and not seen[nk]["linkedin"]:
