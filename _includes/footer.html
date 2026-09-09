@@ -61,31 +61,35 @@
                             </div>
                             <div class="footer-icons">
                                 <ul>
-                                    {% if site.facebook %}
+                                    {% if site.linkedin %}
                                     <li>
-                                        <a href="{{site.facebook | relative_url}}">
-                                            <i class="fa fa-facebook"></i>
+                                        <a href="{{ site.linkedin }}" target="_blank"
+                                           rel="noopener" aria-label="Ghana NLP on LinkedIn">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    {% endif %}
+                                    {% if site.youtube %}
+                                    <li>
+                                        <a href="{{ site.youtube }}" target="_blank"
+                                           rel="noopener" aria-label="Ghana NLP on YouTube">
+                                            <i class="fa fa-youtube-play"></i>
                                         </a>
                                     </li>
                                     {% endif %}
                                     {% if site.twitter %}
                                     <li>
-                                        <a href="{{site.twitter | relative_url}}">
+                                        <a href="{{ site.twitter }}" target="_blank"
+                                           rel="noopener" aria-label="Ghana NLP on Twitter">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                     </li>
                                     {% endif %}
                                     {% if site.github %}
                                     <li>
-                                        <a href="{{site.github | relative_url}}">
+                                        <a href="{{ site.github }}" target="_blank"
+                                           rel="noopener" aria-label="Ghana NLP on GitHub">
                                             <i class="fa fa-github"></i>
-                                        </a>
-                                    </li>
-                                    {% endif %}
-                                    {% if site.slack %}
-                                    <li>
-                                        <a href="{{site.slack | relative_url}}">
-                                            <i class="fa fa-slack"></i>
                                         </a>
                                     </li>
                                     {% endif %}
