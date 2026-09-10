@@ -53,6 +53,7 @@ CREDIT_REPOS = {
     "GhanaTopics":          "Ghana Topics",
     "GhanaNouns":           "Ghana Nouns",
     "Ghana-QA":             "Ghana QA",
+    "Ghana-Named-Entities": "Ghana Named Entities",
 }
 
 # Contributors to list who are not in the Slack channel at all.
@@ -237,7 +238,15 @@ def name_tokens(n):
 
 
 def repo_credits():
-    """{repo: {linkedin slug: credited name}} from each repo's README.
+    """{repo: [(linkedin slug, credited name), ...]} from each repo's README.
+
+    Two shapes appear in our READMEs: a list where the person's name is the link
+    text, and a table where the name sits in the first column and the link text
+    is just "Profile". Both are collected.
+
+    A list rather than a dict keyed by slug, because a slug can repeat -- in
+    Ghana-Named-Entities two rows carry the same profile URL -- and keying on it
+    silently drops one of the names.
 
     Uses the gh CLI so it picks up the caller's existing GitHub auth.
     """
@@ -249,13 +258,22 @@ def repo_credits():
             print(f"  warning: could not read {repo} README, skipping", file=sys.stderr)
             continue
         md = base64.b64decode(r.stdout).decode("utf8", "replace")
-        found = {}
+        found = []
+
+        # [Name](https://linkedin.com/in/slug)
         for name, url in re.findall(
                 r"\[([^\]]+)\]\((https?://[^)]*linkedin\.com/in/[^)]+)\)", md):
             m = re.search(r"linkedin\.com/in/([\w%.-]+)", url)
             if m:
-                found[m.group(1).strip("/")] = name
-        out[repo] = found
+                found.append((m.group(1).strip("/"), name.strip()))
+
+        # | Name | [Profile](https://linkedin.com/in/slug) |
+        for name, slug in re.findall(
+                r"^\|\s*([^|\n]+?)\s*\|[^|\n]*linkedin\.com/in/([\w%.-]+)",
+                md, re.M):
+            found.append((slug.strip("/"), name.strip()))
+
+        out[repo] = sorted(set(found))
     return out
 
 
@@ -268,7 +286,7 @@ def projects_for(person, credits):
     mine = name_tokens(person["name"])
     out = []
     for repo, entries in credits.items():
-        for s, credited in entries.items():
+        for s, credited in entries:
             if (slug and (s == slug or s.startswith(slug) or slug.startswith(s))) \
                     or len(mine & name_tokens(credited)) >= 2:
                 out.append(repo)
