@@ -76,6 +76,8 @@
   projects:
     - name: "Ghana Nouns"
       url: https://github.com/GhanaNLP/GhanaNouns
+    - name: "Ghana Named Entities"
+      url: https://github.com/GhanaNLP/Ghana-Named-Entities
 - name: "Felix Akwerh"
   linkedin: https://www.linkedin.com/in/%20felix-akwerh-029314
   img: /assets/img/contributors/felix-akwerh.jpg
@@ -94,6 +96,8 @@
       url: https://github.com/GhanaNLP/GhanaNouns
     - name: "Ghana QA"
       url: https://github.com/GhanaNLP/Ghana-QA
+    - name: "Ghana Named Entities"
+      url: https://github.com/GhanaNLP/Ghana-Named-Entities
 - name: "Gideon Brogya"
   linkedin:
   img: /assets/img/contributors/gideon-brogya.jpg
@@ -126,6 +130,8 @@
   projects:
     - name: "Nsanku"
       url: https://github.com/GhanaNLP/nsanku
+    - name: "Ghana Named Entities"
+      url: https://github.com/GhanaNLP/Ghana-Named-Entities
 - name: "Jonathan Markin"
   linkedin: https://www.linkedin.com/in/atomarkin
   img: /assets/img/contributors/jonathan-markin.jpg
@@ -154,6 +160,8 @@
       url: https://github.com/GhanaNLP/GhanaTopics
     - name: "Ghana Nouns"
       url: https://github.com/GhanaNLP/GhanaNouns
+    - name: "Ghana Named Entities"
+      url: https://github.com/GhanaNLP/Ghana-Named-Entities
 - name: "Kelvin Newman"
   linkedin: https://www.linkedin.com/in/kelvin-newman-09b961255
   img: /assets/img/contributors/kelvin-newman.jpg
@@ -203,6 +211,8 @@
       url: https://github.com/GhanaNLP/GhanaNouns
     - name: "Ghana QA"
       url: https://github.com/GhanaNLP/Ghana-QA
+    - name: "Ghana Named Entities"
+      url: https://github.com/GhanaNLP/Ghana-Named-Entities
 - name: "Mustapha Saani"
   linkedin: https://www.linkedin.com/in/saani-mustapha-3747b925a
   img: /assets/img/contributors/mustapha-saani.jpg
