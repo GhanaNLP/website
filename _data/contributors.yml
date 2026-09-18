@@ -64,6 +64,14 @@
       url: https://github.com/GhanaNLP/GhanaTopics
     - name: "Ghana Nouns"
       url: https://github.com/GhanaNLP/GhanaNouns
+- name: "Lucas Kpatah"
+  linkedin: https://www.linkedin.com/in/lucas-kpatah-351086376
+  img: /assets/img/contributors/lucas-kpatah.jpg
+  projects:
+    - name: "Nsanku"
+      url: https://github.com/GhanaNLP/nsanku
+    - name: "Ghana Nouns"
+      url: https://github.com/GhanaNLP/GhanaNouns
 - name: "Onesimus Addo Appiah"
   linkedin: https://www.linkedin.com/in/onesimus-appiah
   img: /assets/img/contributors/onesimus-addo-appiah.jpg
@@ -143,12 +151,6 @@
   projects:
     - name: "Ghana Corpus Builder"
       url: https://github.com/GhanaNLP/ghana-corpus-builder
-- name: "Lucas Kpatah"
-  linkedin: https://www.linkedin.com/in/lucas-kpatah-351086376
-  img: /assets/img/contributors/lucas-kpatah.jpg
-  projects:
-    - name: "Ghana Nouns"
-      url: https://github.com/GhanaNLP/GhanaNouns
 - name: "Maxwell Sam"
   linkedin: https://www.linkedin.com/in/maxwell-sam-42133044
   img: /assets/img/contributors/maxwell-sam.jpg
