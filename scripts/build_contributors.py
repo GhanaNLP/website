@@ -56,6 +56,13 @@ CREDIT_REPOS = {
     "Ghana-Named-Entities": "Ghana Named Entities",
 }
 
+# Project credits that no README we parse carries. Keyed by the name this script
+# produces; values are keys of CREDIT_REPOS. Prefer fixing the repo's README --
+# these are only for credits that are not recorded anywhere upstream.
+EXTRA_CREDITS = {
+    "Lucas Kpatah": ["nsanku"],
+}
+
 # Contributors to list who are not in the Slack channel at all.
 EXTRA_PEOPLE = [
     {"name": "Atsu Agbemabiase",
@@ -336,7 +343,9 @@ def main():
 
     credits = repo_credits()
     for person in people:
-        person["projects"] = projects_for(person, credits)
+        found = projects_for(person, credits) + EXTRA_CREDITS.get(person["name"], [])
+        # de-duplicate, and keep CREDIT_REPOS order so the chips read consistently
+        person["projects"] = [r for r in CREDIT_REPOS if r in set(found)]
         person["img"] = photo_for(person["name"])
 
     # Most-credited first, alphabetical within a tier. Everyone we have no
